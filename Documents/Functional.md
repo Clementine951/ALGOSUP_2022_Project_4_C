@@ -37,6 +37,8 @@ The virtual setup needs to be as close as possible to the real setup. For instan
 
 You need to obey the laws of physics in the virtual world, have no superpowers, can’t walk across walls, fly, etc.
 
+We don't have a fix budget for the moment but we have to make realistic purchases.
+
 ### b. Location
 
 The B3 is located at 16 Rue de la Société Française 18100 Vierzon.
@@ -135,33 +137,36 @@ In addition, it will have an emergency exit sign.
 
 ## 4. Rooms content
 
+Most of the supplies will be reused in order to recycle and have less purchases.
+
 ### a. Furnitures
 
 
 In each room, there will have a bin, air conditioner, storage, small stationery, and lighting.
 
+
 | Name  |Furnitures|
 |:--------------- |:---------------|
 |Entrance/ Corridors|Carpet, plants, a box of masks, information panel, photo of the old building, Umbrella holder,  |
 |Reprography|paper, stapler, |
-|Meeting room|tables, chairs, whiteboard, coat hanger|
+|Meeting room|tables, chairs, whiteboard, coat hanger, whiteboard|
 |Office|desk, chairs,|
 |Reception|chair, desk,|
 |Staff lounge|sofa, chairs, tables, flatware, sink,|
 |Student lounge|sofa, chairs, tables, flatware, poofs, sinks, carpets, |
-|Robotics workshop|spare parts, tables, chairs, tools|
-|Stock|fixed pat, scotch, paper, pencils, pen, markers, colored markers, glue, stapler, post it, erasable slate, paperclips, whiteboard brush, staples, shelves, ink cartridges,  power extension cord, |
+|Robotics workshop|spare parts, tables, chairs, tools, whiteboard|
+|Stock|fixed pat, scotch, paper, pen, markers, post it, erasable slate, whiteboard brush, staples, shelves, ink cartridges,  power extension cord, |
 |Secure stock|Shelves|
 |Technical area||
-|Housework stock|sponge, broom, cleaning trolley, gloves, mop, vacuum cleaner, bucket, dustpan, rags, cleaning products,|
+|Housework stock| Cleaning products.|
 |Fiber sever||
 |Toilets|Toilets, sinks, toilet paper, hand-stitched, emergency kit, mirrors, pad dispenser, soap dispenser|
 |Video studio|Chair, table|
 |Project room|tables, chairs, whiteboard, whiteboard markers, whiteboard brush, software development projects, cubes|
-|English room|tables, chairs, desk|
-|Soft skills room|tables, chairs, desk|
+|English room|tables, chairs, desk, whiteboard|
+|Soft skills room|tables, chairs, desk, whiteboard|
 |Language lab|chair, tables, the partition wall between each table |
-|Amphitheatre|Tables, chairs, desk, Headset, Wireless handheld microphone, 1 or 2 projection screens|
+|Amphitheatre|Tables, chairs, desk, Headset, Wireless handheld microphone, 1 or 2 projection screens, whiteboard|
 
 ### b. Connected equipment
 
@@ -174,12 +179,12 @@ Many electrical outlets will be in every room.
 |:--------------- |:---------------|
 |Entrance / Corridors||
 |Reprography|Scanners, printers|
-|Meeting room|interactive whiteboard|
+|Meeting room||
 |Office|Computers|
 |Reception|Computer|
 |Staff lounge|Microwaves, fridges, |
 |Student lounge|Microwaves, fridges, food vending machine, hob, oven, coffee maker, kettle|
-|Robotics workshop|interactive whiteboard|
+|Robotics workshop||
 |Stock||
 |Secure stock|VR headset, computers, HDMI cables, adaptors, computer mice, secure barrier,  |
 |Technical area||
@@ -187,99 +192,23 @@ Many electrical outlets will be in every room.
 |Fiber sever||
 |Toilets|electric hand dryer|
 |Video studio|Microphone, camera, light in front of the door|
-|Project room|TV, HDMI cable |
-|English room|interactive whiteboard|
-|Soft skills room|interactive whiteboard|
+|Project room|TV|
+|English room|TV|
+|Soft skills room|TV|
 |Language lab||
-|Amphitheatre|Projector, adjustment console, micro, interactive whiteboard|
+|Amphitheatre|Projector, adjustment console, micro, TV|
 
 ## 5. Personae
 
 There is our Personae diagram :
 
-<img src="images/personaediagram.png" style=">
+<img src="images/personaediagram.png" style="">
 
+					     
 ## 6. User cases
 
 
-Algosup : 
-
-
-Students :
-
-Going to a lesson/conference → enter the building with their magnetic card, walk in the corridor, open their assigned room with their magnetic card, the lesson can take place either in the amphitheater or another dedicated room
-Walk in the corridor → 33s to go from the soft-skills room to the student lounge, 50s for disabled people; 20s to go from the entrance to the project room near the stairs, 30s for disabled people, there’s an elevator for disabled people so they can easily go upstairs without any trouble
-Breaktime → go out of the room where they currently are and then they can either go outside to smoke or chill in the student lounge
-Lunch → move from the room they were in to the student rest room where they can eat, they can also eat outside on the terrace or go at a restaurant near the basement 
-Toilet → go to the toilet
-Switching rooms → leave their room and open the new one with their magnetic cards
-Leave the building at the end of the day
-
-
-Professor :
-
-Teach their lessons → enter the building with their magnetic card, walk in the corridor, open their assigned room with their magnetic card and then teach their lessons to the students, those lessons take place either in the amphitheater or in another dedicated room
-Toilets →  go to the toilet
-Lunch → move from the room they were in to the staff lounge where they can eat, they can also eat outdoor on the terrace or go at a restaurant near the basement
-Take a break → Breaktime → go out of the room where they currently are and then they can either go outside to smoke or chill in the staff lounge
-Leave the building at the end of the day
-
-
-Admin : 
-
-Work (Meeting and other stuff) → enter the building with their magnetic card, walk in the corridor and go their office
-Walk in the corridor → 17s to go to the reunion room to the staff lounge, 25s for disabled people
-Break → go out of the room where they currently are and then they can either go outside to smoke or chill in the staff lounge
-Lunch → move from the room they were in to the staff lounge, they can also eat outdoor on the terrace or go at a restaurant near the basement
-Toilet → Go to the toilet
-Leave the building at the end of the day
-
-
-
-Not Algosup :
-
-
-CNAM : 
-
-Go to their room → Going to a lesson/conference → enter the building with their magnetic card, walk in the corridor, open their assigned room with their magnetic card
-Go to the relax room → go out of the room where they currently are and then they can either go outside to smoke or chill in the rest room on the first floor
-Lunch →  move from the room they were in to the rest room where they can eat, they can also eat outdoor on the terrace or go at a restaurant near the basement
-Go to the toilet
-Leave the building at the end of the day
-
-
-Incubator :
-
-Go to their room → Going to a lesson/conference → enter the building with their magnetic card, walk in the corridor, open their assigned room with their magnetic card
-Lunch →  move from the room they were in to the rest room where they can eat, they can also eat outdoor on the terrace or go at a restaurant near the basement
-Go to the toilet
-Leave the building at the end of the day
-
-
-Connected Campus : 
-
-Go to their room → Going to a lesson/conference → enter the building with their magnetic card, walk in the corridor, open their assigned room with their magnetic card
-Go to the relax room →  go out of the room where they currently are and then they can either go outside to smoke or chill in the rest room on the first floor
-Lunch →  move from the room they were in to the rest room where they can eat, they can also eat outdoor on the terrace or go at a restaurant near the basement
-Go to the toilet
-Leave the building at the end of the day
-
-
-Speaker : 
-
-Access the amphitheater to present their subject → Enter the building with a guest magnetic card, go to the amphitheater and use the available equipment
-Leaving the school at the end of the day
-
-
-Maintenance workers : 
-
-Access their designated area
-Clean (Cleaning personnel)
-Do technical stuff (Technical)
-Leave the building at the end of the day
-
-
-Students : 
+#### Students : 
 
 A student arrives at the train station. He needs to ride his electric scooter for 2 minutes. Once he’s arrived, he needs to open the door by using his magnetic card and then to put his scooter in a safe place. Then he needs to access the soft-skills room where he has a lesson today which takes approximately 10 seconds. For the morning break, he decides to firstly use the restrooms which are 20 seconds from the soft-skills room. After, he goes to the student lounge which is 15 seconds away to spend his break there. He needs to leave 30 seconds earlier to reach his room at the right time. For lunch time, he goes to the student lounge, which is still 30 seconds away, to eat and spend his break there. This repeats the same way during the afternoon. He then leaves the building at the end of the day without forgetting to take his electric scooter and goes back to the train station. 
 
@@ -290,7 +219,7 @@ A student comes to school using his car, he parks his car at the cinema parking,
 A disabled student is driven to school by car, so he takes his wheelchair and goes to school, which takes approximately 3 minutes. Once he arrives, he enters the school using his own magnetic card and then he goes to the English room next to the elevator which takes approximately 45 seconds. During the breaktime, at 10:45 am, he decides to go to the student room which takes him 35 seconds. After the break he goes back to the English room. At lunch time, he heads towards the student room and eats. This repeats the same way in the afternoon. Then, he leaves the building at the end of the day and takes the car to go back home.
 
 
-Professors:
+#### Professors:
 
  The soft-skills professor arrives in his room where he can set up his computer and all the stuff he needs for his activities. At the lunch break, he goes to the student lounge to cook his meal and speak with some students. He then goes eat his meal in the staff lounge 22 seconds away from the student lounge. To head back to his classroom, he needs 25 seconds. At the end of the day, he leaves the school by the main door at 7 seconds from the soft-skills room. 
 
@@ -298,33 +227,34 @@ The English teacher arrives in his room where he can set up his computer and all
 
 The Computer Science professor has to give a lesson in the amphitheater all day long. The setup of the lesson lasts approximately 5 minutes to be sure that both audio and video works. He stays in the amphitheater during the morning break. For lunch, he goes to the staff lounge 25 seconds from the amphitheater and spends his lunch time here. At the end of the day, he leaves by the main door which is 30 seconds away from the amphitheater.
 
-Admin: 
+#### Admin: 
 
 The Administrator goes from the entrance to his room which takes 20 seconds.
 He got an appointment at the meeting room at 10am so he goes to the room next to him.
 After the appointment, he goes back to his room. At lunch time, he goes to eat in the staff lounge, which is 5 seconds away from the admin room. During the afternoon, he goes to another appointment in the other meeting room, which is 10 seconds away from his room. At the end of the day, he leaves the building and goes back home.
 
 
-Speaker:
+#### Speaker:
 
-	The speaker has to give a conference in the amphitheater all day long. The setup of the lesson lasts approximately 5 minutes to be sure that both audio and video works. He stays in the amphitheater during the morning break. For lunch, he goes to the staff lounge 25 seconds from the amphitheater and spends his lunch time here. At the end of the day, he leaves by the main door which is 30 seconds away from the amphitheater.
+The speaker has to give a conference in the amphitheater all day long. The setup of the lesson lasts approximately 5 minutes to be sure that both audio and video works. He stays in the amphitheater during the morning break. For lunch, he goes to the staff lounge 25 seconds from the amphitheater and spends his lunch time here. At the end of the day, he leaves by the main door which is 30 seconds away from the amphitheater.
 
-CNAM :
+#### CNAM :
 	
-	A CNAM student arrives at school on his own, which took him 10 minutes, because he’s living downtown. He enters the building using his magnetic card. Going from the entrance to his classroom takes him 35 seconds. At breaktime, he goes to his student room, which is 27 seconds away from his classroom. Then he goes back to his room. At lunch time, he goes to the student room on the ground floor, which will take him 20 seconds. The afternoon schedule is the same as the morning one. At the end of the day he leaves the building.
-Connected Campus: 
+A CNAM student arrives at school on his own, which took him 10 minutes, because he’s living downtown. He enters the building using his magnetic card. Going from the entrance to his classroom takes him 35 seconds. At breaktime, he goes to his student room, which is 27 seconds away from his classroom. Then he goes back to his room. At lunch time, he goes to the student room on the ground floor, which will take him 20 seconds. The afternoon schedule is the same as the morning one. At the end of the day he leaves the building.
+	
+#### Connected Campus: 
 
 A student at the connected campus arrives in his room in 45 seconds and opens the door with his magnetic card. For his morning break, he goes to the break room on the 1rst floor which is 8 seconds away from his room. For the lunch break, he can eat in the student lounge after walking and going down the stairs which takes him 20 seconds. During the afternoon, he goes to the restrooms. That takes him 12 seconds to go in. At the end of the day, he leaves the building by the main entrance.
 
 
-Visitors: 
+#### Visitors: 
 
-	A visitor is coming to visit the school with an admin. They firstly go to the project room closest to the door and here they speak about the course of a project. There is 5 seconds between the entrance and this room. Then, they head to the soft-skills room which is 5 seconds away and exchange on the course of the soft-skills lesson. After that, they go to the closest English rooms and they discuss the English lessons. Next, they go through the library and stop in the amphitheater after walking 25 seconds. Then they stop in the robotic workshop at 5 seconds from the amphitheater and they then go to the student lounge. Here they speak a little bit more about school life and then they head to an office where they can have an interview and where the visitors can ask more questions. The office is 30 seconds away from the student lounge. After the interview, he can leave through the main door which is 20 seconds away from the office.
+A visitor is coming to visit the school with an admin. They firstly go to the project room closest to the door and here they speak about the course of a project. There is 5 seconds between the entrance and this room. Then, they head to the soft-skills room which is 5 seconds away and exchange on the course of the soft-skills lesson. After that, they go to the closest English rooms and they discuss the English lessons. Next, they go through the library and stop in the amphitheater after walking 25 seconds. Then they stop in the robotic workshop at 5 seconds from the amphitheater and they then go to the student lounge. Here they speak a little bit more about school life and then they head to an office where they can have an interview and where the visitors can ask more questions. The office is 30 seconds away from the student lounge. After the interview, he can leave through the main door which is 20 seconds away from the office.
 
-Incubator : 
+#### Incubator : 
 
-	An employee working in the incubator enters the building using his magnetic card. From the entrance to the coworking space he has to walk 25 seconds. At 9:45am he goes to his meeting in the meeting room next to his place. At lunchtime, he eats in the coworking space. At the end of the day he leaves the building and goes back home.
+An employee working in the incubator enters the building using his magnetic card. From the entrance to the coworking space he has to walk 25 seconds. At 9:45am he goes to his meeting in the meeting room next to his place. At lunchtime, he eats in the coworking space. At the end of the day he leaves the building and goes back home.
 
-Maintenance workers : 
+#### Maintenance workers : 
 
-	A cleaning personnel comes after most of the people who work in the B3 left the building, so around 5pm. They got their magnetic cards in order to enter the building and to get to the cleaning room it takes them 20 seconds to get into it. After they finish their work, they go back home.
+A cleaning personnel comes after most of the people who work in the B3 left the building, so around 5pm. They got their magnetic cards in order to enter the building and to get to the cleaning room it takes them 20 seconds to get into it. After they finish their work, they go back home.
