@@ -130,7 +130,7 @@ The colors of room access are on the building plan.
 Also for security, the building needs to have 12 extinguishers (6 on the first floor, and 6 on the second floor). To explain this, each extinguisher must be installed less than 1.20m from the ground, with a maximum spacing of 30m between two devices. Note that in the event of an identified risk, the extinguisher must be located less than 5m from it.
 In addition, it will have an emergency exit sign.
 
-<img src="images/securityPlan.jpg" style="">
+<img src="images/securityplan.jpg" style="">
 
 
 ## 4. Rooms content
