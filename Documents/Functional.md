@@ -23,6 +23,8 @@
 
 - [6. User cases](#6-user-cases)
 
+- [7. Building Display](#7-building-display)
+
 
 ## 1. Introduction
 
@@ -258,3 +260,10 @@ An employee working in the incubator enters the building using his magnetic card
 #### Maintenance workers : 
 
 A cleaning personnel comes after most of the people who work in the B3 left the building, so around 5pm. They got their magnetic cards in order to enter the building and to get to the cleaning room it takes them 20 seconds to get into it. After they finish their work, they go back home.
+
+## 7. Building Display
+
+At first, we initialy used BimX file of B3 in Unity, we just needed to convert this format to an other one that unity can read (IFC or FBX for exemple).
+However, many softwares can convert that need to have a licence and pay some amount for access it.
+Fortunately, we have access directly to IFC file of B3 and don't need to convert in IFC format anymore.
+With this, we can use Blender for read IFC file (with add-on by the way) and convert in FBX format and can actually read it in Unity.
