@@ -1,3 +1,4 @@
+
 # Functional Specification
 
 ## Table of contents
@@ -39,7 +40,7 @@ The virtual setup needs to be as close as possible to the real setup. For instan
 
 You need to obey the laws of physics in the virtual world, have no superpowers, can’t walk across walls, fly, etc.
 
-We don't have a fix budget for the moment but we have to make realistic purchases.
+We don't have a fixed budget for the moment but we have to make realistic purchases.
 
 ### b. Location
 
@@ -53,6 +54,8 @@ The B3 is located at 16 Rue de la Société Française 18100 Vierzon.
 **B3** is the name of the building.
 
 **CNAM** means Conservatory of Arts and Crafts, it is an institution dedicated to education, training, and research.
+
+**AlgoShop** will be a stall placed on the corridor next to the reception. In this little shop, you will find derivative products of ALGOSUP like the AlgoSoup, AlgoSoap, t-shirts, ... 
 
 ## 3. Building content
 
@@ -91,7 +94,7 @@ All the walls are 3m high.
 |Soft skills room|Where the soft skills class will take place.|1|70,20m²|
 |Language lab|This room is for multiple students for their work in silence.|2|25,20m²|
 |Amphitheatre|Where the computer science class will take place.|1|133,90m²|
-|Library|The students can access it for borrow some books on programming and literature |1|45,79m²|
+|Library|The students can access it to borrow some books on programming and literature |1|45,79m²|
 
 ### c. Layout
 
@@ -99,10 +102,12 @@ All the walls are 3m high.
 |:--------------- |:-----|:-|:-|
 |Drone workshop|This surface is for drones test. it's delimited by a net.|1|78,64m²|
 |Bleacher|To watch the drone workshop|1|33,72m²|
-|Elevator|For people with disabilities to access the second floor|2||
+|Elevator|For people with disabilities to access the second floor|1||
 |Stairs|To access the second floor|4||
 |Doors|With different security access.|61||
 |Letter box|A letterbox for each company |4|
+
+On the corridors, you will find some column showcases with old or rare computers on them.
 
 ### d. Handicap access
 
@@ -116,11 +121,11 @@ There is an elevator to access the second floor. This elevator will be accessibl
 
 #### Monitoring
 
-For the monitoring, no video surveillance camera is planned for the moment, but if it's needed, we can place 5 cameras at a strategic place. 
+For the monitoring, no video surveillance camera is planned for the moment, but if it's needed, we can place 5 cameras at strategic places. 
 
 #### Security
 
-The security of the building will be access cards.
+The security of the building will be with the Welcomr application.
 
 The colors of room access are on the building plan.
 
@@ -132,7 +137,7 @@ The colors of room access are on the building plan.
 |Admin|31|Students, red|
 |Admin ++|37|Admin, blue|
 
-Also for security, the building needs to have 12 extinguishers (6 on the first floor, and 6 on the second floor). To explain this, each extinguisher must be installed less than 1.20m from the ground, with a maximum spacing of 30m between two devices. Note that in the event of an identified risk, the extinguisher must be located less than 5m from it.
+Also for security, the building needs to have 12 fire extinguishers (6 on the first floor, and 6 on the second floor). To explain this, each fire extinguisher must be installed less than 1.20m from the ground, with a maximum spacing of 30m between two devices. Note that in the event of an identified risk, the fire extinguisher must be located less than 5m from it.
 In addition, it will have an emergency exit sign.
 
 <img src="images/securityplan.jpg" style="">
@@ -140,7 +145,7 @@ In addition, it will have an emergency exit sign.
 
 ## 4. Rooms content
 
-Most of the supplies will be reused in order to recycle and have less purchases.
+Most of the supplies will be reused to recycle and have fewer purchases.
 
 ### a. Furnitures
 
@@ -150,7 +155,7 @@ In each room, there will have a bin, air conditioner, storage, small stationery,
 
 | Name  |Furnitures|
 |:--------------- |:---------------|
-|Entrance/ Corridors|Carpet, plants, a box of masks, information panel, photo of the old building, Umbrella holder,  |
+|Entrance/ Corridors|Carpet, plants, a box of masks, information panel, photo of the old building, Umbrella holder, AlgoShop |
 |Reprography|paper, stapler, |
 |Meeting room|tables, chairs, whiteboard, coat hanger, whiteboard|
 |Office|desk, chairs,|
@@ -172,10 +177,11 @@ In each room, there will have a bin, air conditioner, storage, small stationery,
 |Amphitheatre|Tables, chairs, desk, Headset, Wireless handheld microphone, 1 or 2 projection screens, whiteboard|
 |Library|chairs, tables, shelfs, books, newpapers|
 
+
 ### b. Connected equipment
 
 Next to each door, you will find a tablet with the reservation of the room.
-Each door will have a connected lock that you can unlock with your access card.
+Each door will have a connected lock that you can unlock with your Welcomr application.
 Many electrical outlets will be in every room.
 
 
@@ -202,7 +208,6 @@ Many electrical outlets will be in every room.
 |Language lab||
 |Amphitheatre|Projector, adjustment console, micro, TV|
 
-
 ## 5. Personae
 
 There is our Personae diagram :
@@ -215,7 +220,7 @@ There is our Personae diagram :
 
 #### Students : 
 
-A student arrives at the train station. He needs to ride his electric scooter for 2 minutes. Once he’s arrived, he needs to open the door by using his magnetic card and then to put his scooter in a safe place. Then he needs to access the soft-skills room where he has a lesson today which takes approximately 10 seconds. For the morning break, he decides to firstly use the restrooms which are 20 seconds from the soft-skills room. After, he goes to the student lounge which is 15 seconds away to spend his break there. He needs to leave 30 seconds earlier to reach his room at the right time. For lunch time, he goes to the student lounge, which is still 30 seconds away, to eat and spend his break there. This repeats the same way during the afternoon. He then leaves the building at the end of the day without forgetting to take his electric scooter and goes back to the train station. 
+A student arrives at the train station. He needs to ride his electric scooter for 2 minutes. Once he’s arrived, he needs to open the door by using his magnetic card and then to put his scooter in a safe place. Then he needs to access the soft-skills room where he has a lesson today which takes approximately 10 seconds. For the morning break, he decides to firstly use the restrooms which are 20 seconds from the soft-skills room. After, he goes to the student lounge which is 15 seconds away to spend his break there. He needs to leave 30 seconds earlier to reach his room at the right time. For lunchtime, he goes to the student lounge, which is still 30 seconds away, to eat and spend his break there. This repeats the same way during the afternoon. He then leaves the building at the end of the day without forgetting to take his electric scooter and goes back to the train station. 
 
 A student arrives at the train station. He has to walk for five minutes to reach the school. Then he can reach his project room, which is the one between the stairs and the library. He needs 12 seconds to go to this room and he opens it with his magnetic card. During the break at 10:45 am, he wants to go smoking. He decides to go to the terrace which is 25 seconds away. Then he heads back to his project room to finish the morning. For the lunch break, he goes to a snack outside of the school and eats what he bought in the student lounge. He arrives in it in 35 seconds and spends his lunch break there. The afternoon, he has a lesson in the amphitheater which is 6 seconds away from the student lounge. For the afternoon break, he goes smoking at the terrace and he arrives there in 12 seconds. At the end of the break he goes back to the amphitheater. At the end of the lesson, he exits by the main entrance at 35 seconds and heads to the train station to go back home.
 
