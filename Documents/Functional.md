@@ -127,15 +127,13 @@ For the monitoring, no video surveillance camera is planned for the moment, but 
 
 The security of the building will be with the Welcomr application.
 
-The colors of room access are on the building plan.
-
-| Hierarchy |Number of rooms access |Color of room access|
+| Hierarchy |Number of rooms access |Type of room access|
 |:--------------- |:-----|:-|
-|Open to Everyone|5|Yellow, Salmon, White|
+|Open to Everyone|5|Toilets, Library, Reception, student lounge |
 |Second-floor staff|6|Open to everyone, entrance|
-|Students|23|Second-floor, orange, pink, dark orange|
-|Admin|31|Students, red|
-|Admin ++|37|Admin, blue|
+|Students|23|Second-floor, project rooms, robots workshop, amphitheatre, softskils room, english room, language lab, drones workshop|
+|Admin|31|Students, offices, metting room, reprograhy, staff lounge, video studio|
+|Admin ++|37|Admin, stocks|
 
 Also for security, the building needs to have 12 fire extinguishers (6 on the first floor, and 6 on the second floor). To explain this, each fire extinguisher must be installed less than 1.20m from the ground, with a maximum spacing of 30m between two devices. Note that in the event of an identified risk, the fire extinguisher must be located less than 5m from it.
 In addition, it will have an emergency exit sign.
