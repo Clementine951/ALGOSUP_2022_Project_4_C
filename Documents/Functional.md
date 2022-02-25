@@ -32,16 +32,13 @@
 ### a. Why this project?
 
 
-This project aims to visualize the future building of ALGOSUP for 2023.
-
-The final project has to be realistic, the user will be able to visit and travel all around this building thanks to a VR headset. The user will see the security of the building and doors but also the room usage, circulation, signage, furniture, storage, toilets, etc.
-
-The virtual setup needs to be as close as possible to the real setup. For instance, if a door has a lock in the real world, it would also require some sort of badge/key in the virtual world, a room that can only fit 10 people in the real world, will have the equivalent capacity in the virtual world, etc.
-
-You need to obey the laws of physics in the virtual world, have no superpowers, can’t walk across walls, fly, etc.
-
-We don't have a fixed budget for the moment but we have to make realistic purchases.
-
+ALGOSUP will have a new building for 2023, with more space, more feature than the current school.
+For her image and show what the school will look like, ALGOSUP needs a VR simulation of the new place.
+Our group will do create a software who can simulate the exploration to the users of B3 like as if they were there.
+To do this, we must to add some realistic feature, lenght and height of building, some furniture on the rooms, light etc.
+The users needs some interaction on the simulation like system key/badge with a mobile application, and can open the door with it.
+The simalation must obey the laws of physics.
+We don’t have any budge but we have to make realistic purchasses.
 ### b. Location
 
 The B3 is located at 16 Rue de la Société Française 18100 Vierzon.
