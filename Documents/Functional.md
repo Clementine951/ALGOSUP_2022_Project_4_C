@@ -91,6 +91,7 @@ All the walls are 3m high.
 |Soft skills room|Where the soft skills class will take place.|1|70,20m²|
 |Language lab|This room is for multiple students for their work in silence.|2|25,20m²|
 |Amphitheatre|Where the computer science class will take place.|1|133,90m²|
+|Library|The students can access it for borrow some books on programming and literature |1|45,79m²|
 
 ### c. Layout
 
@@ -169,6 +170,7 @@ In each room, there will have a bin, air conditioner, storage, small stationery,
 |Soft skills room|tables, chairs, desk, whiteboard|
 |Language lab|chair, tables, the partition wall between each table |
 |Amphitheatre|Tables, chairs, desk, Headset, Wireless handheld microphone, 1 or 2 projection screens, whiteboard|
+|Library|chairs, tables, shelfs, books, newpapers|
 
 ### b. Connected equipment
 
@@ -199,6 +201,7 @@ Many electrical outlets will be in every room.
 |Soft skills room|TV|
 |Language lab||
 |Amphitheatre|Projector, adjustment console, micro, TV|
+
 
 ## 5. Personae
 
