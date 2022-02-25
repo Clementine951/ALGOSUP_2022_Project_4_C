@@ -23,7 +23,7 @@
 
 - [6. User cases](#6-user-cases)
 
-- [7. Building Display](#7-building-display)
+
 
 
 ## 1. Introduction
