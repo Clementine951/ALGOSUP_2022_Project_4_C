@@ -32,13 +32,13 @@
 ### a. Why this project?
 
 
-ALGOSUP will have a new building for 2023, with more space, more feature than the current school.
-For her image and show what the school will look like, ALGOSUP needs a VR simulation of the new place.
-Our group will do create a software who can simulate the exploration to the users of B3 like as if they were there.
-To do this, we must to add some realistic feature, lenght and height of building, some furniture on the rooms, light etc.
-The users needs some interaction on the simulation like system key/badge with a mobile application, and can open the door with it.
-The simalation must obey the laws of physics.
-We don’t have any budge but we have to make realistic purchasses.
+ALGOSUP will have a new building for 2023, with more space, more features than the current school.
+
+To show what the school will look like, ALGOSUP needs a VR simulation of the new place. Our group will do create software that can simulate the exploration to the users of B3 as if they were there. To do this, we must add some realistic features, length, and height of the building, some furniture on the rooms, light, etc.
+
+The users need some interaction on the simulation like system key/badge with a mobile application and can open the door with it.
+The simulation must obey the laws of physics.
+We don’t have any budget but we have to make realistic purchases.
 ### b. Location
 
 The B3 is located at 16 Rue de la Société Française 18100 Vierzon.
@@ -128,8 +128,8 @@ The security of the building will be with the Welcomr application.
 |:--------------- |:-----|:-|
 |Open to Everyone|5|Toilets, Library, Reception, student lounge |
 |Second-floor staff|6|Open to everyone, entrance|
-|Students|23|Second-floor, project rooms, robots workshop, amphitheatre, softskils room, english room, language lab, drones workshop|
-|Admin|31|Students, offices, metting room, reprograhy, staff lounge, video studio|
+|Students|23|Second-floor, project rooms, robots workshop, amphitheater, soft skills room, English room, language lab, drones workshop|
+|Admin|31|Students, offices, meeting room, reprography, staff lounge, video studio|
 |Admin ++|37|Admin, stocks|
 
 Also for security, the building needs to have 12 fire extinguishers (6 on the first floor, and 6 on the second floor). To explain this, each fire extinguisher must be installed less than 1.20m from the ground, with a maximum spacing of 30m between two devices. Note that in the event of an identified risk, the fire extinguisher must be located less than 5m from it.
@@ -170,7 +170,7 @@ In each room, there will have a bin, air conditioner, storage, small stationery,
 |Soft skills room|tables, chairs, desk, whiteboard|
 |Language lab|chair, tables, the partition wall between each table |
 |Amphitheatre|Tables, chairs, desk, Headset, Wireless handheld microphone, 1 or 2 projection screens, whiteboard|
-|Library|chairs, tables, shelfs, books, newpapers|
+|Library|chairs, tables, shelves, books, newpapers|
 
 
 ### b. Connected equipment
@@ -205,9 +205,57 @@ Many electrical outlets will be in every room.
 
 ## 5. Personae
 
-There is our Personae diagram :
+Here are our 6 different personae.
 
-<img src="images/personaediagram.png" style="">
+### Jade Pitron
+
+<img src="images/Jade.svg" style="width:100px">
+
+Jade is 20 years old, she spent 3 months in math school in Tours, France. 
+She has decided to leave her school because she was afraid of her future, she needs to be reassured. She heard about Algosup from Linkedin and Instagram. It follows that she wants to integrate Algosup. 
+
+Jade is close to her friends, her family. She shares her life on social media, she's very sociable, she listens to others. 
+
+In other words, Jade likes animals, like to spent time outside, and share everything on Instagram. She dislikes when she doesn't know where she's going, and talks in front of a lot of people.
+
+
+### Liam Bert
+
+<img src="images/Liam.svg" style="width:100px">
+
+Liam is 23 years old, he spent his last two years in a computer science preparatory school in Paris, France. He's passionate about computer science since he was a child and his favorite language is C++. 
+
+It was during his technological watch that he discovered Algosup on Linkedin. He's active on social media. Liam wants to link his passion and his job. Liam is also very open-minded and goes straight to the point. 
+
+Furthermore, he likes to go out with his friends, play video games, and manage a team. On the contrary, he dislikes the people that do nothing, and lose time.
+
+### Donovan Kart
+
+<img src="images/Donovan.svg" style="width:100px">
+
+Donovan is 17 years old, he's still in high school. Donovan has always been a curious, sporty and very sociable child. It's her mother who pushed him to visit school for the next years. He wants to develop his potential, open up himself, and exercise responsibilities. He knew Algosup thanks to his mother.
+
+Besides, he likes video games, football, talk in public and on the other hand, he doesn't like authority. 
+
+### Lou and Liliane Kart
+
+<img src="images/lou.svg" style="width:100px">
+<img src="images/liliane.svg" style="width:100px">
+
+Lou is 36 years old and Liliane is 35 years old. There are the mothers of Donovan. 
+Lou is a commercial of a big company and Liliane is a teacher of history in high school. They lived in Bourges, this is why they know Algosup. They are open minded, interested in computer science and they need to be reassured.  
+
+They want the best for their child, a structured school, which advances with the times.
+
+### Mark Smith
+
+<img src="images/Mark.svg" style="width:100px">
+
+Mark is 30 years old, he has create his own start-up in virtual reality 2 years ago.  Mark is trilingual and has works for 3 years in the United states. He has known Algosup because he was following Eric Larchevêque. 
+
+In other words, Mark is passionate by computer science, programming, and by his family. 
+He's the father of a baby, and wants to inculcate of true value to his son. He's generous and passionate, this is why gives some classes to students that are curious, is rewarding for him. 
+
 
 					     
 ## 6. User cases
