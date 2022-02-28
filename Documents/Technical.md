@@ -10,9 +10,11 @@
 
 - [4. Assets Used](#4-assets-used)
 
-- [5. Possible issues](#5-possible-issues)
+- [5. VR compatibility](#5-vr-compatibility)
 
-- [6.Version 2.0 ](#6-version-2)
+- [6. Possible issues](#6-possible-issues)
+
+- [7.Version 2.0 ](#7-version-2)
 
 ## 1. Introduction
 
@@ -59,8 +61,10 @@ Although C# is the best language to works with Unity.
 
 ## 4. Assets Used
 
+## 5. VR compatibility
 
-## 5. Possible issues
+
+## 6. Possible issues
 
 ### Slowness simulation
 
@@ -87,4 +91,4 @@ Here is an exhaustive list of website to use too:
 - [Unity Documentation](https://unity.com/fr)
 - [C# Documentation](https://docs.microsoft.com/fr-fr/dotnet/csharp/)
 
-## 6. Version 2.0
+## 7. Version 2.0
