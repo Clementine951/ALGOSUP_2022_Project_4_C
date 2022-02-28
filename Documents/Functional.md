@@ -52,7 +52,7 @@ The B3 is located at 16 Rue de la Société Française 18100 Vierzon.
 
 **CNAM** means Conservatory of Arts and Crafts, it is an institution dedicated to education, training, and research.
 
-**AlgoShop** will be a stall placed on the corridor next to the reception. In this little shop, you will find derivative products of ALGOSUP like the AlgoSoup, AlgoSoap, t-shirts, ... 
+**AlgoShop** will be a stall placed on the corridor next to the reception. In this little shop, you will find derivative products of ALGOSUP like the ALGOSUP, AlgoSoap, t-shirts, ... 
 
 ## 3. Building content
 
@@ -212,7 +212,7 @@ Here are our 6 different personae.
 <img src="images/Jade.svg" style="width:100px">
 
 Jade is 20 years old, she spent 3 months in math school in Tours, France. 
-She has decided to leave her school because she was afraid of her future, she needs to be reassured. She heard about Algosup from Linkedin and Instagram. It follows that she wants to integrate Algosup. She walks to school.
+She has decided to leave her school because she was afraid of her future, she needs to be reassured. She heard about ALGOSUP from Linkedin and Instagram. It follows that she wants to integrate ALGOSUP. She walks to school.
 
 Jade is close to her friends, her family. She shares her life on social media, she's very sociable, she listens to others. 
 
@@ -225,7 +225,7 @@ In other words, Jade likes animals, like to spent time outside, and share everyt
 
 Liam is 23 years old, he spent his last two years in a computer science preparatory school in Paris, France. He's passionate about computer science since he was a child and his favorite language is C++. 
 
-It was during his technological watch that he discovered Algosup on Linkedin. He's active on social media. Liam wants to link his passion and his job. Liam is also very open-minded and goes straight to the point. He's a smoker. He's coming by his own car the morning.
+It was during his technological watch that he discovered ALGOSUP on Linkedin. He's active on social media. Liam wants to link his passion and his job. Liam is also very open-minded and goes straight to the point. He's a smoker. He's coming by his own car the morning.
 
 Furthermore, he likes to go out with his friends, play video games, and manage a team. On the contrary, he dislikes the people that do nothing, and lose time.
 
@@ -233,7 +233,7 @@ Furthermore, he likes to go out with his friends, play video games, and manage a
 
 <img src="images/Donovan.svg" style="width:100px">
 
-Donovan is 17 years old, he's still in high school. Donovan has always been a curious, sporty and very sociable child. It's her mother who pushed him to visit school for the next years. He wants to develop his potential, open up himself, and exercise responsibilities. He knew Algosup thanks to his mother.
+Donovan is 17 years old, he's still in high school. Donovan has always been a curious, sporty and very sociable child. It's her mother who pushed him to visit school for the next years. He wants to develop his potential, open up himself, and exercise responsibilities. He knew ALGOSUP thanks to his mother.
 Her mother drop him the morning and pick him up at the end of the day.
 
 Besides, he likes video games, football, talk in public and on the other hand, he doesn't like authority. 
@@ -244,7 +244,7 @@ Besides, he likes video games, football, talk in public and on the other hand, h
 <img src="images/liliane.svg" style="width:100px">
 
 Lou is 36 years old and Liliane is 35 years old. There are the mothers of Donovan. 
-Lou is a commercial of a big company and Liliane is a teacher of history in high school. They lived in Bourges, this is why they know Algosup. They are open minded, interested in computer science and they need to be reassured.  
+Lou is a commercial of a big company and Liliane is a teacher of history in high school. They lived in Bourges, this is why they know ALGOSUP. They are open minded, interested in computer science and they need to be reassured.  
 
 They want the best for their child, a structured school, which advances with the times.
 
@@ -252,7 +252,7 @@ They want the best for their child, a structured school, which advances with the
 
 <img src="images/Mark.svg" style="width:100px">
 
-Mark is 30 years old, he has create his own start-up in virtual reality 2 years ago.  Mark is trilingual and has works for 3 years in the United states. He has known Algosup because he was following Eric Larchevêque. 
+Mark is 30 years old, he has create his own start-up in virtual reality 2 years ago.  Mark is trilingual and has works for 3 years in the United states. He has known ALGOSUP because he was following Eric Larchevêque. 
 
 In other words, Mark is passionate by computer science, programming, and by his family. 
 He's the father of a baby, and wants to inculcate of true value to his son. He's generous and passionate, this is why gives some classes to students that are curious, is rewarding for him. 
