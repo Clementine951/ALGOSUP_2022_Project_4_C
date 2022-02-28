@@ -229,6 +229,16 @@ It was during his technological watch that he discovered ALGOSUP on Linkedin. He
 
 Furthermore, he likes to go out with his friends, play video games, and manage a team. On the contrary, he dislikes the people that do nothing, and lose time.
 
+
+### Tayson Schmitt
+
+<img src="images/Tayson.svg" style="width:100px">
+
+Tayson is a 19 years old student in ALGOSUP. He arrived from the U.S. one year ago after graduating from his high school. He has been in a wheelchair since an accident in his early childhood. 
+He came to France because his father lives here. He heard about ALGOSUP from some French friends and decided to join the school because he is very interested in Computer Science. His father drops him off every morning at the school and picks him up at the end of the day. 
+Moreover, he really likes dogs and also playing video games. He doesn’t really like classical music.
+
+
 ### Donovan Kart
 
 <img src="images/Donovan.svg" style="width:100px">
@@ -277,16 +287,16 @@ A student arrives at the train station. He has to walk for five minutes to reach
 
 A student comes to school using his car, he parks his car at the cinema parking, which is 3 minutes away from the school. Once he arrived, he opens the door using his Welcomer application on his phone and then he can just walk through the corridors and join the room where he’s supposed to have class, the time needed varies between 10-45s. Then at 10:45am, it’s break time, so the student can either go smoke near the entrance or in a dedicated place on the terrace, or he can head to the student rest room. Then at 11am, the student go back to work. At 12:30am, it’s lunch time, so the student can go eat outside at the terrace, at the student rest room, or at a restaurant next to the school. As usual, this repeats the same way during the afternoon. Then, he leaves the building at the end of the day and goes back to his home driving his car.
 
-A disabled student is driven to school by car, so he takes his wheelchair and goes to school, which takes approximately 3 minutes. Once he arrives, he enters the school using his Welcomer application on his phone and then he goes to the English room next to the elevator which takes approximately 45 seconds. During the break time, at 10:45 am, he decides to go to the student room which takes him 35 seconds. After the break he goes back to the English room. At lunch time, he heads towards the student room and eats. This repeats the same way in the afternoon. Then, he leaves the building at the end of the day and takes the car to go back home.
+Tayson is driven to school by car, so he takes his wheelchair and goes to school, which takes approximately 3 minutes. Once he arrives, he enters the school using his Welcomer application on his phone and then he goes to the English room next to the elevator which takes approximately 45 seconds. During the break time, at 10:45 am, he decides to go to the student room which takes him 35 seconds. After the break he goes back to the English room. At lunch time, he heads towards the student room and eats. This repeats the same way in the afternoon. Then, he leaves the building at the end of the day and takes the car to go back home.
 
 
 #### Professors:
 
- The soft-skills professor arrives in his room where he can set up his computer and all the stuff he needs for his activities. At the lunch break, he goes to the student lounge to cook his meal and speak with some students. He then goes eat his meal in the staff lounge 22 seconds away from the student lounge. To head back to his classroom, he needs 25 seconds. At the end of the day, he leaves the school by the main door at 7 seconds from the soft-skills room. 
+Ava arrives in her room where she can set up her computer and all the stuff she needs for his activities. At the lunch break, she goes to the student lounge to cook her meal and speak with some students. She then goes eat his meal in the staff lounge 22 seconds away from the student lounge. To head back to her classroom, she needs 25 seconds. At the end of the day, she leaves the school by the main door at 7 seconds from the soft-skills room. 
 
 The English teacher arrives in his room where he can set up his computer and all the stuff he needs for his activities. At the lunch break, he goes to the professor lounge to cook his meal and speaks with his colleagues. To head back to his classroom, he needs 30 seconds. At the end of the day, he leaves the school by the main door at 13 seconds from the soft-skills room. 
 
-The Computer Science professor has to give a lesson in the amphitheater all day long. The setup of the lesson lasts approximately 5 minutes to be sure that both audio and video works. He stays in the amphitheater during the morning break. For lunch, he goes to the staff lounge 25 seconds from the amphitheater and spends his lunch time here. At the end of the day, he leaves by the main door which is 30 seconds away from the amphitheater.
+Mark has to give a lesson in the amphitheater all day long. The setup of the lesson lasts approximately 5 minutes to be sure that both audio and video works. He stays in the amphitheater during the morning break. For lunch, he goes to the staff lounge 25 seconds from the amphitheater and spends his lunch time here. At the end of the day, he leaves by the main door which is 30 seconds away from the amphitheater.
 
 #### Admin: 
 
