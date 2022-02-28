@@ -10,11 +10,9 @@
 
 - [4. Assets Used](#4-assets-used)
 
-- [5. Choice of furnitures](#5-choice-of-furnitures)
+- [5. Possible issues](#5-possible-issues)
 
-- [6. Possible issues](#6-possible-issues)
-
-- [7.Version 2.0 ](#7-version-2)
+- [6.Version 2.0 ](#6-version-2)
 
 ## 1. Introduction
 
@@ -50,8 +48,7 @@ Although C# is the best language to works with Unity.
 |Blender|[Blender](https://www.blender.org/)|Fix some slowness problem|
 
 
-
-### B. Formating
+### Formating
 
 | Type  | Format |
 |:--------------- |:---------------:|
@@ -60,8 +57,10 @@ Although C# is the best language to works with Unity.
 | Function  | PascalCase |
 | Variable | PascalCase |
 
+## 4. Assets Used
 
-## 6. Possible issues
+
+## 5. Possible issues
 
 ### Slowness simulation
 
@@ -87,3 +86,5 @@ Here is an exhaustive list of website to use too:
 - [Stack Overflow](https://stackoverflow.com/)
 - [Unity Documentation](https://unity.com/fr)
 - [C# Documentation](https://docs.microsoft.com/fr-fr/dotnet/csharp/)
+
+## 6. Version 2.0
