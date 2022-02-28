@@ -212,7 +212,7 @@ Here are our 6 different personae.
 <img src="images/Jade.svg" style="width:100px">
 
 Jade is 20 years old, she spent 3 months in math school in Tours, France. 
-She has decided to leave her school because she was afraid of her future, she needs to be reassured. She heard about Algosup from Linkedin and Instagram. It follows that she wants to integrate Algosup. 
+She has decided to leave her school because she was afraid of her future, she needs to be reassured. She heard about Algosup from Linkedin and Instagram. It follows that she wants to integrate Algosup. She walks to school.
 
 Jade is close to her friends, her family. She shares her life on social media, she's very sociable, she listens to others. 
 
@@ -225,7 +225,7 @@ In other words, Jade likes animals, like to spent time outside, and share everyt
 
 Liam is 23 years old, he spent his last two years in a computer science preparatory school in Paris, France. He's passionate about computer science since he was a child and his favorite language is C++. 
 
-It was during his technological watch that he discovered Algosup on Linkedin. He's active on social media. Liam wants to link his passion and his job. Liam is also very open-minded and goes straight to the point. He's a smoker. 
+It was during his technological watch that he discovered Algosup on Linkedin. He's active on social media. Liam wants to link his passion and his job. Liam is also very open-minded and goes straight to the point. He's a smoker. He's coming by his own car the morning.
 
 Furthermore, he likes to go out with his friends, play video games, and manage a team. On the contrary, he dislikes the people that do nothing, and lose time.
 
@@ -234,6 +234,7 @@ Furthermore, he likes to go out with his friends, play video games, and manage a
 <img src="images/Donovan.svg" style="width:100px">
 
 Donovan is 17 years old, he's still in high school. Donovan has always been a curious, sporty and very sociable child. It's her mother who pushed him to visit school for the next years. He wants to develop his potential, open up himself, and exercise responsibilities. He knew Algosup thanks to his mother.
+Her mother drop him the morning and pick him up at the end of the day.
 
 Besides, he likes video games, football, talk in public and on the other hand, he doesn't like authority. 
 
@@ -261,6 +262,7 @@ He's the father of a baby, and wants to inculcate of true value to his son. He's
 <img src="images/Ava.svg" style="width:100px">
 
 Ava is 42 years old, she is from Australia. She was recruited from ALGOSUP to come in France to teach story telling to students. 
+During her week in France, she lives in an hotel and walking to comes.
 
 It's her first time in France, she would like to visit some touristic places, eat french food, discover the french culture. Moreover, she likes sports and is a dog person and have a Dalmatian. She hates rainy day, Kpop.
 					     
