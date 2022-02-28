@@ -13,6 +13,8 @@ We chose Clémentine Curel as Project Manager and Malo Archimbaud as Tech Leader
 
 [Functionnal Specification](https://github.com/Clementine951/ALGOSUP_2022_Project_4_C/blob/main/Documents/Functionnal.md)
 
+[Technical Specification](https://github.com/Clementine951/ALGOSUP_2022_Project_4_C/blob/main/Documents/Technical.md)
+
 [Project Execution Plan (Trello)](https://trello.com/invite/b/tLiReKj5/7ede0003e266e87a0bb68a4acbba21a2/algosup2022project4c)
 
 [Communication Tool (Slack)](https://join.slack.com/t/algosup2022project4c/shared_invite/zt-13wt6eydf-aK1bf5nKa7cF6dGthjy8tA)
