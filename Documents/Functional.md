@@ -662,3 +662,16 @@ A cleaning personnel comes after most of the people who work in the B3 left the 
 
 A cleaning personnel comes after most of the people who work in the B3 left the building, so around 5pm. They got their magnetic cards in order to enter the building and to get to the cleaning room it takes them 20 seconds to get into it. After they finish their work, they go back home.
 
+
+#### Others: 
+
+
+Ava walks in the corridor and sees the ALGOSUP shop in the entrance. The shop offers a wide variety of products such as hoodies and T-shirts. The hoodie costs 60 euros and T-shirts cost 30 euros. The Algosoup is selled at 3 euros and the algosoap is selled at 5 euros. There are also sleeveless jackets at 50 euros and she can also buy mugs with ALGOSUP logo at 10 euros each. It is possible to pay by card or with cash. She decides to take a mug and she pays by card. To pay, she goes to the reception and the person in charge of the reception makes her pay 10 euros for the mug.
+
+
+Taking into consideration the time needed to go to the toilets which is 1 minute, and considering that each person stays 1 minutes, 130 people could go to the toilets during the same break. This is not enough if the amphitheater is full and each person in it needs to go to the toilets. So, by adding 1 toilet on each side on the first floor, we would reach a capacity of 156 people during a 15 minutes break. This would be enough and not take too much space in the corridor. If we can’t add more toilets a break would need to last at least 16 minutes so that 160 people could go to the toilets.
+
+
+Regarding the amphitheater, It takes 15 seconds to go from the entrance of the amphitheater to the middle of the last row. When a student arrives, he needs 15 more seconds to sit down and unpack his stuff. Then, his PC is ready to use after 1 minute and a half. So, a student needs 2 minutes to get ready for his lesson, but it would be better if he arrives 3 minutes earlier to be sure to be ready at the start of the lesson.
+The amphitheater can be full in approximately 2 minutes counting the time that each student would need to find his place. 
+In global, students should enter 5 minutes before the beginning of the class
