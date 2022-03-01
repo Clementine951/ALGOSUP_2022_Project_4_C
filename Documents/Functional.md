@@ -134,47 +134,26 @@ All the walls are 3m high.
   
 
 | Name |Utilisation|Number|Area|
-
 | :--------------- |:---------------| :-----|:-|
-
 |Reprography|This room will be used for printers. |1|10,68m²|
-
 |Meeting room|These rooms will be used for appointments.|2|25,20m² & 25,00m²|
-
 |Office|Workplace of the staff.|4|20,00m²|
-
 |Reception|Welcome visitors and make appointments|1|12,37m²|
-
 |Staff lounge|A place where the staff can eat and relax.|1|33,00m²|
-
 |Student lounge|A place where the students can eat and relax.|1|150,59m²|
-
 |Robotics workshop|In this room, you will find everything to build a robot|1|28,47m²|
-
 |Stock|This room is for the stationery storage|2|21,46m² & 28,78m²|
-
 |Secure stock|For the electronic storage|1|29,98m²|
-
 |Technical area|The mechanical room. It's dedicated to electrical equipment|1|8,93m²|
-
 |Housework stock|Store household product |1|12,30m²|
-
 |Fiber sever|The place where the fiber server will be|1|15,12m²|
-
 |Toilets|One toilet sanitary for women and one sanitary for men, with handicap access|2|29,65m²|
-
 |Video studio|A room to film personal video, soundproof room|1|12,30m²|
-
 |Project room|Room for 6 students on project time.|12|20,00m²|
-
 |English room|Where the English class will take place.|3|40,50m²|
-
 |Soft skills room|Where the soft skills class will take place.|1|70,20m²|
-
 |Language lab|This room is for multiple students for their work in silence.|2|25,20m²|
-
 |Amphitheatre|Where the computer science class will take place.|1|133,90m²|
-
 |Library|The students can access it to borrow some books on programming and literature |1|45,79m²|
 
   
@@ -184,19 +163,12 @@ All the walls are 3m high.
   
 
 | Name |Utilisation |Number|Area|
-
 |:--------------- |:-----|:-|:-|
-
 |Drone workshop|This surface is for drones test. it's delimited by a net.|1|78,64m²|
-
 |Bleacher|To watch the drone workshop|1|33,72m²|
-
 |Elevator|For people with disabilities to access the second floor|1||
-
 |Stairs|To access the second floor|4||
-
 |Doors|With different security access.|61||
-
 |Letter box|A letterbox for each company |4|
 
   
@@ -242,17 +214,11 @@ The security of the building will be with the Welcomr application.
   
 
 | Hierarchy |Number of rooms access |Type of room access|
-
 |:--------------- |:-----|:-|
-
 |Open to Everyone|5|Toilets, Library, Reception, student lounge |
-
 |Second-floor staff|6|Open to everyone, entrance|
-
 |Students|23|Second-floor, project rooms, robots workshop, amphitheater, soft skills room, English room, language lab, drones workshop|
-
 |Admin|31|Students, offices, meeting room, reprography, staff lounge, video studio|
-
 |Admin ++|37|Admin, stocks|
 
   
@@ -287,49 +253,27 @@ In each room, there will have a bin, air conditioner, storage, small stationery,
   
 
 | Name |Furnitures|
-
 |:--------------- |:---------------|
-
 |Entrance/ Corridors|Carpet, plants, a box of masks, information panel, photo of the old building, Umbrella holder, AlgoShop |
-
 |Reprography|paper, stapler, |
-
 |Meeting room|tables, chairs, whiteboard, coat hanger, whiteboard|
-
 |Office|desk, chairs,|
-
 |Reception|chair, desk,|
-
 |Staff lounge|sofa, chairs, tables, flatware, sink,|
-
 |Student lounge|sofa, chairs, tables, flatware, poofs, sinks, carpets, |
-
 |Robotics workshop|spare parts, tables, chairs, tools, whiteboard|
-
 |Stock|fixed pat, scotch, paper, pen, markers, post it, erasable slate, whiteboard brush, staples, shelves, ink cartridges, power extension cord, |
-
 |Secure stock|Shelves|
-
 |Technical area||
-
 |Housework stock| Cleaning products.|
-
 |Fiber sever||
-
 |Toilets|Toilets, sinks, toilet paper, hand-stitched, emergency kit, mirrors, pad dispenser, soap dispenser|
-
 |Video studio|Chair, table|
-
 |Project room|tables, chairs, whiteboard, whiteboard markers, whiteboard brush, software development projects, cubes|
-
 |English room|tables, chairs, desk, whiteboard|
-
 |Soft skills room|tables, chairs, desk, whiteboard|
-
 |Language lab|chair, tables, the partition wall between each table |
-
 |Amphitheatre|Tables, chairs, desk, Headset, Wireless handheld microphone, 1 or 2 projection screens, whiteboard|
-
 |Library|chairs, tables, shelves, books, newpapers|
 
   
@@ -349,47 +293,26 @@ Many electrical outlets will be in every room.
   
 
 | Name |Furnitures|
-
 |:--------------- |:---------------|
-
 |Entrance / Corridors||
-
 |Reprography|Scanners, printers|
-
 |Meeting room||
-
 |Office|Computers|
-
 |Reception|Computer|
-
 |Staff lounge|Microwaves, fridges, |
-
 |Student lounge|Microwaves, fridges, food vending machine, hob, oven, coffee maker, kettle|
-
 |Robotics workshop||
-
 |Stock||
-
 |Secure stock|VR headset, computers, HDMI cables, adaptors, computer mice, secure barrier, |
-
 |Technical area||
-
 |Housework stock||
-
 |Fiber sever||
-
 |Toilets|electric hand dryer|
-
 |Video studio|Microphone, camera, light in front of the door|
-
 |Project room|TV|
-
 |English room|TV|
-
 |Soft skills room|TV|
-
 |Language lab||
-
 |Amphitheatre|Projector, adjustment console, micro, TV|
 
   
