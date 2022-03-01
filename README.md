@@ -34,3 +34,30 @@ We chose Clémentine Curel as Project Manager and Malo Archimbaud as Tech Leader
 5 - Implement the technical specification and provide working code
 
 6 - The product will be demoed during the oral exam
+
+<hr>
+
+## Retro-Planning 
+
+### Week 1 - 02/25/2022
+
+[x] Creation of a Trello
+[x] Creation of a Slack Server
+[x] Tasks distribution
+[x] Choice of Project Manager and Team Leader
+[x] Convert BIMX into Unity
+[x] Creation of the Functionnal specification
+
+### Week 2 - 03/04/2022
+
+[x] Find assets to use in Unity
+[x] Creation of Technical specifiacation
+[x] Finished Functionnal Specification
+
+### Week 3 - 03/11/2022
+
+### Week 4 - 03/18/2022
+
+### Week 5 - 03/25/2022
+
+### Week 6 - 04/01/2022
