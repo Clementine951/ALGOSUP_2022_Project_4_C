@@ -41,20 +41,28 @@ We chose Clémentine Curel as Project Manager and Malo Archimbaud as Tech Leader
 
 ### Week 1 - 02/25/2022
 
-[x] Creation of a Trello
-[x] Creation of a Slack Server
-[x] Tasks distribution
-[x] Choice of Project Manager and Team Leader
-[x] Convert BIMX into Unity
-[x] Creation of the Functionnal specification
+- [x] Creation of a Trello
+- [x] Creation of a Slack Server
+- [x] Tasks distribution
+- [x] Choice of Project Manager and Team Leader
+- [x] Convert BIMX into Unity
+- [x] Creation of the Functionnal specification
 
 ### Week 2 - 03/04/2022
 
-[x] Find assets to use in Unity
-[x] Creation of Technical specifiacation
-[x] Finished Functionnal Specification
+- [x] Find assets to use in Unity
+- [x] Finished Functionnal specification
+- [ ] Finished Technical specification
+- [ ] Finished Architecture design
+- [x] Create a unity project
+- [x] Set up .gitignore
 
 ### Week 3 - 03/11/2022
+
+- [ ] Set up GitHub pull request
+- [ ] Set up GitHub action
+- [ ] Put materials on floors and walls
+- [ ] Add furnitures on the building
 
 ### Week 4 - 03/18/2022
 
