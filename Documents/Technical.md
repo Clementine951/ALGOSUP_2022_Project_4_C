@@ -14,7 +14,7 @@
 
 - [6. Possible issues](#6-possible-issues)
 
-- [7.Version 2.0 ](#7-version-2)
+- [7. Version 2.0 ](#7-version-2)
 
 ## 1. Introduction
 
