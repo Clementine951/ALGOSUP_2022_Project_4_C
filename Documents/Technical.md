@@ -94,7 +94,6 @@ Here is an exhaustive list of website to use too:
 ## 7. Version 2.0
 
 In the Version 2.0, we thought about adding those functionnalities : 
-    - Customizable character
-    - NPC that welcomes you and that makes you visit the school 
-    - Automatic visit
-    - Translations into other languages
+- You could be able to customise your avatar to make it like you. It could be more realistic for visitors.
+- NPC that welcomes you and that makes you visit the school.
+- Translations into other languages.
