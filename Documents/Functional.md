@@ -123,6 +123,8 @@ On the second floor, the CNAM, the connected campus, and the incubator will be i
 
 The B3 will welcome 200 students in 2025 and 500 students in 2030.
 
+We have chosen to decorate the B3 with an industrial design with wood to keep the style of the building.
+
   
 
 ### b. Rooms
