@@ -1,6 +1,7 @@
 ## ALGOSUP_2022_Project_4_C
 
-The aim of this project is to create a 3D representation of the B3 (future basement of Algosup) that will be able to be visited using a VR headset.
+The aim of this project is to create a 3D representation of the B3 (future building of ALGOSUP) that will be able to be visited using a VR headset.
+The building has to be arranged with furniture and be decorated. 
 
 <hr>
 
