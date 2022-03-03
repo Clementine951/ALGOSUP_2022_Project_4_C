@@ -150,7 +150,23 @@ Here is an exhaustive list of website to use too:
 ## 7. Version 2.0
 
 In the Version 2.0, we thought about adding those functionnalities : 
-- You could be able to customise your avatar to make it like you. It could be more realistic for visitors.
-- NPC that welcomes you and that makes you visit the school.
-- Translations into other languages.
+- You could be able to customise your avatar to make it like you. It could be more realistic for visitors
+- Being able to interact with the different NPCs (talk, etc)
+- Have an automated visit of the school
+- Being able to train for an oral presentation and have feedback 
+- Translations into other languages
 - Add weather and day-night cycle
+- Bug corrections and improved fluidity and stability
+- Have a better resolution and image quality
+- Being able to write and erase on the board in the classroom 
+- Being able to control drones
+- Being able to receive in real life what was bought in the simulation (If I buy a hoodie, I will receive it in real life)
+- Add extern life (A car passing by, people walking, ...)
+- Add the underground, the second floor and the rightest wing
+- personalization of project rooms
+- Add cameras and being able to see them in Franck office
+- Add minigames in function of what they interact with (tennis table, chess...)
+- Propose the simulation for open house days
+- Extinct fire with the extinguisher
+- Being able to take out the garbage
+- If someone cuts himself with a knife, he has to use the emergency kit or he would have to go to the hospital and end the simulation
