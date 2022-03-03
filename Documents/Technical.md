@@ -62,13 +62,9 @@ Although C# is the best language to works with Unity.
 | Function  | PascalCase |
 | Variable | PascalCase |
 
-## 4. Convert ifb file to Unity
 
-To put the ifb file in Unity, we have decided to pass by blender.
-You have to add an add-ons call [BlenderBim](https://blenderbim.org/download.html). With this add-on, you can import the ifb file into Blender and export it as an fbx.
-Now, you have an fbx file, you can import it on Unity.
 
-## 5. Assets Used
+## 4. Assets Used
 
 
 | Name  | Use | Link |
@@ -124,6 +120,12 @@ Now, you have an fbx file, you can import it on Unity.
 | Destroyable Retro CRT Monitor Prop | Will be placed in the corridors in decoration and in museums | [Retro TV](https://assetstore.unity.com/packages/3d/props/electronics/destroyable-retro-crt-monitor-prop-157334)|
 | Bicycle Pack | Will be in the room for students coming to the establishment with | [Bicycle](https://assetstore.unity.com/packages/3d/vehicles/land/free-bicycle-pack-199782)|
 | Electric Scooter Prop | Will be in the room for students coming to the establishment with | [Electric Scooter](https://assetstore.unity.com/packages/3d/props/exterior/electric-scooter-prop-171335)|
+
+## 5. Convert ifb file to Unity
+
+To put the ifb file in Unity, we have decided to pass by blender.
+You have to add an add-ons call [BlenderBim](https://blenderbim.org/download.html). With this add-on, you can import the ifb file into Blender and export it as an fbx.
+Now, you have an fbx file, you can import it on Unity.
 
 ## 6. VR compatibility
 
