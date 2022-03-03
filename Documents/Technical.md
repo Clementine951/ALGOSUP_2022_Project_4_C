@@ -118,6 +118,7 @@ Although C# is the best language to works with Unity.
 
 ## 5. VR compatibility
 
+To enable the VR comptability on our project, we need to have the XR plugin management package installed, which can be found on the Unity website. Then, we need to go in XR plugin management in the project settings and choose what kind of VR device will be use. It is an Oculus in our project. Once that is done, we need to attach the main camera of the scene with the object which will represent the user. This can be done at the beginning or once the B3 modelisation is done.
 
 ## 6. Possible issues
 
@@ -152,3 +153,4 @@ In the Version 2.0, we thought about adding those functionnalities :
 - You could be able to customise your avatar to make it like you. It could be more realistic for visitors.
 - NPC that welcomes you and that makes you visit the school.
 - Translations into other languages.
+- Add weather and day-night cycle
