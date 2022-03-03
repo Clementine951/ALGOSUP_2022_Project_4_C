@@ -1,3 +1,4 @@
+
 # Technical Specification
 
 ## Table of contents
@@ -10,11 +11,13 @@
 
 - [4. Assets Used](#4-assets-used)
 
-- [5. VR compatibility](#5-vr-compatibility)
+- [5. Convert ifb file to unity](#5-convert-ifb-file-to-unity)
 
-- [6. Possible issues](#6-possible-issues)
+- [6. VR compatibility](#6-vr-compatibility)
 
-- [7. Version 2.0 ](#7-version-2)
+- [7. Possible issues](#7-possible-issues)
+
+- [8. Version 2.0 ](#8-version-2.0)
 
 ## 1. Introduction
 
@@ -59,7 +62,13 @@ Although C# is the best language to works with Unity.
 | Function  | PascalCase |
 | Variable | PascalCase |
 
-## 4. Assets Used
+## 4. Convert ifb file to Unity
+
+To put the ifb file in Unity, we have decided to pass by blender.
+You have to add an add-ons call [BlenderBim](https://blenderbim.org/download.html). With this add-on, you can import the ifb file into Blender and export it as an fbx.
+Now, you have an fbx file, you can import it on Unity.
+
+## 5. Assets Used
 
 
 | Name  | Use | Link |
@@ -81,7 +90,7 @@ Although C# is the best language to works with Unity.
 | BarProps | Will be placed in student lounges and staff | [Tables](https://assetstore.unity.com/packages/3d/props/barprops-137130)|
 | Kitchen Props | Will be put in student lounges and staff | [Dishes](https://assetstore.unity.com/packages/3d/props/interior/kitchen-props-free-80208)|
 | HQ Modern Sofas Pack | Will be placed in the student lounge | [Sofa](https://assetstore.unity.com/packages/3d/props/furniture/hq-modern-sofas-pack-52202)|
-| HDRP Interior Lighting Template | Will be used for the fridge and the sink which will be in the student lounges and the satf | [Kitchen](https://assetstore.unity.com/packages/3d/environments/hdrp-interior-lighting-template-vol-2-88464)|
+| HDRP Interior Lighting Template | Will be used for the fridge and the sink which will be in the student lounges and the staff | [Kitchen](https://assetstore.unity.com/packages/3d/environments/hdrp-interior-lighting-template-vol-2-88464)|
 | Low-Poly Table Tennis Set | Will be placed in the student lounges so that students can relax during break times | [Table Tennis](https://assetstore.unity.com/packages/3d/props/low-poly-table-tennis-set-181749)|
 | Toilet Flush | Will be placed in the toilets | [Toilet](https://assetstore.unity.com/packages/audio/sound-fx/toilet-flush-free-sample-pack-144361)|
 | Toilet Paper Roll | Will be placed in the toilets | [Toilet Paper](https://assetstore.unity.com/packages/3d/props/toilet-paper-roll-proto-series-165615)|
@@ -91,17 +100,17 @@ Although C# is the best language to works with Unity.
 | Workplace Tools | Will be used in the robotics workshop | [Tools](https://assetstore.unity.com/packages/3d/props/industrial/workplace-tools-86242)|
 | QA Books | Will be used for library | [Books](https://assetstore.unity.com/packages/3d/props/interior/qa-books-115415)|
 | LowPoly Server Room Props | Will be used for the server room as well as the office for the director's office | [Server Room](https://assetstore.unity.com/packages/3d/environments/lowpoly-server-room-props-197268)|
-| HQ Acoustic system | Will be placed in the amphitheater and in the student lounge | [Pregnant](https://assetstore.unity.com/packages/3d/props/electronics/hq-acoustic-system-41886)|
+| HQ Acoustic system | Will be placed in the amphitheater and the student lounge | [Pregnant](https://assetstore.unity.com/packages/3d/props/electronics/hq-acoustic-system-41886)|
 | Camera HQ | Will be put in the video studio room | [Camera](https://assetstore.unity.com/packages/3d/props/electronics/camera-hq-128822#description)|
 | Streaming Microphone | Will be put in the video studio room | [Microphone](https://assetstore.unity.com/packages/3d/props/electronics/streaming-microphone-178137)|
-| Detailed ballpoint pens | Will be in offices and stocks | [Pens](https://assetstore.unity.com/packages/3d/props/tools/detailed-ballpoint-pens-164157)|
+| Detailed ballpoint pens | Will are in offices and stocks | [Pens](https://assetstore.unity.com/packages/3d/props/tools/detailed-ballpoint-pens-164157)|
 | Office Supplies Low Poly | Will be in offices and stocks | [Stationery](https://assetstore.unity.com/packages/3d/props/office-supplies-low-poly-105519)|
 | Office Room Furniture | Will be put in offices and stocks | [Office Furniture](https://assetstore.unity.com/packages/3d/props/furniture/office-room-furniture-70884)|
 | School Supplies | Will be put in offices and stocks | [School Furniture](https://assetstore.unity.com/packages/3d/school-supplies-96667)|
 | Garage Props Pack | Will be used for shelving to put in stock rooms and hallways | [Garage Props](https://assetstore.unity.com/packages/3d/props/industrial/garage-props-pack-132664)|
 | Laptop | Will be for students in project rooms | [Computer](https://assetstore.unity.com/packages/3d/props/electronics/free-laptop-90315)|
 | Trash Bin | Will be placed in each project and course room as well as in the offices | [Bin](https://assetstore.unity.com/packages/3d/props/furniture/trash-bin-96670)|
-| School assets | Will be used for bulletin boards, projector and whiteboards in classrooms, project rooms, hallways and amphitheater | [School](https://assetstore.unity.com/packages/3d/environments/school-assets-146253)|
+| School assets | Will are used for bulletin boards, projector and whiteboards in classrooms, project rooms, hallways, and amphitheater | [School](https://assetstore.unity.com/packages/3d/environments/school-assets-146253)|
 | Modern Lounge Chair 002 | Will be an armchair in any office | [Office Chair](https://assetstore.unity.com/packages/3d/modern-lounge-chair-002-52012)|
 | Dublin Chair | Will be used in offices to allow visitors to be able to sit | [Visitor Chair](https://assetstore.unity.com/packages/3d/props/furniture/dublin-chair-185929)|
 | DevDen ArchViz Vol 1 - Scotland URP | Will be used for decoration, project chairs, desks as well as library and repro room | [Apartment](https://assetstore.unity.com/packages/3d/environments/urban/devden-archviz-vol-1-scotland-urp-204933)|
@@ -116,11 +125,11 @@ Although C# is the best language to works with Unity.
 | Bicycle Pack | Will be in the room for students coming to the establishment with | [Bicycle](https://assetstore.unity.com/packages/3d/vehicles/land/free-bicycle-pack-199782)|
 | Electric Scooter Prop | Will be in the room for students coming to the establishment with | [Electric Scooter](https://assetstore.unity.com/packages/3d/props/exterior/electric-scooter-prop-171335)|
 
-## 5. VR compatibility
+## 6. VR compatibility
 
-To enable the VR comptability on our project, we need to have the XR plugin management package installed, which can be found on the Unity website. Then, we need to go in XR plugin management in the project settings and choose what kind of VR device will be use. It is an Oculus in our project. Once that is done, we need to attach the main camera of the scene with the object which will represent the user. This can be done at the beginning or once the B3 modelisation is done.
+To enable the VR compatibility on our project, we need to have the XR plugin management package installed, which can be found on the Unity website. Then, we need to go in XR plugin management in the project settings and choose what kind of VR device will be use. It is an Oculus in our project. Once that is done, we need to attach the main camera of the scene with the object which will represent the user. This can be done at the beginning or once the B3 modelisation is done.
 
-## 6. Possible issues
+## 7. Possible issues
 
 ### Slowness simulation
 
@@ -147,9 +156,9 @@ Here is an exhaustive list of website to use too:
 - [Unity Documentation](https://unity.com/fr)
 - [C# Documentation](https://docs.microsoft.com/fr-fr/dotnet/csharp/)
 
-## 7. Version 2.0
+## 8. Version 2.0
 
-In the Version 2.0, we thought about adding those functionnalities : 
+In the Version 2.0, we thought about adding those functionalities : 
 - You could be able to customise your avatar to make it like you. It could be more realistic for visitors
 - Being able to interact with the different NPCs (talk, etc)
 - Have an automated visit of the school
@@ -163,9 +172,9 @@ In the Version 2.0, we thought about adding those functionnalities :
 - Being able to receive in real life what was bought in the simulation (If I buy a hoodie, I will receive it in real life)
 - Add extern life (A car passing by, people walking, ...)
 - Add the underground, the second floor and the rightest wing
-- personalization of project rooms
+- personalisation of project rooms
 - Add cameras and being able to see them in Franck office
-- Add minigames in function of what they interact with (tennis table, chess...)
+- Add mini-games in function of what they interact with (tennis table, chess...)
 - Propose the simulation for open house days
 - Extinct fire with the extinguisher
 - Being able to take out the garbage
