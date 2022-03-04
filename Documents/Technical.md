@@ -52,7 +52,7 @@ Although C# is the best language to works with Unity.
 | Github | [Repository](https://github.com/Clementine951/ALGOSUP_2022_Project_4_C) | Code |
 | Trello | [Trello](https://trello.com/invite/b/tLiReKj5/08cce8057179594621b0ac6cef2c3f99/algosup2022project4c) | Project progression |
 | Slack | [Slack](https://join.slack.com/t/algosup2022project4c/shared_invite/zt-13wt6eydf-aK1bf5nKa7cF6dGthjy8tA) | Project Communication |
-| Unity | [Unity](https://unity.com/fr) | 3D modeling |
+| Unity | [Unity](https://unity.com/fr) 2020.3.29f1 | 3D modeling, last version of Unity |
 |Blender|[Blender](https://www.blender.org/)|Fix some slowness problem|
 
 
