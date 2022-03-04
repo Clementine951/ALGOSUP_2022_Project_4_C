@@ -99,7 +99,7 @@ Although C# is the best language to works with Unity.
 | Workplace Tools | Will be used in the robotics workshop | [Tools](https://assetstore.unity.com/packages/3d/props/industrial/workplace-tools-86242)|
 | QA Books | Will be used for library | [Books](https://assetstore.unity.com/packages/3d/props/interior/qa-books-115415)|
 | LowPoly Server Room Props | Will be used for the server room as well as the office for the director's office | [Server Room](https://assetstore.unity.com/packages/3d/environments/lowpoly-server-room-props-197268)|
-| HQ Acoustic system | Will be placed in the amphitheater and the student lounge | [Pregnant](https://assetstore.unity.com/packages/3d/props/electronics/hq-acoustic-system-41886)|
+| HQ Acoustic system | Will be placed in the amphitheater and the student lounge | [Speakers](https://assetstore.unity.com/packages/3d/props/electronics/hq-acoustic-system-41886)|
 | Camera HQ | Will be put in the video studio room | [Camera](https://assetstore.unity.com/packages/3d/props/electronics/camera-hq-128822#description)|
 | Streaming Microphone | Will be put in the video studio room | [Microphone](https://assetstore.unity.com/packages/3d/props/electronics/streaming-microphone-178137)|
 | Detailed ballpoint pens | Will are in offices and stocks | [Pens](https://assetstore.unity.com/packages/3d/props/tools/detailed-ballpoint-pens-164157)|
