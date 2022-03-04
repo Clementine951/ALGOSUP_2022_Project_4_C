@@ -53,8 +53,8 @@ We chose Clémentine Curel as Project Manager and Malo Archimbaud as Tech Leader
 
 - [x] Find assets to use in Unity
 - [x] Finished Functionnal specification
-- [ ] Finished Technical specification
-- [ ] Finished Architecture design
+- [x] Finished Technical specification
+- [x] Finished Architecture design
 - [x] Create a unity project
 - [x] Set up .gitignore
 
