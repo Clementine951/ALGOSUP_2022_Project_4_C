@@ -22,103 +22,103 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56830
+56972
 Successfully changed project path to: /Users/clementine/Documents/B3/B3
 /Users/clementine/Documents/B3/B3
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 27.71 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 27.97 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.29f1 (2ff179115da0)
 [Subsystems] Discovering subsystems at path /Applications/2020.3.29f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/clementine/Documents/B3/B3/Assets
 GfxDevice: creating device client; threaded=0
-2022-03-04 09:33:23.139 Unity[16008:485077] (null) preferred device: Apple M1 (high power)
-2022-03-04 09:33:23.139 Unity[16008:485077] Metal devices available: 1
-2022-03-04 09:33:23.139 Unity[16008:485077] 0: Apple M1 (high power)
-2022-03-04 09:33:23.139 Unity[16008:485077] Using device Apple M1 (high power)
+2022-03-04 10:14:43.639 Unity[16536:499858] (null) preferred device: Apple M1 (high power)
+2022-03-04 10:14:43.639 Unity[16536:499858] Metal devices available: 1
+2022-03-04 10:14:43.639 Unity[16536:499858] 0: Apple M1 (high power)
+2022-03-04 10:14:43.639 Unity[16536:499858] Using device Apple M1 (high power)
 Initializing Metal device caps: Apple M1
 Initialize mono
 Mono path[0] = '/Applications/2020.3.29f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/2020.3.29f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/2020.3.29f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56008
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56536
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/2020.3.29f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/2020.3.29f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.002344 seconds.
+Registered in 0.003297 seconds.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 28.57 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 28.53 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.171 seconds
+- Completed reload, in  1.242 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1171ms)
-		BeginReloadAssembly (101ms)
+	ReloadAssembly (1242ms)
+		BeginReloadAssembly (123ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (964ms)
-			LoadAssemblies (100ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (1009ms)
+			LoadAssemblies (121ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (164ms)
+			SetupTypeCache (174ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (489ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (517ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (13ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (29ms)
-				BeforeProcessingInitializeOnLoad (82ms)
-				ProcessInitializeOnLoadAttributes (270ms)
-				ProcessInitializeOnLoadMethodAttributes (94ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (295ms)
+				ProcessInitializeOnLoadMethodAttributes (99ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002311 seconds.
+Registered in 0.002042 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.177 seconds
+- Completed reload, in  2.011 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2179ms)
-		BeginReloadAssembly (253ms)
+	ReloadAssembly (2014ms)
+		BeginReloadAssembly (251ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (33ms)
+			DisableScriptedObjects (30ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (1835ms)
-			LoadAssemblies (189ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (1677ms)
+			LoadAssemblies (183ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (313ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (52ms)
-			SetupLoadedEditorAssemblies (1025ms)
+			SetupTypeCache (300ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (924ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
+				InitializePlatformSupportModulesInManaged (14ms)
 				SetLoadedEditorAssemblies (2ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (202ms)
-				ProcessInitializeOnLoadAttributes (771ms)
-				ProcessInitializeOnLoadMethodAttributes (32ms)
+				BeforeProcessingInitializeOnLoad (181ms)
+				ProcessInitializeOnLoadAttributes (697ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
 				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (1ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (33ms)
+			AwakeInstancesAfterBackupRestoration (31ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.000283 seconds.
+Validating Project structure ... 0.000284 seconds.
 Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.000369 seconds.
+Upgrading shader files ...0.000327 seconds.
 Application.AssetDatabase Initial Script Refresh Start
 RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
 RefreshProfiler: Total: 0.000ms
@@ -128,20 +128,20 @@ Application.AssetDatabase.Refresh End
 RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
 RefreshProfiler: Total: 0.000ms
 Launching external process: /Applications/2020.3.29f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
 Initializing Unity extensions:
-2022-03-04 09:33:27.482 Unity[16008:485077] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000001cbcd0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-2022-03-04 09:33:27.485 Unity[16008:485077] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000001daae0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2022-03-04 10:14:48.060 Unity[16536:499858] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000006793b0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2022-03-04 10:14:48.063 Unity[16536:499858] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000648b60 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
 ========================================================================
 Worker process is ready to serve import requests
-Refreshing native plugins compatible for Editor in 0.24 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.25 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1503 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 209.1 MB.
-System memory in use after: 208.3 MB.
+System memory in use before: 209.3 MB.
+System memory in use after: 208.5 MB.
 
 Unloading 77 unused Assets to reduce memory usage. Loaded Objects now: 1977.
-Total: 2.330625 ms (FindLiveObjects: 0.068292 ms CreateObjectMapping: 0.028250 ms MarkObjects: 1.825167 ms  DeleteObjects: 0.408208 ms)
+Total: 2.322458 ms (FindLiveObjects: 0.065125 ms CreateObjectMapping: 0.028584 ms MarkObjects: 1.830416 ms  DeleteObjects: 0.397792 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -155,8 +155,48 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Prefab/Lightning.prefab
-  artifactKey: Guid(579b1ce654b3045dbbe824e57ebc0fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Lightning.prefab using Guid(579b1ce654b3045dbbe824e57ebc0fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5332e7a8d8f8f87a411c0323dace3291') in 0.677595 seconds 
-  Import took 0.682596 seconds .
+  path: Assets/Metal Floor (Rust Low)/Metal_floor_AO.png
+  artifactKey: Guid(9213389d0ebe0f847b120f383f30cd1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal Floor (Rust Low)/Metal_floor_AO.png using Guid(9213389d0ebe0f847b120f383f30cd1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28a36f66d1f03757f5a7be38b26acf28') in 0.528558 seconds 
+  Import took 0.533022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Metal Floor (Rust Low)
+  artifactKey: Guid(8fcb6a77c1f1b44c88cf85a76158825d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal Floor (Rust Low) using Guid(8fcb6a77c1f1b44c88cf85a76158825d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '782c0ce9949fa6e14178499c96b44c75') in 0.001138 seconds 
+  Import took 0.002375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Metal Floor (Rust Low)/Metal_floor_normal.png
+  artifactKey: Guid(775104e3a8e0be848a41f8c866ffc479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal Floor (Rust Low)/Metal_floor_normal.png using Guid(775104e3a8e0be848a41f8c866ffc479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81d1c94061d221635cde75eadb2087f5') in 0.074647 seconds 
+  Import took 0.079885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Metal Floor (Rust Low)/Metal_floor_PSD.psd
+  artifactKey: Guid(73178bf8d8da8c74cae83554b8715d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal Floor (Rust Low)/Metal_floor_PSD.psd using Guid(73178bf8d8da8c74cae83554b8715d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd553331c5c9ebd0b89e5555cc42bc070') in 0.427507 seconds 
+  Import took 0.431838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000645 seconds.
+  path: Assets/Metal Floor (Rust Low)/Metal_floor_height.png
+  artifactKey: Guid(9c9d06d3e1d5f644ebf1028bd070cde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal Floor (Rust Low)/Metal_floor_height.png using Guid(9c9d06d3e1d5f644ebf1028bd070cde1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aa74a5f52ed8a6f899a05f0681e999e') in 0.009576 seconds 
+  Import took 0.011417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Metal Floor (Rust Low)/Metal_floor_diffuse.png
+  artifactKey: Guid(06300052bf5d17e46849ec7b7e85adb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal Floor (Rust Low)/Metal_floor_diffuse.png using Guid(06300052bf5d17e46849ec7b7e85adb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2ecbd6df9de291c596d924cc2dbe26e') in 0.006869 seconds 
+  Import took 0.008580 seconds .
 
