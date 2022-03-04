@@ -1,4 +1,5 @@
 
+
 # Technical Specification
 
 ## Table of contents
@@ -13,11 +14,13 @@
 
 - [5. Convert ifb file to unity](#5-convert-ifb-file-to-unity)
 
-- [6. VR compatibility](#6-vr-compatibility)
+- [6. Unity tools](#6-unity-tools)
 
-- [7. Possible issues](#7-possible-issues)
+- [7. VR compatibility](#7-vr-compatibility)
 
-- [8. Version 2.0 ](#8-version-2.0)
+- [8. Possible issues](#8-possible-issues)
+
+- [9. Version 2.0 ](#9-version-2.0)
 
 ## 1. Introduction
 
@@ -127,11 +130,40 @@ To put the ifb file in Unity, we have decided to pass by blender.
 You have to add an add-ons call [BlenderBim](https://blenderbim.org/download.html). With this add-on, you can import the ifb file into Blender and export it as an fbx.
 Now, you have an fbx file, you can import it on Unity.
 
-## 6. VR compatibility
+## 6. Unity tools
+
+
+## Make a script
+
+In Unity, you create a script to allow you to trigger game events, modify Component properties over time and respond to user input in any way you like.
+
+When you create your script you initially have this code below.
+````
+using UnityEngine;
+using System.Collections; 
+
+public class MainPlayer : MonoBehaviour { 
+	// Use this for initialization 
+	void Start () {
+	 
+	} 
+
+	// Update is called once per frame 
+	void Update () { 
+	
+	} 
+}
+````
+
+## Make an animation
+
+To make an animation in Unity, you need an object and the "Animation" tab. 
+
+## 7. VR compatibility
 
 To enable the VR compatibility on our project, we need to have the XR plugin management package installed, which can be found on the Unity website. Then, we need to go in XR plugin management in the project settings and choose what kind of VR device will be use. It is an Oculus in our project. Once that is done, we need to attach the main camera of the scene with the object which will represent the user. This can be done at the beginning or once the B3 modelisation is done.
 
-## 7. Possible issues
+## 8. Possible issues
 
 ### Slowness simulation
 
@@ -158,7 +190,7 @@ Here is an exhaustive list of website to use too:
 - [Unity Documentation](https://unity.com/fr)
 - [C# Documentation](https://docs.microsoft.com/fr-fr/dotnet/csharp/)
 
-## 8. Version 2.0
+## 9. Version 2.0
 
 In the Version 2.0, we thought about adding those functionalities : 
 - You could be able to customise your avatar to make it like you. It could be more realistic for visitors
