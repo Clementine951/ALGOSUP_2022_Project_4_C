@@ -52,7 +52,7 @@ Although C# is the best language to works with Unity.
 | Github | [Repository](https://github.com/Clementine951/ALGOSUP_2022_Project_4_C) | Code |
 | Trello | [Trello](https://trello.com/invite/b/tLiReKj5/08cce8057179594621b0ac6cef2c3f99/algosup2022project4c) | Project progression |
 | Slack | [Slack](https://join.slack.com/t/algosup2022project4c/shared_invite/zt-13wt6eydf-aK1bf5nKa7cF6dGthjy8tA) | Project Communication |
-| Unity | [Unity](https://unity.com/fr) | 3D modeling |
+| Unity | [Unity](https://unity.com/fr) 2020.3.29f1 | 3D modeling, last version of Unity |
 |Blender|[Blender](https://www.blender.org/)|Fix some slowness problem|
 
 
@@ -99,7 +99,7 @@ Although C# is the best language to works with Unity.
 | Workplace Tools | Will be used in the robotics workshop | [Tools](https://assetstore.unity.com/packages/3d/props/industrial/workplace-tools-86242)|
 | QA Books | Will be used for library | [Books](https://assetstore.unity.com/packages/3d/props/interior/qa-books-115415)|
 | LowPoly Server Room Props | Will be used for the server room as well as the office for the director's office | [Server Room](https://assetstore.unity.com/packages/3d/environments/lowpoly-server-room-props-197268)|
-| HQ Acoustic system | Will be placed in the amphitheater and the student lounge | [Pregnant](https://assetstore.unity.com/packages/3d/props/electronics/hq-acoustic-system-41886)|
+| HQ Acoustic system | Will be placed in the amphitheater and the student lounge | [Speakers](https://assetstore.unity.com/packages/3d/props/electronics/hq-acoustic-system-41886)|
 | Camera HQ | Will be put in the video studio room | [Camera](https://assetstore.unity.com/packages/3d/props/electronics/camera-hq-128822#description)|
 | Streaming Microphone | Will be put in the video studio room | [Microphone](https://assetstore.unity.com/packages/3d/props/electronics/streaming-microphone-178137)|
 | Detailed ballpoint pens | Will are in offices and stocks | [Pens](https://assetstore.unity.com/packages/3d/props/tools/detailed-ballpoint-pens-164157)|
