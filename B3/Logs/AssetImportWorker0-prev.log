@@ -1,0 +1,1018 @@
+Unity Editor version:    2020.3.29f1 (2ff179115da0)
+Branch:                  2020.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.2.1 (Build 21D62)
+Darwin version:          21.3.0
+Architecture:            x86_64
+Running under Rosetta:   YES
+Available memory:        8192 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/2020.3.29f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/clementine/Documents/B3/B3
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51962
+Successfully changed project path to: /Users/clementine/Documents/B3/B3
+/Users/clementine/Documents/B3/B3
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 349.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.29f1 (2ff179115da0)
+[Subsystems] Discovering subsystems at path /Applications/2020.3.29f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/clementine/Documents/B3/B3/Assets
+GfxDevice: creating device client; threaded=0
+2022-03-07 15:29:03.962 Unity[15657:248383] (null) preferred device: Apple M1 (high power)
+2022-03-07 15:29:03.962 Unity[15657:248383] Metal devices available: 1
+2022-03-07 15:29:03.962 Unity[15657:248383] 0: Apple M1 (high power)
+2022-03-07 15:29:03.962 Unity[15657:248383] Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/2020.3.29f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/2020.3.29f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/2020.3.29f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56657
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/2020.3.29f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/2020.3.29f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001590 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 72.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.457 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1457ms)
+		BeginReloadAssembly (134ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (1205ms)
+			LoadAssemblies (132ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (190ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (662ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (72ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (364ms)
+				ProcessInitializeOnLoadMethodAttributes (123ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002911 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 74.92 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.592 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2595ms)
+		BeginReloadAssembly (293ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (35ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (2204ms)
+			LoadAssemblies (221ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (350ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (1269ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (75ms)
+				BeforeProcessingInitializeOnLoad (183ms)
+				ProcessInitializeOnLoadAttributes (966ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (33ms)
+Platform modules already initialized, skipping
+Validating Project structure ... 0.045531 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.022720 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Launching external process: /Applications/2020.3.29f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.17 seconds
+Initializing Unity extensions:
+2022-03-07 15:29:09.796 Unity[15657:248383] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000035f23e0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2022-03-07 15:29:09.800 Unity[15657:248383] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600003583790 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2003 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 211.0 MB.
+System memory in use after: 210.1 MB.
+
+Unloading 148 unused Assets to reduce memory usage. Loaded Objects now: 2499.
+Total: 3.207792 ms (FindLiveObjects: 0.102791 ms CreateObjectMapping: 0.044292 ms MarkObjects: 2.589750 ms  DeleteObjects: 0.470041 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Assets/school/Prefabs/props/a door1.prefab
+  artifactKey: Guid(54fc4a62ccb7e304f910c5444e778f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/school/Prefabs/props/a door1.prefab using Guid(54fc4a62ccb7e304f910c5444e778f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99417a37eeb942aefc59e2747fadc750') in 0.383632 seconds 
+  Import took 0.389072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 221.756584 seconds.
+  path: Assets/Assets/school/material/1.png
+  artifactKey: Guid(4b03c68dd480c5946acba6280c21b674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/school/material/1.png using Guid(4b03c68dd480c5946acba6280c21b674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '027393bd3b4759cdc24278f6685cd9b5') in 0.352706 seconds 
+  Import took 0.375659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.771810 seconds.
+  path: Assets/Assets/school/material/Materials
+  artifactKey: Guid(7f0cc5bbcb8d137418bf5322cab36bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/school/material/Materials using Guid(7f0cc5bbcb8d137418bf5322cab36bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba61cc52bdee8f351dddb4153dc69e28') in 0.001304 seconds 
+  Import took 0.005475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.248572 seconds.
+  path: Assets/Assets/QA_Books/Models/Book_01.fbx
+  artifactKey: Guid(eaf1b3e89a9fb804d935d4886918f2b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Book_01.fbx using Guid(eaf1b3e89a9fb804d935d4886918f2b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ae1a4b11d2f47dd81fd7f09121b2ecd') in 0.268881 seconds 
+  Import took 0.281932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.448412 seconds.
+  path: Assets/Assets/QA_Books/Models/Book_02.fbx
+  artifactKey: Guid(1d8a5677c1af86845aaf8b37ef7358d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Book_02.fbx using Guid(1d8a5677c1af86845aaf8b37ef7358d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d6cd26f65f7fbf05b729f8ef99770f6') in 0.024882 seconds 
+  Import took 0.028932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Assets/QA_Books/Models/Book_03.fbx
+  artifactKey: Guid(c43d635a5008fac448f51ab49a7a514d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Book_03.fbx using Guid(c43d635a5008fac448f51ab49a7a514d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9ecc89245afefaa2ed6cc93244b17b5') in 0.027869 seconds 
+  Import took 0.031572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Assets/QA_Books/Models/Book_04.fbx
+  artifactKey: Guid(dd3fa9eb6a714a7418eab6e6aa266911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Book_04.fbx using Guid(dd3fa9eb6a714a7418eab6e6aa266911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1ba62d6331f579ce95bd1897de2b2c3') in 0.022297 seconds 
+  Import took 0.026280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/Assets/QA_Books/Models/Book_05.fbx
+  artifactKey: Guid(5cf8fd560eefbdd41b8e573974e80706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Book_05.fbx using Guid(5cf8fd560eefbdd41b8e573974e80706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e76a3620badd1a7e77fd26a5800a461') in 0.020070 seconds 
+  Import took 0.023737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.077054 seconds.
+  path: Assets/Assets/QA_Books/Models/Book_06.fbx
+  artifactKey: Guid(668b0582f8800a4499c06ad113ca3217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Book_06.fbx using Guid(668b0582f8800a4499c06ad113ca3217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed73ab6cf18ddb52e532b17a9a13c000') in 0.022342 seconds 
+  Import took 0.026666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Assets/QA_Books/Models/Book_14.fbx
+  artifactKey: Guid(ad6e918a638ed2f4fa3403b6e28e0e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Book_14.fbx using Guid(ad6e918a638ed2f4fa3403b6e28e0e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f62369e05be746dbc5cfdd63b82b82c0') in 0.020986 seconds 
+  Import took 0.024678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Assets/QA_Books/Models/Book_15.fbx
+  artifactKey: Guid(bf4cb21c48a33ca4ea0dc32280d535b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Book_15.fbx using Guid(bf4cb21c48a33ca4ea0dc32280d535b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd69e539781e19452fbc8d77ee206c193') in 0.027796 seconds 
+  Import took 0.031202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Assets/QA_Books/Models/Book_17.fbx
+  artifactKey: Guid(184e46d2b5d6de94681af0a24ca8289e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Book_17.fbx using Guid(184e46d2b5d6de94681af0a24ca8289e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c96fe6674fdedb790eb00691a8e130e3') in 0.026927 seconds 
+  Import took 0.030799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Assets/QA_Books/Models/Book_19.fbx
+  artifactKey: Guid(3882d3d6b92689f4785d2137f478ad3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Book_19.fbx using Guid(3882d3d6b92689f4785d2137f478ad3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2705814356c6e046feed6d7202dcdc3e') in 0.020481 seconds 
+  Import took 0.024628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Assets/QA_Books/Models/Book_09.fbx
+  artifactKey: Guid(ee182e77c8e2ba741859833e38eeb376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Book_09.fbx using Guid(ee182e77c8e2ba741859833e38eeb376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '500c810a3e77cb692f2a4a68a5cf7698') in 0.025355 seconds 
+  Import took 0.029789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000547 seconds.
+  path: Assets/Assets/QA_Books/Models/Book_27.fbx
+  artifactKey: Guid(885f3d18491ece74b8fb00fa9b6a13c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Book_27.fbx using Guid(885f3d18491ece74b8fb00fa9b6a13c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0be56e1db51ecf9ec802fbee8ddaaec') in 0.020710 seconds 
+  Import took 0.023851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Assets/QA_Books/Models/Book_13.fbx
+  artifactKey: Guid(e73c1809ab21176409db5421e29791c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Book_13.fbx using Guid(e73c1809ab21176409db5421e29791c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41f585028bc7de7e37048ddaf265faab') in 0.020746 seconds 
+  Import took 0.024698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Assets/QA_Books/Models/Book_30.fbx
+  artifactKey: Guid(d4f4854edd0049341915b7412102c86e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Book_30.fbx using Guid(d4f4854edd0049341915b7412102c86e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d71dde60ee241b0713d542508af623a') in 0.023196 seconds 
+  Import took 0.026849 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000443 seconds.
+  path: Assets/Assets/QA_Books/Models/Book_31.fbx
+  artifactKey: Guid(a69a535f955511c4b80762f5c23adba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Book_31.fbx using Guid(a69a535f955511c4b80762f5c23adba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b818a05375cb28247fd0bbd437ade77') in 0.021171 seconds 
+  Import took 0.025022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Assets/QA_Books/Models/Book_23.fbx
+  artifactKey: Guid(d70511e7272f13343b756e560307a41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Book_23.fbx using Guid(d70511e7272f13343b756e560307a41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a791bcd64595184ceddf51e57c866eb') in 0.020728 seconds 
+  Import took 0.023936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Assets/QA_Books/Models/Book_42.fbx
+  artifactKey: Guid(2c3ae5eea0a49084aa1d9df6c088c676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Book_42.fbx using Guid(2c3ae5eea0a49084aa1d9df6c088c676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '190d2b5c07b67765c9e3f22eccfb8c8d') in 0.020667 seconds 
+  Import took 0.024444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Assets/QA_Books/Models/Book_44.fbx
+  artifactKey: Guid(cde32b7d0996f40409304777612ea43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Book_44.fbx using Guid(cde32b7d0996f40409304777612ea43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44a44c632b5110f07a4cb01c02fc36bf') in 0.023879 seconds 
+  Import took 0.027696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Assets/QA_Books/Models/Book_46.fbx
+  artifactKey: Guid(c9b026a5b4455a946ab620119e9fc7f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Book_46.fbx using Guid(c9b026a5b4455a946ab620119e9fc7f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65e07497c1d09c7f9452cf0e4b4f9248') in 0.020724 seconds 
+  Import took 0.023990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Assets/QA_Books/Models/Book_51.fbx
+  artifactKey: Guid(a6c9ceeb6b59c444f9160c9380cf6ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Book_51.fbx using Guid(a6c9ceeb6b59c444f9160c9380cf6ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e87dee266ba6ed5b5c123c03d1ef21dd') in 0.020033 seconds 
+  Import took 0.023260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Assets/QA_Books/Models/Book_53.fbx
+  artifactKey: Guid(72b41ab17c146ac4d80539841188484f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Book_53.fbx using Guid(72b41ab17c146ac4d80539841188484f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a80f0a82942f723a5f9a4e280c043b35') in 0.020418 seconds 
+  Import took 0.023933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Assets/QA_Books/Models/BookOpen_01.fbx
+  artifactKey: Guid(616b941258733e440a6039be45790c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/BookOpen_01.fbx using Guid(616b941258733e440a6039be45790c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e01f68498528b50379418df2dbc155c4') in 0.022881 seconds 
+  Import took 0.026714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/Assets/QA_Books/Models/BookS_04.fbx
+  artifactKey: Guid(f8f1989f7422c1f47ba94da39d36a15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/BookS_04.fbx using Guid(f8f1989f7422c1f47ba94da39d36a15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56de9a3be51576e9854671948ce6a310') in 0.022581 seconds 
+  Import took 0.026527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Assets/QA_Books/Models/Book_41.fbx
+  artifactKey: Guid(5b8be49950753b1409dc5598760848b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Book_41.fbx using Guid(5b8be49950753b1409dc5598760848b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a4be0bacd3723466d73ef9b825627f8') in 0.021374 seconds 
+  Import took 0.025156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Assets/QA_Books/Models/Book_24.fbx
+  artifactKey: Guid(9f618ed8ac70ac04c987226b33110a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Book_24.fbx using Guid(9f618ed8ac70ac04c987226b33110a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a03b27bd1d7798ea99e08dc7c3e3a9f2') in 0.019896 seconds 
+  Import took 0.023032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Assets/QA_Books/Models/Books_29.fbx
+  artifactKey: Guid(682beff24c2a00c45a976594eefe6245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Books_29.fbx using Guid(682beff24c2a00c45a976594eefe6245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2475dd85ddca4f302ccfc7c9f53dee1b') in 0.047079 seconds 
+  Import took 0.051358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Assets/QA_Books/Models/Books_23.fbx
+  artifactKey: Guid(6390c5e06ce223c4fa34c7cf4c7f66d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Books_23.fbx using Guid(6390c5e06ce223c4fa34c7cf4c7f66d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '578e1b2445d330442f84bfe24e07ab12') in 0.038106 seconds 
+  Import took 0.041617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Assets/QA_Books/Models/Books_33.fbx
+  artifactKey: Guid(822777ce1b7d3d548a5c206ec742a03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Books_33.fbx using Guid(822777ce1b7d3d548a5c206ec742a03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6dd26ccbda2f0fc0afabc6db09c62ac') in 0.031815 seconds 
+  Import took 0.035785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Assets/QA_Books/Models/Books_30.fbx
+  artifactKey: Guid(f0f2148b9e2303a4592e5161fa1e6532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Books_30.fbx using Guid(f0f2148b9e2303a4592e5161fa1e6532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57626fb49b5f3b6cc68680abf27e9c4f') in 0.035694 seconds 
+  Import took 0.039811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Assets/QA_Books/Models/Book_32.fbx
+  artifactKey: Guid(f9b0e36b83f997044b1bc7ee36034271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Book_32.fbx using Guid(f9b0e36b83f997044b1bc7ee36034271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36b20ce7a9fea08011b6ebb81ad8606f') in 0.019766 seconds 
+  Import took 0.022961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Assets/QA_Books/Models/Book_33.fbx
+  artifactKey: Guid(e5dcb89eacb9fe0479121b9143614c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Book_33.fbx using Guid(e5dcb89eacb9fe0479121b9143614c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad48123a824339c221a024e65d25f2d2') in 0.027039 seconds 
+  Import took 0.030699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000542 seconds.
+  path: Assets/Assets/QA_Books/Models/Book_47.fbx
+  artifactKey: Guid(82445202768b6d144be88d36c9ebf587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Book_47.fbx using Guid(82445202768b6d144be88d36c9ebf587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e9f9d8f2fc9a28d060f49d7adc4355c') in 0.021187 seconds 
+  Import took 0.025164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Assets/QA_Books/Models/Book_07.fbx
+  artifactKey: Guid(5dd4e38f8cf3a48469397fecb106d376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Book_07.fbx using Guid(5dd4e38f8cf3a48469397fecb106d376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '092083d9ef64c01c8c195f2c78cf63ff') in 0.020339 seconds 
+  Import took 0.023508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Assets/QA_Books/Models/Book_48.fbx
+  artifactKey: Guid(0acaf95f0704ea940804cdda02f98d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Book_48.fbx using Guid(0acaf95f0704ea940804cdda02f98d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57cfa7f46ef59a149e50ba0d605bbb8d') in 0.019713 seconds 
+  Import took 0.023443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Assets/QA_Books/Textures/BooksA_bc.tga
+  artifactKey: Guid(f0e44eb8f2942b9408ac537a26b9f908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Textures/BooksA_bc.tga using Guid(f0e44eb8f2942b9408ac537a26b9f908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a0f910c4be7de31f93d504876dd7771') in 0.187142 seconds 
+  Import took 0.192078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Assets/QA_Books/Textures/Books_n.tga
+  artifactKey: Guid(4c5baded30d73c548af3399963326b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Textures/Books_n.tga using Guid(4c5baded30d73c548af3399963326b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dfadbbb46489458513f136673e610a9') in 0.022395 seconds 
+  Import took 0.025710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Assets/QA_Books/Textures/Books_m_ao_g.tga
+  artifactKey: Guid(4f1d74881a0aee8468b847c4222906db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Textures/Books_m_ao_g.tga using Guid(4f1d74881a0aee8468b847c4222906db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c347a8f377599456d2c3b38935ff1840') in 0.008041 seconds 
+  Import took 0.010964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Assets/QA_Books/Textures/Books_bc.tga
+  artifactKey: Guid(451bd5097af6eea4ea4e1f6a61620302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Textures/Books_bc.tga using Guid(451bd5097af6eea4ea4e1f6a61620302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f387efffa260f0c004877a777e7c32a2') in 0.006901 seconds 
+  Import took 0.009458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Assets/QA_Books/Models/Books_32.fbx
+  artifactKey: Guid(465b4d6e5f8841748a033dbc327c7019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Books_32.fbx using Guid(465b4d6e5f8841748a033dbc327c7019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03a4376d818c3e86aec84aca0aa7e927') in 0.036467 seconds 
+  Import took 0.040809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Assets/QA_Books/Models/Book_18.fbx
+  artifactKey: Guid(b455db4ef87aeab418547683a551c3a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Book_18.fbx using Guid(b455db4ef87aeab418547683a551c3a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef820893cba6414dc0a470d432bff7ad') in 0.020393 seconds 
+  Import took 0.024059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Assets/QA_Books/Models/Book_21.fbx
+  artifactKey: Guid(1d697b4cbe60e9646be377967df8b96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Book_21.fbx using Guid(1d697b4cbe60e9646be377967df8b96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cff049a078da3cf829af9e2c02e8e902') in 0.030879 seconds 
+  Import took 0.034489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Assets/QA_Books/Models/Book_49.fbx
+  artifactKey: Guid(d15a743054ebb5c4db60242805b346b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Book_49.fbx using Guid(d15a743054ebb5c4db60242805b346b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '494461a5efcae30c4a2ea680900a2c51') in 0.020121 seconds 
+  Import took 0.023796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000429 seconds.
+  path: Assets/Assets/QA_Books/Models/Books_02.fbx
+  artifactKey: Guid(61793f897ef2d874696e5e2f4591dd38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Books_02.fbx using Guid(61793f897ef2d874696e5e2f4591dd38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f54ec0d911ef60fc754c74c4948476a0') in 0.042922 seconds 
+  Import took 0.047347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Assets/QA_Books/Models/Books_27.fbx
+  artifactKey: Guid(92b248680f01a9f4c9b76aa3361e02d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Books_27.fbx using Guid(92b248680f01a9f4c9b76aa3361e02d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc0c5b8294c9f7089a2e0cc8b95ba38a') in 0.033604 seconds 
+  Import took 0.038232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000501 seconds.
+  path: Assets/Assets/QA_Books/Models/Book_08.fbx
+  artifactKey: Guid(7cccc9dc81c3d5546a4e0d45165260be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Book_08.fbx using Guid(7cccc9dc81c3d5546a4e0d45165260be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ee44913bf0a04fc70bb8d470aab6e68') in 0.021214 seconds 
+  Import took 0.025144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Assets/QA_Books/Models/Books_28.fbx
+  artifactKey: Guid(4a538a636d01b0344afb3e876ad9e089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Books_28.fbx using Guid(4a538a636d01b0344afb3e876ad9e089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9107ce5e4c07c79f297d3b462634fcb8') in 0.029262 seconds 
+  Import took 0.033249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Assets/QA_Books/Models/Book_26.fbx
+  artifactKey: Guid(6c8e9bc87c0ecf34baf87df07a6a0dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Book_26.fbx using Guid(6c8e9bc87c0ecf34baf87df07a6a0dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '944d6032ab195b5dccb8cd383b035991') in 0.029584 seconds 
+  Import took 0.033316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/Assets/QA_Books/Models/Books_03.fbx
+  artifactKey: Guid(8ee610e92e5bc1e499aa5fe68a315f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Books_03.fbx using Guid(8ee610e92e5bc1e499aa5fe68a315f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a44ffe7c329d9e5ca2587171ddce5d0f') in 0.020752 seconds 
+  Import took 0.024125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Assets/QA_Books/Models/Book_50.fbx
+  artifactKey: Guid(c1a7263b91804a447a2cffecc6d91bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Book_50.fbx using Guid(c1a7263b91804a447a2cffecc6d91bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ec5be69fe49923af607b3454d329a1d') in 0.019534 seconds 
+  Import took 0.023160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Assets/QA_Books/Models/Book_10.fbx
+  artifactKey: Guid(f94f0fa6e6617f146a465ae2b0cf4519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Book_10.fbx using Guid(f94f0fa6e6617f146a465ae2b0cf4519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef5a3e7ea81eaf6cecbc41910d5e692e') in 0.019322 seconds 
+  Import took 0.022318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Assets/QA_Books/Models/Books_34.fbx
+  artifactKey: Guid(2fbbee1fb7d72f941ab7ea7b55eadea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Books_34.fbx using Guid(2fbbee1fb7d72f941ab7ea7b55eadea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dde301892398ac5c667ec79344f4a01b') in 0.029819 seconds 
+  Import took 0.033843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/Assets/QA_Books/Models/Books_26.fbx
+  artifactKey: Guid(9a1ee1ca6496f9340b74c75092e0c53e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Books_26.fbx using Guid(9a1ee1ca6496f9340b74c75092e0c53e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc43cf3ea6dbd95f0fd6eda7ccee3160') in 0.029208 seconds 
+  Import took 0.033520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/Assets/QA_Books/Models/Books_20.fbx
+  artifactKey: Guid(2a2c082fbedac4c47a308fea4c936bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Books_20.fbx using Guid(2a2c082fbedac4c47a308fea4c936bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cf8727401dc1146199ae3452a2006cd') in 0.019486 seconds 
+  Import took 0.023066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Assets/QA_Books/Models/Book_67.fbx
+  artifactKey: Guid(c04954dc60b1c4040a694e81ef3980c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Book_67.fbx using Guid(c04954dc60b1c4040a694e81ef3980c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeeba03bd9b1afdfa067ec009ee0e792') in 0.026469 seconds 
+  Import took 0.029337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Assets/QA_Books/Models/Book_66.fbx
+  artifactKey: Guid(754fe328d87f2764cbef0ee004876eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Book_66.fbx using Guid(754fe328d87f2764cbef0ee004876eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a060680d39201d3c10f18a01ed9bea7') in 0.020160 seconds 
+  Import took 0.023281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Assets/QA_Books/Models/Books_19.fbx
+  artifactKey: Guid(1478829f93d16554fb05106eabf2d572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Books_19.fbx using Guid(1478829f93d16554fb05106eabf2d572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26a35a148bd2cfdf89358ea10eae0982') in 0.020355 seconds 
+  Import took 0.023917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Assets/QA_Books/Models/Book_29.fbx
+  artifactKey: Guid(7809c0c3c92128449843f746af03c577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Book_29.fbx using Guid(7809c0c3c92128449843f746af03c577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03ca07a47b33a149e7a587e6ac5276aa') in 0.019606 seconds 
+  Import took 0.022965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Assets/QA_Books/Models/Book_16.fbx
+  artifactKey: Guid(6c82bf657f5ccf9499d7446e2d70261c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Book_16.fbx using Guid(6c82bf657f5ccf9499d7446e2d70261c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '131b8611c5e74fd02c6c75f241d4c8b4') in 0.027417 seconds 
+  Import took 0.030132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000524 seconds.
+  path: Assets/Assets/QA_Books/Models/Book_28.fbx
+  artifactKey: Guid(c495e72221444844bb9ded8e4b762cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Book_28.fbx using Guid(c495e72221444844bb9ded8e4b762cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa65e43b208f3d8ae6b7cc166502c249') in 0.019866 seconds 
+  Import took 0.023050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Assets/QA_Books/Models/Books_21.fbx
+  artifactKey: Guid(937ef4356f097cc46827ab3b41fbb620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Books_21.fbx using Guid(937ef4356f097cc46827ab3b41fbb620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4e79189346081266972cee09e591d49') in 0.019711 seconds 
+  Import took 0.023151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Assets/QA_Books/Models/Book_43.fbx
+  artifactKey: Guid(0918b21b1c0aa37438dd9e6b98ad718c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Book_43.fbx using Guid(0918b21b1c0aa37438dd9e6b98ad718c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff305cc4202e91f100317bc43e20ae67') in 0.019330 seconds 
+  Import took 0.022998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Assets/QA_Books/Models/BookOpen_04.fbx
+  artifactKey: Guid(e5545fb76235f7643ae07bb64d5b27d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/BookOpen_04.fbx using Guid(e5545fb76235f7643ae07bb64d5b27d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8f2eebe29b5d63df5353eb9ea268556') in 0.028914 seconds 
+  Import took 0.032223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Assets/QA_Books/Textures/BooksA_m_ao_g.tga
+  artifactKey: Guid(225fabe9fa8940c42b55bf1361356449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Textures/BooksA_m_ao_g.tga using Guid(225fabe9fa8940c42b55bf1361356449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '580249b8fe8062e3ab51d8f22092f0af') in 0.007378 seconds 
+  Import took 0.010652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Assets/QA_Books/Models/Book_11.fbx
+  artifactKey: Guid(1bbfcf9d3ed9d4046b4b322e05952604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Book_11.fbx using Guid(1bbfcf9d3ed9d4046b4b322e05952604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c0b0862b3c83a6edcc3a922917a6a38') in 0.020257 seconds 
+  Import took 0.023471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Assets/QA_Books/Models/BookOpen_03.fbx
+  artifactKey: Guid(d9a0c4b7e3414bd44a3146ee38167559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/BookOpen_03.fbx using Guid(d9a0c4b7e3414bd44a3146ee38167559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd81d772982504445f21437eee36845bd') in 0.028758 seconds 
+  Import took 0.032191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Assets/QA_Books/Models/Books_31.fbx
+  artifactKey: Guid(2dc72f24aca07ed42a3aa4cd507655f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Books_31.fbx using Guid(2dc72f24aca07ed42a3aa4cd507655f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a9330b3054b52b76b4919c7ea27aee3') in 0.033903 seconds 
+  Import took 0.037943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000675 seconds.
+  path: Assets/Assets/QA_Books/Models/Book_25.fbx
+  artifactKey: Guid(de3391c4e2e22114391ca06dd133cb63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Book_25.fbx using Guid(de3391c4e2e22114391ca06dd133cb63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '056c13755f6e57e3329a446072b43597') in 0.021262 seconds 
+  Import took 0.024825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Assets/QA_Books/Models/BookOpen_02.fbx
+  artifactKey: Guid(93d257f804ac4e94d8f56c97ac10397a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/BookOpen_02.fbx using Guid(93d257f804ac4e94d8f56c97ac10397a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6026e6469e5e5aad1bd78d160ff0ad5f') in 0.029004 seconds 
+  Import took 0.032382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Assets/QA_Books/Models/Books_24.fbx
+  artifactKey: Guid(28248b07a4d9570409371ebb6d5a2a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Books_24.fbx using Guid(28248b07a4d9570409371ebb6d5a2a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e22641288927968606057e38e1cc6f4e') in 0.030020 seconds 
+  Import took 0.033451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Assets/QA_Books/Models/Books_05.fbx
+  artifactKey: Guid(c4b688838c05ff143904dd026b927b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Books_05.fbx using Guid(c4b688838c05ff143904dd026b927b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3a5c2e07d710e2d7d89fe11ac789c29') in 0.021264 seconds 
+  Import took 0.024718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Assets/QA_Books/Models/Book_52.fbx
+  artifactKey: Guid(0f7a1cb66547a6a479b868b91a0334c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Book_52.fbx using Guid(0f7a1cb66547a6a479b868b91a0334c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de9797d98d8e3a7f040a122971ddf7f9') in 0.019648 seconds 
+  Import took 0.022855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Assets/QA_Books/Models/Books_25.fbx
+  artifactKey: Guid(317520d594cd6134ba1d9a439094a6cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Books_25.fbx using Guid(317520d594cd6134ba1d9a439094a6cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '976945c500f23da66300be2778be4421') in 0.018981 seconds 
+  Import took 0.022146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Assets/QA_Books/Models/Books_35.fbx
+  artifactKey: Guid(423fbb7e675ea294fbdb2080c334e533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Books_35.fbx using Guid(423fbb7e675ea294fbdb2080c334e533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9cb7d44dd0171998a6f35b4a9d65e3c') in 0.031696 seconds 
+  Import took 0.035730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000622 seconds.
+  path: Assets/Assets/QA_Books/Models/Book_12.fbx
+  artifactKey: Guid(45845c53726b39b4589c6be9d61fc8f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Book_12.fbx using Guid(45845c53726b39b4589c6be9d61fc8f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '298db9901ccbc6a29e049f185ce28b51') in 0.020620 seconds 
+  Import took 0.024487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Assets/QA_Books/Models/Book_45.fbx
+  artifactKey: Guid(86487fcb7649c85469ce546b89f5766e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Book_45.fbx using Guid(86487fcb7649c85469ce546b89f5766e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1609f0dff5880dc62a213b9463ac781') in 0.019994 seconds 
+  Import took 0.023124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Assets/QA_Books/Models/Book_20.fbx
+  artifactKey: Guid(3b890e30c6659e546b070ecd5f7d6a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Book_20.fbx using Guid(3b890e30c6659e546b070ecd5f7d6a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31772a41b18f2aadf43a2119fa3bd341') in 0.019090 seconds 
+  Import took 0.022485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Assets/QA_Books/Models/Books_01.fbx
+  artifactKey: Guid(7306063e424057f428fea084cd6321cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Books_01.fbx using Guid(7306063e424057f428fea084cd6321cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97dc30a3476d7666e74ecc4debfa8496') in 0.026014 seconds 
+  Import took 0.029468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000664 seconds.
+  path: Assets/Assets/QA_Books/Models/Books_06.fbx
+  artifactKey: Guid(b2f0533b1d3979448b8611f2370704fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Books_06.fbx using Guid(b2f0533b1d3979448b8611f2370704fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e949e70967b8cf31cd3b4e9c5daa84e') in 0.021223 seconds 
+  Import took 0.024407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Assets/QA_Books/Models/Books_22.fbx
+  artifactKey: Guid(66078628e305c0b4796081f1f6504003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Books_22.fbx using Guid(66078628e305c0b4796081f1f6504003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7869a4df56219a929b8b82786f535cf3') in 0.019986 seconds 
+  Import took 0.022957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Assets/QA_Books/Models/Book_22.fbx
+  artifactKey: Guid(ab4f92ff88cd48d4fb6a278f49c170cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Book_22.fbx using Guid(ab4f92ff88cd48d4fb6a278f49c170cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0399546218404359d4ba042a98f1d134') in 0.019106 seconds 
+  Import took 0.022502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Assets/QA_Books/Textures/BooksA_n.tga
+  artifactKey: Guid(0d19b33d6e0d94a4097e5daaa08a5d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Textures/BooksA_n.tga using Guid(0d19b33d6e0d94a4097e5daaa08a5d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9378b3b469f0e2eaacadebf17e255b1') in 0.012648 seconds 
+  Import took 0.015763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.244738 seconds.
+  path: Assets/Assets/QA_Books/Models/Books_15.fbx
+  artifactKey: Guid(6a40514d6f0945f4d86e59c587790cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Books_15.fbx using Guid(6a40514d6f0945f4d86e59c587790cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0add843ed9ee170a7246debabbd1e2ab') in 0.020244 seconds 
+  Import took 0.023793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Assets/QA_Books/Models/Books_17.fbx
+  artifactKey: Guid(d00418a779e1ca849afb37390eb74de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Books_17.fbx using Guid(d00418a779e1ca849afb37390eb74de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b09f7a9cbb1f70a85d4b1bc15f95e0cc') in 0.019252 seconds 
+  Import took 0.022450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Assets/QA_Books/Models/Books_16.fbx
+  artifactKey: Guid(413893f6d9940894a87b98fdb5e27114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Books_16.fbx using Guid(413893f6d9940894a87b98fdb5e27114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d2a035619e859a2890e9f4e9a71206d') in 0.026190 seconds 
+  Import took 0.030033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Assets/QA_Books/Models/Books_18.fbx
+  artifactKey: Guid(182f1ffc93e3af74e930059a40cf75b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Books_18.fbx using Guid(182f1ffc93e3af74e930059a40cf75b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb9ebdf1b741e5bb6436fd0e0d06b207') in 0.019150 seconds 
+  Import took 0.022403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.316880 seconds.
+  path: Assets/Assets/QA_Books/Models/BookS_11.fbx
+  artifactKey: Guid(a759d1c4901f1284d9828fa9b228313e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/BookS_11.fbx using Guid(a759d1c4901f1284d9828fa9b228313e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7647596d7d07aac5d69bdcaf9b043a2c') in 0.022059 seconds 
+  Import took 0.025692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/Assets/QA_Books/Models/Books_12.fbx
+  artifactKey: Guid(fa09bf7cca8d41b4d9f0399db466f7eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Books_12.fbx using Guid(fa09bf7cca8d41b4d9f0399db466f7eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd84b72339cd61f227856a11c1a60d551') in 0.019711 seconds 
+  Import took 0.023270 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Assets/QA_Books/Models/Books_13.fbx
+  artifactKey: Guid(500a2216e8e79a74dabe3849eb6b501b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Books_13.fbx using Guid(500a2216e8e79a74dabe3849eb6b501b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c908cd5702b15430e39271d27f587515') in 0.023779 seconds 
+  Import took 0.026623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000425 seconds.
+  path: Assets/Assets/QA_Books/Models/Books_14.fbx
+  artifactKey: Guid(5442419abc214b546aebbfce7cf66439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Books_14.fbx using Guid(5442419abc214b546aebbfce7cf66439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e18d3045f5529b96d9f34eab5c2d05f') in 0.020059 seconds 
+  Import took 0.023088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.092527 seconds.
+  path: Assets/Assets/QA_Books/Models/Books_07.fbx
+  artifactKey: Guid(13b34a102ecca024ba0228606670a69d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Books_07.fbx using Guid(13b34a102ecca024ba0228606670a69d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bf694aa47cca6ad201d1973a75d1f2b') in 0.019997 seconds 
+  Import took 0.023556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Assets/QA_Books/Models/Books_10.fbx
+  artifactKey: Guid(5f00896256d4430428a7299d464b21e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Books_10.fbx using Guid(5f00896256d4430428a7299d464b21e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9801af00244058792105152984eb64b4') in 0.019914 seconds 
+  Import took 0.023540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Assets/QA_Books/Models/Books_09.fbx
+  artifactKey: Guid(f1c3a4aa08c9bfb42a731b1f3d1d71f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Books_09.fbx using Guid(f1c3a4aa08c9bfb42a731b1f3d1d71f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d50822b98593f24dc3cb287978a4592') in 0.028335 seconds 
+  Import took 0.031916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Assets/QA_Books/Models/Books_08.fbx
+  artifactKey: Guid(bad878b7f95bcd642940b373f175cd48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Books_08.fbx using Guid(bad878b7f95bcd642940b373f175cd48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40abf854b4c7d5caba03a40054151f92') in 0.019353 seconds 
+  Import took 0.022885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.234475 seconds.
+  path: Assets/Assets/QA_Books/Models/Book_61.fbx
+  artifactKey: Guid(74558a81b38d73243be55cbee8583582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Book_61.fbx using Guid(74558a81b38d73243be55cbee8583582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fabe54c7fb901e11ed75570248e8af74') in 0.020867 seconds 
+  Import took 0.024816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Assets/QA_Books/Models/Book_65.fbx
+  artifactKey: Guid(c6d0dcd0f5f98fc4987b2e87d3428657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Book_65.fbx using Guid(c6d0dcd0f5f98fc4987b2e87d3428657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90d3ade341fb8ce95e7f8cf87e71a89e') in 0.018525 seconds 
+  Import took 0.021736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Assets/QA_Books/Models/Book_62.fbx
+  artifactKey: Guid(791bfdd2fbfdd5c4792f37933795022e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Book_62.fbx using Guid(791bfdd2fbfdd5c4792f37933795022e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebfc94b02e7a9113639934c2b32280c5') in 0.030563 seconds 
+  Import took 0.033407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000618 seconds.
+  path: Assets/Assets/QA_Books/Models/Book_63.fbx
+  artifactKey: Guid(07754f913d64acf43ae44a9eb8a167af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Book_63.fbx using Guid(07754f913d64acf43ae44a9eb8a167af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b89ddd9febbc98367be186a713912bb') in 0.018908 seconds 
+  Import took 0.022594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Assets/QA_Books/Models/Book_64.fbx
+  artifactKey: Guid(e013a3e3ac6eae14e9851a1a2022e376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Book_64.fbx using Guid(e013a3e3ac6eae14e9851a1a2022e376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b15b5dc2160bcef9683320ae00d4da9') in 0.023870 seconds 
+  Import took 0.026889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Assets/QA_Books/Models/Book_55.fbx
+  artifactKey: Guid(16878e18eef524c4a9adc60740213bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Book_55.fbx using Guid(16878e18eef524c4a9adc60740213bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0dcb08f513e89022067964cc90974ae') in 0.020289 seconds 
+  Import took 0.023632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/Assets/QA_Books/Models/Book_54.fbx
+  artifactKey: Guid(16a01d9b51a3e474090487a520a478a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Book_54.fbx using Guid(16a01d9b51a3e474090487a520a478a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f293471e87dc91026c23ff180f6e9390') in 0.018993 seconds 
+  Import took 0.023076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Assets/QA_Books/Models/Book_60.fbx
+  artifactKey: Guid(8c42656a6d8a2444dae8837aa801df62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Book_60.fbx using Guid(8c42656a6d8a2444dae8837aa801df62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0abdcce57e197276fbaf315b44bd264d') in 0.027188 seconds 
+  Import took 0.030518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Assets/QA_Books/Models/Book_57.fbx
+  artifactKey: Guid(5e3a733fb8096c0409ab051e4f00a781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Book_57.fbx using Guid(5e3a733fb8096c0409ab051e4f00a781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41be2059be22eae7c95eef9326236cb2') in 0.019636 seconds 
+  Import took 0.023339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Assets/QA_Books/Models/Book_58.fbx
+  artifactKey: Guid(461b2e2a41e8ca342b0cc1248c93b1d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Book_58.fbx using Guid(461b2e2a41e8ca342b0cc1248c93b1d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c7565a9b369f8f2629278cdcda61128') in 0.018665 seconds 
+  Import took 0.022063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Assets/QA_Books/Models/Book_59.fbx
+  artifactKey: Guid(4508e2873f6e757499767fcaf3fb1aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Book_59.fbx using Guid(4508e2873f6e757499767fcaf3fb1aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eed2cf692eece8c40d1638f142fbd2d5') in 0.018597 seconds 
+  Import took 0.021789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Assets/QA_Books/Models/Book_56.fbx
+  artifactKey: Guid(ef53951cac035224789ca96276aec623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/QA_Books/Models/Book_56.fbx using Guid(ef53951cac035224789ca96276aec623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b22b98993c743a10daa48a96cf65960d') in 0.022687 seconds 
+  Import took 0.026452 seconds .
+
