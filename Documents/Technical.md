@@ -84,6 +84,7 @@ Although C# is the best language to works with Unity.
 | Snack Machines | Will be placed in the hallways as well as in the student lounge | [Snack Machines](https://assetstore.unity.com/packages/3d/props/interior/snack-machines-3517)|
 | 3D Bakery Object | Will be in the student and staff lounges | [Food](https://assetstore.unity.com/packages/3d/props/food/3d-bakery-object-17167)|
 | Kitchen Creation Kit | Will be used in the student and staff lounges | [Kitchen Kit](https://assetstore.unity.com/packages/3d/environments/kitchen-creation-kit-2854)|
+| Kitchen Cabinets-Low Poly | Will be used in the student and staff lounges | [Kitchen](https://assetstore.unity.com/packages/3d/props/interior/kitchen-cabinets-low-poly-183890)|
 | Plates, Bowls & Mugs Pack | Will be put in student lounges and staff | [Dishes](https://assetstore.unity.com/packages/3d/props/interior/plates-bowls-mugs-pack-146682)|
 | Cutlery Silverware PBR | Will be put in the student and staff lounges | [Cutlery](https://assetstore.unity.com/packages/3d/props/food/cutlery-silverware-pbr-106932)|
 | BarProps | Will be placed in student lounges and staff | [Tables](https://assetstore.unity.com/packages/3d/props/barprops-137130)|
