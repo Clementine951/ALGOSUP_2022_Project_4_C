@@ -1,0 +1,362 @@
+Unity Editor version:    2020.3.29f1 (2ff179115da0)
+Branch:                  2020.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.2.1 (Build 21D62)
+Darwin version:          21.3.0
+Architecture:            x86_64
+Running under Rosetta:   YES
+Available memory:        8192 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/2020.3.29f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/clementine/Documents/B3/B3
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60332
+Successfully changed project path to: /Users/clementine/Documents/B3/B3
+/Users/clementine/Documents/B3/B3
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 71.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.29f1 (2ff179115da0)
+[Subsystems] Discovering subsystems at path /Applications/2020.3.29f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/clementine/Documents/B3/B3/Assets
+GfxDevice: creating device client; threaded=0
+2022-03-11 09:01:57.160 Unity[34287:836944] (null) preferred device: Apple M1 (high power)
+2022-03-11 09:01:57.160 Unity[34287:836944] Metal devices available: 1
+2022-03-11 09:01:57.160 Unity[34287:836944] 0: Apple M1 (high power)
+2022-03-11 09:01:57.160 Unity[34287:836944] Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/2020.3.29f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/2020.3.29f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/2020.3.29f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56287
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/2020.3.29f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/2020.3.29f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001481 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 71.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.442 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1442ms)
+		BeginReloadAssembly (123ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (1193ms)
+			LoadAssemblies (121ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (186ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (663ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (71ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (363ms)
+				ProcessInitializeOnLoadMethodAttributes (116ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002145 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 70.90 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.585 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2587ms)
+		BeginReloadAssembly (282ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (36ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (2211ms)
+			LoadAssemblies (206ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (337ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (1298ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (71ms)
+				BeforeProcessingInitializeOnLoad (184ms)
+				ProcessInitializeOnLoadAttributes (996ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (34ms)
+Platform modules already initialized, skipping
+Validating Project structure ... 0.047488 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.027147 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Launching external process: /Applications/2020.3.29f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Initializing Unity extensions:
+2022-03-11 09:02:02.923 Unity[34287:836944] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000029300e0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2022-03-11 09:02:02.927 Unity[34287:836944] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600002921f80 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2008 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 213.2 MB.
+System memory in use after: 212.3 MB.
+
+Unloading 153 unused Assets to reduce memory usage. Loaded Objects now: 2505.
+Total: 2.727792 ms (FindLiveObjects: 0.091834 ms CreateObjectMapping: 0.044125 ms MarkObjects: 2.131709 ms  DeleteObjects: 0.459709 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Prefab/Project Rooms 1.prefab
+  artifactKey: Guid(e825d3c920a6e5942a581128572b8be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Project Rooms 1.prefab using Guid(e825d3c920a6e5942a581128572b8be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9ef6204631abcc41e734b0794515f21') in 0.919320 seconds 
+  Import took 0.927206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001669 seconds.
+  path: Assets/Prefab/Natacha_Office.prefab
+  artifactKey: Guid(ed4a1b00915175944b53d70ef1ee0f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Natacha_Office.prefab using Guid(ed4a1b00915175944b53d70ef1ee0f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97407e7786fc9d7f79639e7fa72d12b3') in 0.562403 seconds 
+  Import took 0.567365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Prefab/ProjectRoom9.prefab
+  artifactKey: Guid(8c045cfe0f5a82e439a99ea9ddf49816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/ProjectRoom9.prefab using Guid(8c045cfe0f5a82e439a99ea9ddf49816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '556d89c70578c4fd6f92156e8208f0ce') in 0.047239 seconds 
+  Import took 0.052125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Prefab/Franck_Office.prefab
+  artifactKey: Guid(f92e1c9ed21a9284c832c118e07e3281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Franck_Office.prefab using Guid(f92e1c9ed21a9284c832c118e07e3281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06dab4f158284daed71d31fc6440b5bc') in 0.096798 seconds 
+  Import took 0.103323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Prefab/ProjectRoom8.prefab
+  artifactKey: Guid(53220f79797b33d46910561034220a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/ProjectRoom8.prefab using Guid(53220f79797b33d46910561034220a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb05f6e50b9b16670e4bdb0f3a74c692') in 0.046574 seconds 
+  Import took 0.052075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Prefab/VideoStudio.prefab
+  artifactKey: Guid(86c42cd501aefe748a2ed772b64dfe17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/VideoStudio.prefab using Guid(86c42cd501aefe748a2ed772b64dfe17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6df67163b54897040be6ff24698c1faf') in 0.060647 seconds 
+  Import took 0.065503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Prefab/StudentLounge.prefab
+  artifactKey: Guid(5b82e9cb845c61f47bb722037041450b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/StudentLounge.prefab using Guid(5b82e9cb845c61f47bb722037041450b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83e394c0d6ff088104e068beca6b3dc1') in 0.905790 seconds 
+  Import took 0.920061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Prefab/ProjectRoom6.prefab
+  artifactKey: Guid(a095dfcd4f9a2c3449933f2a4a2bc61c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/ProjectRoom6.prefab using Guid(a095dfcd4f9a2c3449933f2a4a2bc61c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84f8c0e85e76755eaf19a18bad31f961') in 0.051800 seconds 
+  Import took 0.058123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Prefab/ProjectRoom5.prefab
+  artifactKey: Guid(a1963624ea826774dbcb5692b4ccdf5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/ProjectRoom5.prefab using Guid(a1963624ea826774dbcb5692b4ccdf5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9602c16e1f71a54127f06dff7cb9b838') in 0.047554 seconds 
+  Import took 0.054386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Prefab/DoubleBookshelf.prefab
+  artifactKey: Guid(a21f8d3c09694064285684155cde112e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/DoubleBookshelf.prefab using Guid(a21f8d3c09694064285684155cde112e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '136ba50cb24dc4c6aedd0270529de748') in 0.106639 seconds 
+  Import took 0.112349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Prefab/Julie_Office.prefab
+  artifactKey: Guid(514a140e31924a742b575252742719fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Julie_Office.prefab using Guid(514a140e31924a742b575252742719fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '809b76c32142866dbc5c39a13d9dd414') in 0.047848 seconds 
+  Import took 0.053735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000401 seconds.
+  path: Assets/Prefab/ProjectRoom3.prefab
+  artifactKey: Guid(59dd432ebf3667b479e8574484f7813a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/ProjectRoom3.prefab using Guid(59dd432ebf3667b479e8574484f7813a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ce04741fe3601957891740a3351f06d') in 0.045949 seconds 
+  Import took 0.052308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Prefab/Library.prefab
+  artifactKey: Guid(4fef898da4fbd224583679c4d92f40a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Library.prefab using Guid(4fef898da4fbd224583679c4d92f40a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97ae8c824bf0c7f82894d4bcd7d58eac') in 0.184503 seconds 
+  Import took 0.197557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Prefab/ProjectRoom11.prefab
+  artifactKey: Guid(24523b539b44e45489822ab8014ee3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/ProjectRoom11.prefab using Guid(24523b539b44e45489822ab8014ee3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2ddef7b4d1ece5c01365d58031fe01a') in 0.049482 seconds 
+  Import took 0.055841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Prefab/terrace.prefab
+  artifactKey: Guid(f0d8beff61a1acc4fb185cc9c12dcb1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/terrace.prefab using Guid(f0d8beff61a1acc4fb185cc9c12dcb1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd7f44d817e4cffb5f772782fa9e8cc6') in 0.016859 seconds 
+  Import took 0.021168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Prefab/SoftSkillsRoom.prefab
+  artifactKey: Guid(add2650681ecd904995d30ef6e31f675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/SoftSkillsRoom.prefab using Guid(add2650681ecd904995d30ef6e31f675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a628201f81a86c339afd53800ef3913') in 0.059231 seconds 
+  Import took 0.066002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Prefab/ProjectRoom10.prefab
+  artifactKey: Guid(797dfc87982f11444a0d5d7eebda269c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/ProjectRoom10.prefab using Guid(797dfc87982f11444a0d5d7eebda269c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '365966d4b960451ab744af781b07afdb') in 0.046513 seconds 
+  Import took 0.052092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Prefab/JP_Office.prefab
+  artifactKey: Guid(64e1f30fb61b6fa4dbb386907280bff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/JP_Office.prefab using Guid(64e1f30fb61b6fa4dbb386907280bff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3409c73c3afcb379d5506322ae6e2f38') in 0.065824 seconds 
+  Import took 0.073025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000465 seconds.
+  path: Assets/Prefab/ProjectRoom2.prefab
+  artifactKey: Guid(35b3fb01304a217449f81000726efe71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/ProjectRoom2.prefab using Guid(35b3fb01304a217449f81000726efe71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c733f29a7a9285d31e586234af03abd4') in 0.045926 seconds 
+  Import took 0.051615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Prefab/RoboticWorkshop.prefab
+  artifactKey: Guid(fb1f864f03b17504b96492a466cea587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/RoboticWorkshop.prefab using Guid(fb1f864f03b17504b96492a466cea587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44e3de64f4d8507358c30df86e8ca717') in 0.068214 seconds 
+  Import took 0.074435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Prefab/Bookshelf_1.prefab
+  artifactKey: Guid(79b1299c4ba36a24da266ff8bc4cb536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Bookshelf_1.prefab using Guid(79b1299c4ba36a24da266ff8bc4cb536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33e41e6842732d36ccab3294d5d5efb7') in 0.046029 seconds 
+  Import took 0.051961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Prefab/ProjectRoom4.prefab
+  artifactKey: Guid(9a302952151d505409d7607cc712b32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/ProjectRoom4.prefab using Guid(9a302952151d505409d7607cc712b32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '465b86b1a44ed3b41b62257de267fd55') in 0.046677 seconds 
+  Import took 0.052370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Prefab/ProjectRoom7.prefab
+  artifactKey: Guid(9a18cd8b26fcdfa4e8b6359da7e574b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/ProjectRoom7.prefab using Guid(9a18cd8b26fcdfa4e8b6359da7e574b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8bae68863f4ee7f178a914744ab6db6') in 0.052160 seconds 
+  Import took 0.057569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000435 seconds.
+  path: Assets/Prefab/ProjectRoom12.prefab
+  artifactKey: Guid(4fba6cba9a019354ca2b420ce8bc059c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/ProjectRoom12.prefab using Guid(4fba6cba9a019354ca2b420ce8bc059c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5522ffc86e8d173ae760f40b65f2a404') in 0.046000 seconds 
+  Import took 0.052664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Prefab/EnglishRoomsAndLabs.prefab
+  artifactKey: Guid(43bda8ace638d0a4a8fae76cf7555b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/EnglishRoomsAndLabs.prefab using Guid(43bda8ace638d0a4a8fae76cf7555b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '920903cb812abdf50b7f939bd0c5eedd') in 0.092086 seconds 
+  Import took 0.101718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.558073 seconds.
+  path: Assets/Prefab/wall-plug.3ds
+  artifactKey: Guid(5d9c06797a8479b47bac1c192eb15f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/wall-plug.3ds using Guid(5d9c06797a8479b47bac1c192eb15f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1cfbf892be53207327ef744ac4315f5') in 0.342657 seconds 
+  Import took 0.350300 seconds .
+
