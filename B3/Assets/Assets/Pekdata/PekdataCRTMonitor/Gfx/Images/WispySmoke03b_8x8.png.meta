@@ -198,7 +198,7 @@ TextureImporter:
       213: 8194193180884935263
     second: WispySmoke03b_8x8_64
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -218,6 +218,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -226,9 +228,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 1
     aniso: 2
-    mipBias: -100
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 0
@@ -249,9 +251,13 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -1682,6 +1688,71 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      WispySmoke03b_8x8_10: -7563444504028251149
+      WispySmoke03b_8x8_48: -2201183594971618247
+      WispySmoke03b_8x8_53: -3340886580459797543
+      WispySmoke03b_8x8_20: 3075754064060840330
+      WispySmoke03b_8x8_25: -8377470500914739982
+      WispySmoke03b_8x8_59: 4407759480065728418
+      WispySmoke03b_8x8_44: 2668066110988181810
+      WispySmoke03b_8x8_61: -478685699315706400
+      WispySmoke03b_8x8_15: -1005823974298458695
+      WispySmoke03b_8x8_56: 7920408666011694988
+      WispySmoke03b_8x8_45: 8652512936665079060
+      WispySmoke03b_8x8_42: -3186802888355396462
+      WispySmoke03b_8x8_49: 3411527156212933465
+      WispySmoke03b_8x8_6: 2399896307693289596
+      WispySmoke03b_8x8_43: 7578706562634194732
+      WispySmoke03b_8x8_11: -1394584757599569845
+      WispySmoke03b_8x8_21: -841435779199382559
+      WispySmoke03b_8x8_13: 4781728596156824998
+      WispySmoke03b_8x8_51: -190178289992625426
+      WispySmoke03b_8x8_55: 5784300137607144181
+      WispySmoke03b_8x8_28: -137406745951836975
+      WispySmoke03b_8x8_19: -5663813360176637605
+      WispySmoke03b_8x8_27: -7003672101303832562
+      WispySmoke03b_8x8_37: -3632230557247085419
+      WispySmoke03b_8x8_41: -2322399016360394362
+      WispySmoke03b_8x8_8: -2877299681275481642
+      WispySmoke03b_8x8_39: 4542667908383581132
+      WispySmoke03b_8x8_26: -7683662174516782299
+      WispySmoke03b_8x8_5: 26971916147416257
+      WispySmoke03b_8x8_52: -1875770045611789968
+      WispySmoke03b_8x8_17: 466557556279972967
+      WispySmoke03b_8x8_50: 8085579732686126979
+      WispySmoke03b_8x8_60: -7205635635714823659
+      WispySmoke03b_8x8_58: 3736972638302510927
+      WispySmoke03b_8x8_22: -1211343088757092619
+      WispySmoke03b_8x8_46: 6078599163003169811
+      WispySmoke03b_8x8_14: 1557640226055467673
+      WispySmoke03b_8x8_12: 5121791396797185753
+      WispySmoke03b_8x8_36: 8889643249371006221
+      WispySmoke03b_8x8_31: 4536754852543016260
+      WispySmoke03b_8x8_0: 5120513569622139310
+      WispySmoke03b_8x8_40: -7164914638905369094
+      WispySmoke03b_8x8_23: 2928863788734366366
+      WispySmoke03b_8x8_34: -4278566399593184580
+      WispySmoke03b_8x8_3: 310948292291730931
+      WispySmoke03b_8x8_35: -4459060527840065799
+      WispySmoke03b_8x8_63: 2999983569470036146
+      WispySmoke03b_8x8_1: -405499587809741964
+      WispySmoke03b_8x8_18: 5289194958710515359
+      WispySmoke03b_8x8_29: -5633488649105355946
+      WispySmoke03b_8x8_24: 8198149770338865999
+      WispySmoke03b_8x8_32: -5225570414964420427
+      WispySmoke03b_8x8_2: 6065211787069708734
+      WispySmoke03b_8x8_16: -6855031813455396043
+      WispySmoke03b_8x8_54: 4884797962581443957
+      WispySmoke03b_8x8_47: -5500257755492947516
+      WispySmoke03b_8x8_9: -1152403456873128948
+      WispySmoke03b_8x8_62: -979046471670422070
+      WispySmoke03b_8x8_33: 1500197558911024376
+      WispySmoke03b_8x8_57: -9098305658245509233
+      WispySmoke03b_8x8_7: -4484117925937377726
+      WispySmoke03b_8x8_38: 1246465823586471444
+      WispySmoke03b_8x8_30: -3642436431811296183
+      WispySmoke03b_8x8_4: -4296140819976543558
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
