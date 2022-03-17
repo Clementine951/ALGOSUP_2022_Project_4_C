@@ -124,6 +124,8 @@ Although C# is the best language to works with Unity.
 | Destroyable Retro CRT Monitor Prop | Will be placed in the corridors in decoration and in museums | [Retro TV](https://assetstore.unity.com/packages/3d/props/electronics/destroyable-retro-crt-monitor-prop-157334)|
 | Bicycle Pack | Will be in the room for students coming to the establishment with | [Bicycle](https://assetstore.unity.com/packages/3d/vehicles/land/free-bicycle-pack-199782)|
 | Electric Scooter Prop | Will be in the room for students coming to the establishment with | [Electric Scooter](https://assetstore.unity.com/packages/3d/props/exterior/electric-scooter-prop-171335)|
+| 96 General Library (Free Sample Pack) | Add sound for building architecture | [sounds](https://assetstore.unity.com/packages/audio/sound-fx/96-general-library-free-sample-pack-185157)|
+
 
 ## 5. Convert ifb file to Unity
 
