@@ -61,7 +61,7 @@ GameObject:
   - component: {fileID: 7351793091525691963}
   - component: {fileID: 7351793091525691962}
   m_Layer: 0
-  m_Name: Point Light
+  m_Name: Point Light Amphi_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -154,7 +154,7 @@ GameObject:
   - component: {fileID: 7351793091889944939}
   - component: {fileID: 7351793091889944938}
   m_Layer: 0
-  m_Name: Point Light
+  m_Name: Point Light Amphi_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -247,7 +247,7 @@ GameObject:
   - component: {fileID: 7351793092206798652}
   - component: {fileID: 7351793092206798627}
   m_Layer: 0
-  m_Name: Point Light
+  m_Name: Point Light Amphi_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -340,7 +340,7 @@ GameObject:
   - component: {fileID: 7351793092838683229}
   - component: {fileID: 7351793092838683228}
   m_Layer: 0
-  m_Name: Point Light
+  m_Name: Point Light Amphi_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -433,7 +433,7 @@ GameObject:
   - component: {fileID: 7351793093133795454}
   - component: {fileID: 7351793093133795453}
   m_Layer: 0
-  m_Name: Point Light
+  m_Name: Point Light Amphi_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -526,7 +526,7 @@ GameObject:
   - component: {fileID: 7351793093569820905}
   - component: {fileID: 7351793093569820904}
   m_Layer: 0
-  m_Name: Point Light
+  m_Name: Point Light Amphi_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1343,6 +1343,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8403118057230190936, guid: e3b6fae141aff0541a7a56c770c00874, type: 3}
+      propertyPath: Light
+      value: 
+      objectReference: {fileID: 7351793091525691956}
+    - target: {fileID: 8403118057230190936, guid: e3b6fae141aff0541a7a56c770c00874, type: 3}
+      propertyPath: Light1
+      value: 
+      objectReference: {fileID: 7351793093569820906}
+    - target: {fileID: 8403118057230190936, guid: e3b6fae141aff0541a7a56c770c00874, type: 3}
+      propertyPath: Light2
+      value: 
+      objectReference: {fileID: 7351793091889944932}
+    - target: {fileID: 8403118057230190936, guid: e3b6fae141aff0541a7a56c770c00874, type: 3}
+      propertyPath: Light3
+      value: 
+      objectReference: {fileID: 7351793092838683230}
+    - target: {fileID: 8403118057230190936, guid: e3b6fae141aff0541a7a56c770c00874, type: 3}
+      propertyPath: Light4
+      value: 
+      objectReference: {fileID: 7351793092206798653}
+    - target: {fileID: 8403118057230190936, guid: e3b6fae141aff0541a7a56c770c00874, type: 3}
+      propertyPath: Light5
+      value: 
+      objectReference: {fileID: 7351793093133795455}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3b6fae141aff0541a7a56c770c00874, type: 3}
 --- !u!4 &6624292381696841215 stripped
@@ -1599,6 +1623,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8403118057230190936, guid: e3b6fae141aff0541a7a56c770c00874, type: 3}
+      propertyPath: Light
+      value: 
+      objectReference: {fileID: 7351793091525691956}
+    - target: {fileID: 8403118057230190936, guid: e3b6fae141aff0541a7a56c770c00874, type: 3}
+      propertyPath: Light1
+      value: 
+      objectReference: {fileID: 7351793093569820906}
+    - target: {fileID: 8403118057230190936, guid: e3b6fae141aff0541a7a56c770c00874, type: 3}
+      propertyPath: Light2
+      value: 
+      objectReference: {fileID: 7351793091889944932}
+    - target: {fileID: 8403118057230190936, guid: e3b6fae141aff0541a7a56c770c00874, type: 3}
+      propertyPath: Light3
+      value: 
+      objectReference: {fileID: 7351793092838683230}
+    - target: {fileID: 8403118057230190936, guid: e3b6fae141aff0541a7a56c770c00874, type: 3}
+      propertyPath: Light4
+      value: 
+      objectReference: {fileID: 7351793092206798653}
+    - target: {fileID: 8403118057230190936, guid: e3b6fae141aff0541a7a56c770c00874, type: 3}
+      propertyPath: Light5
+      value: 
+      objectReference: {fileID: 7351793093133795455}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3b6fae141aff0541a7a56c770c00874, type: 3}
 --- !u!4 &6624292381071289470 stripped
@@ -1661,6 +1709,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8403118057230190936, guid: e3b6fae141aff0541a7a56c770c00874, type: 3}
+      propertyPath: Light
+      value: 
+      objectReference: {fileID: 7351793091525691956}
+    - target: {fileID: 8403118057230190936, guid: e3b6fae141aff0541a7a56c770c00874, type: 3}
+      propertyPath: Light1
+      value: 
+      objectReference: {fileID: 7351793093569820906}
+    - target: {fileID: 8403118057230190936, guid: e3b6fae141aff0541a7a56c770c00874, type: 3}
+      propertyPath: Light2
+      value: 
+      objectReference: {fileID: 7351793091889944932}
+    - target: {fileID: 8403118057230190936, guid: e3b6fae141aff0541a7a56c770c00874, type: 3}
+      propertyPath: Light3
+      value: 
+      objectReference: {fileID: 7351793092838683230}
+    - target: {fileID: 8403118057230190936, guid: e3b6fae141aff0541a7a56c770c00874, type: 3}
+      propertyPath: Light4
+      value: 
+      objectReference: {fileID: 7351793092206798653}
+    - target: {fileID: 8403118057230190936, guid: e3b6fae141aff0541a7a56c770c00874, type: 3}
+      propertyPath: Light5
+      value: 
+      objectReference: {fileID: 7351793093133795455}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3b6fae141aff0541a7a56c770c00874, type: 3}
 --- !u!4 &6624292381116778188 stripped
