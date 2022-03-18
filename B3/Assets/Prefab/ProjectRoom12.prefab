@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1755312328802666885}
   - component: {fileID: 7380427105190582343}
   m_Layer: 0
-  m_Name: Point Light
+  m_Name: Point Light ProjectRoom12_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1767,7 +1767,7 @@ GameObject:
   - component: {fileID: 2205730197290735665}
   - component: {fileID: 7374949650122421385}
   m_Layer: 0
-  m_Name: Point Light
+  m_Name: Point Light ProjectRoom12_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2740,6 +2740,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6166281212429312524, guid: e3b6fae141aff0541a7a56c770c00874, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8403118057230190936, guid: e3b6fae141aff0541a7a56c770c00874, type: 3}
+      propertyPath: Light
+      value: 
+      objectReference: {fileID: 6262221586384261474}
+    - target: {fileID: 8403118057230190936, guid: e3b6fae141aff0541a7a56c770c00874, type: 3}
+      propertyPath: Light1
+      value: 
+      objectReference: {fileID: 551316757892380301}
+    - target: {fileID: 8403118057230190936, guid: e3b6fae141aff0541a7a56c770c00874, type: 3}
+      propertyPath: Light2
+      value: 
+      objectReference: {fileID: 6262221586384261474}
+    - target: {fileID: 8403118057230190936, guid: e3b6fae141aff0541a7a56c770c00874, type: 3}
+      propertyPath: Light3
+      value: 
+      objectReference: {fileID: 551316757892380301}
+    - target: {fileID: 8403118057230190936, guid: e3b6fae141aff0541a7a56c770c00874, type: 3}
+      propertyPath: Light4
+      value: 
+      objectReference: {fileID: 6262221586384261474}
+    - target: {fileID: 8403118057230190936, guid: e3b6fae141aff0541a7a56c770c00874, type: 3}
+      propertyPath: Light5
+      value: 
+      objectReference: {fileID: 551316757892380301}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3b6fae141aff0541a7a56c770c00874, type: 3}
 --- !u!4 &5320309972838887922 stripped
