@@ -22,103 +22,103 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49743
+51169
 Successfully changed project path to: /Users/clementine/Documents/B3/B3
 /Users/clementine/Documents/B3/B3
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 133.34 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 8.17 ms.
+Refreshing native plugins compatible for Editor in 264.30 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 9.13 ms.
 Initialize engine version: 2020.3.29f1 (2ff179115da0)
 [Subsystems] Discovering subsystems at path /Applications/2020.3.29f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/clementine/Documents/B3/B3/Assets
 GfxDevice: creating device client; threaded=0
-2022-03-20 14:53:13.241 Unity[1874:44948] (null) preferred device: Apple M1 (high power)
-2022-03-20 14:53:13.241 Unity[1874:44948] Metal devices available: 1
-2022-03-20 14:53:13.241 Unity[1874:44948] 0: Apple M1 (high power)
-2022-03-20 14:53:13.241 Unity[1874:44948] Using device Apple M1 (high power)
+2022-03-21 14:14:31.198 Unity[6135:179106] (null) preferred device: Apple M1 (high power)
+2022-03-21 14:14:31.198 Unity[6135:179106] Metal devices available: 1
+2022-03-21 14:14:31.198 Unity[6135:179106] 0: Apple M1 (high power)
+2022-03-21 14:14:31.198 Unity[6135:179106] Using device Apple M1 (high power)
 Initializing Metal device caps: Apple M1
 Initialize mono
 Mono path[0] = '/Applications/2020.3.29f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/2020.3.29f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/2020.3.29f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56874
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56135
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/2020.3.29f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/2020.3.29f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001227 seconds.
+Registered in 0.001866 seconds.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 84.06 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.28 ms.
+Refreshing native plugins compatible for Editor in 81.96 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.26 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.351 seconds
+- Completed reload, in  1.387 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1351ms)
-		BeginReloadAssembly (121ms)
+	ReloadAssembly (1388ms)
+		BeginReloadAssembly (125ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (1121ms)
-			LoadAssemblies (120ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (194ms)
+		EndReloadAssembly (1145ms)
+			LoadAssemblies (123ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (184ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (610ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (631ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
+				InitializePlatformSupportModulesInManaged (15ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (84ms)
-				BeforeProcessingInitializeOnLoad (81ms)
-				ProcessInitializeOnLoadAttributes (320ms)
-				ProcessInitializeOnLoadMethodAttributes (109ms)
+				RefreshPlugins (82ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (337ms)
+				ProcessInitializeOnLoadMethodAttributes (108ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003176 seconds.
+Registered in 0.002845 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 90.00 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.28 ms.
+Refreshing native plugins compatible for Editor in 75.91 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.29 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.596 seconds
+- Completed reload, in  2.456 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2597ms)
-		BeginReloadAssembly (259ms)
+	ReloadAssembly (2458ms)
+		BeginReloadAssembly (251ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (34ms)
+			DisableScriptedObjects (32ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (2251ms)
-			LoadAssemblies (205ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (2119ms)
+			LoadAssemblies (200ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (380ms)
+			SetupTypeCache (340ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (69ms)
-			SetupLoadedEditorAssemblies (1255ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (1216ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (12ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (90ms)
-				BeforeProcessingInitializeOnLoad (199ms)
-				ProcessInitializeOnLoadAttributes (923ms)
-				ProcessInitializeOnLoadMethodAttributes (29ms)
+				RefreshPlugins (76ms)
+				BeforeProcessingInitializeOnLoad (183ms)
+				ProcessInitializeOnLoadAttributes (913ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (30ms)
+			AwakeInstancesAfterBackupRestoration (29ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.065226 seconds.
+Validating Project structure ... 0.026313 seconds.
 Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.028605 seconds.
+Upgrading shader files ...0.030951 seconds.
 Application.AssetDatabase Initial Script Refresh Start
 RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
 RefreshProfiler: Total: 0.000ms
@@ -128,20 +128,20 @@ Application.AssetDatabase.Refresh End
 RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
 RefreshProfiler: Total: 0.000ms
 Launching external process: /Applications/2020.3.29f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Launched and connected shader compiler UnityShaderCompiler after 0.18 seconds
 Initializing Unity extensions:
-2022-03-20 14:53:19.172 Unity[1874:44948] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000027a0af0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-2022-03-20 14:53:19.176 Unity[1874:44948] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000027b6450 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2022-03-21 14:14:36.988 Unity[6135:179106] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000e86990 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2022-03-21 14:14:36.992 Unity[6135:179106] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000e90d90 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
 ========================================================================
 Worker process is ready to serve import requests
-Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.27 ms.
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.28 ms.
 Unloading 2422 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 234.7 MB.
-System memory in use after: 233.9 MB.
+System memory in use before: 234.1 MB.
+System memory in use after: 233.3 MB.
 
 Unloading 200 unused Assets to reduce memory usage. Loaded Objects now: 2925.
-Total: 2.930792 ms (FindLiveObjects: 0.127042 ms CreateObjectMapping: 0.052458 ms MarkObjects: 2.248750 ms  DeleteObjects: 0.501917 ms)
+Total: 6.948792 ms (FindLiveObjects: 0.147375 ms CreateObjectMapping: 0.056334 ms MarkObjects: 6.199667 ms  DeleteObjects: 0.543875 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -155,120 +155,1251 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Alstrainfinite/KitchenAppliances/Materials/Stovetop.mat
-  artifactKey: Guid(b96d00f00f49efb458f4d91a48364d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstrainfinite/KitchenAppliances/Materials/Stovetop.mat using Guid(b96d00f00f49efb458f4d91a48364d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd8c127d2b6ffb62a8c0bc35602c2bb0') in 0.728013 seconds 
-  Import took 0.734537 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 161.929205 seconds.
-  path: Assets/96 General Library (Free Sample)
-  artifactKey: Guid(eb38967de83453a4c958cc5f94f07a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/96 General Library (Free Sample) using Guid(eb38967de83453a4c958cc5f94f07a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85e02fba5d0d5d0c3ce99e3ce059a0d3') in 0.006428 seconds 
-  Import took 0.031123 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.961407 seconds.
   path: Assets/Plane.prefab
   artifactKey: Guid(2626d18799470470bbbada32bb5fc293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plane.prefab using Guid(2626d18799470470bbbada32bb5fc293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae1583bf44f2b8de8d7e1d22768a7063') in 0.114187 seconds 
-  Import took 0.121080 seconds .
+Start importing Assets/Plane.prefab using Guid(2626d18799470470bbbada32bb5fc293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62189a068e6a62de152f3a1456b899c9') in 1.426112 seconds 
+  Import took 1.433836 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 71.753686 seconds.
-  path: Assets/Assets/Immerse/Immerse Assets/Detail Maps/Leather/Materials/Leather02Red_DALB.mat
-  artifactKey: Guid(a98b969129905b745aa5887a546fe650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Immerse/Immerse Assets/Detail Maps/Leather/Materials/Leather02Red_DALB.mat using Guid(a98b969129905b745aa5887a546fe650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1652a111e1fe5009a12706f6ea4b7bbd') in 0.016891 seconds 
-  Import took 0.020797 seconds .
+  Time since last request: 448.200630 seconds.
+  path: Assets/Assets/Original Wood Textures/Wood Texture 15/Wood Texture 15.mat
+  artifactKey: Guid(d64e6cad4dbba3049895ced83800f404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Original Wood Textures/Wood Texture 15/Wood Texture 15.mat using Guid(d64e6cad4dbba3049895ced83800f404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36963c829418a583da821cad71d6aa8d') in 0.244888 seconds 
+  Import took 0.263802 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/StarterAssets/ThirdPersonController/Character/Materials/Built-in_RP/M_ArmatureColor_Body.mat
-  artifactKey: Guid(9564d3bbc73fcb64792156cb4e2758a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/ThirdPersonController/Character/Materials/Built-in_RP/M_ArmatureColor_Body.mat using Guid(9564d3bbc73fcb64792156cb4e2758a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17eaa753b24942525125e66c576b4062') in 0.153419 seconds 
-  Import took 0.158118 seconds .
+  Time since last request: 0.000644 seconds.
+  path: Assets/Assets/UnityJapanOffice/Materials/Office/Wood01_BenchBackboard.mat
+  artifactKey: Guid(5bcf2f6e8aedb5245b993af2793592ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Materials/Office/Wood01_BenchBackboard.mat using Guid(5bcf2f6e8aedb5245b993af2793592ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bb6e805271ac1ba211123bbdfbecf0e') in 0.024022 seconds 
+  Import took 0.029183 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/StarterAssets/ThirdPersonController/Character/Materials/M_Armature_Body.mat
-  artifactKey: Guid(43714b68324cc2c409d534d9874f2a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/ThirdPersonController/Character/Materials/M_Armature_Body.mat using Guid(43714b68324cc2c409d534d9874f2a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cad158102e7516dad6b57c045d7fa1f6') in 0.025245 seconds 
-  Import took 0.029566 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005437 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.53 ms.
+2022-03-21 14:30:18.854 Unity[6135:179106] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000ee6d10 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.676 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2678ms)
+		BeginReloadAssembly (311ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (31ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (112ms)
+		EndReloadAssembly (2270ms)
+			LoadAssemblies (279ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (377ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (1304ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (261ms)
+				ProcessInitializeOnLoadAttributes (990ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (33ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.30 ms.
+Unloading 2397 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 240.7 MB.
+System memory in use after: 240.9 MB.
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/Alstrainfinite/KitchenAppliances/Models/Fridge.fbx
-  artifactKey: Guid(7791aa6beaaa15148b5287a0538526d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstrainfinite/KitchenAppliances/Models/Fridge.fbx using Guid(7791aa6beaaa15148b5287a0538526d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e703a12203118e659aec49a6eddd515') in 0.133068 seconds 
-  Import took 0.139204 seconds .
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2969.
+Total: 2.476292 ms (FindLiveObjects: 0.144417 ms CreateObjectMapping: 0.051791 ms MarkObjects: 2.255333 ms  DeleteObjects: 0.023875 ms)
 
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/StarterAssets/ThirdPersonController/Character/Materials/M_Armature_Legs.mat
-  artifactKey: Guid(8b25e99361ac31d4e9ae83c46aee69ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/ThirdPersonController/Character/Materials/M_Armature_Legs.mat using Guid(8b25e99361ac31d4e9ae83c46aee69ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4cfbe49cd2cf712635d082f602f1121') in 0.020727 seconds 
-  Import took 0.024881 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005236 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.47 ms.
+2022-03-21 14:32:31.642 Unity[6135:179106] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000ee7250 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.483 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2485ms)
+		BeginReloadAssembly (273ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (40ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (91ms)
+		EndReloadAssembly (2116ms)
+			LoadAssemblies (245ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (336ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (1225ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (240ms)
+				ProcessInitializeOnLoadAttributes (936ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (33ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.25 ms.
+Unloading 2397 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 240.9 MB.
+System memory in use after: 241.1 MB.
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/FurnishedCabin/Meshes/Materials/Lights_towel_MAT.mat
-  artifactKey: Guid(cf3d52b3b76bf4c4ebf9164c88c1b585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FurnishedCabin/Meshes/Materials/Lights_towel_MAT.mat using Guid(cf3d52b3b76bf4c4ebf9164c88c1b585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e9dccc5565bab932668f541afa46e61') in 0.030054 seconds 
-  Import took 0.034022 seconds .
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2972.
+Total: 2.317042 ms (FindLiveObjects: 0.123208 ms CreateObjectMapping: 0.049208 ms MarkObjects: 2.119000 ms  DeleteObjects: 0.024750 ms)
 
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/Alstrainfinite/KitchenAppliances/Models/Fan.fbx
-  artifactKey: Guid(0bf0e70a8bd45044eaa51b5387ba5c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstrainfinite/KitchenAppliances/Models/Fan.fbx using Guid(0bf0e70a8bd45044eaa51b5387ba5c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '986b7cd212879502771fcf0ee7c5d49b') in 0.019521 seconds 
-  Import took 0.023423 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004004 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.57 ms.
+2022-03-21 14:33:22.204 Unity[6135:179106] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000ee6760 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.671 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2673ms)
+		BeginReloadAssembly (274ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (29ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (92ms)
+		EndReloadAssembly (2305ms)
+			LoadAssemblies (248ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (371ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (1299ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (241ms)
+				ProcessInitializeOnLoadAttributes (1006ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (67ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.26 ms.
+Unloading 2397 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 241.1 MB.
+System memory in use after: 241.4 MB.
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/StarterAssets/ThirdPersonController/Character/Materials/M_Armature_Arms.mat
-  artifactKey: Guid(766fd3ff04aab4745a764d33daac86fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/ThirdPersonController/Character/Materials/M_Armature_Arms.mat using Guid(766fd3ff04aab4745a764d33daac86fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f55ea359bb5b88896eaf9cb5a9864993') in 0.022225 seconds 
-  Import took 0.027530 seconds .
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2975.
+Total: 2.724041 ms (FindLiveObjects: 0.134208 ms CreateObjectMapping: 0.052917 ms MarkObjects: 2.509583 ms  DeleteObjects: 0.026375 ms)
 
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/StarterAssets/ThirdPersonController/Character/Materials/Built-in_RP/M_ArmatureColor_Legs.mat
-  artifactKey: Guid(3ffbe936d08df274e97d160a90856750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/ThirdPersonController/Character/Materials/Built-in_RP/M_ArmatureColor_Legs.mat using Guid(3ffbe936d08df274e97d160a90856750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d466eeedada362a52d9946e0ef8cfd3') in 0.023118 seconds 
-  Import took 0.027555 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003958 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.54 ms.
+2022-03-21 14:41:23.359 Unity[6135:179106] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000ee45b0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.516 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2518ms)
+		BeginReloadAssembly (274ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (35ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (96ms)
+		EndReloadAssembly (2153ms)
+			LoadAssemblies (246ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (348ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (1239ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (242ms)
+				ProcessInitializeOnLoadAttributes (940ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (34ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.26 ms.
+Unloading 2397 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 241.3 MB.
+System memory in use after: 241.6 MB.
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/Alstrainfinite/KitchenCabinets/Materials/Main.mat
-  artifactKey: Guid(1e296b1cd7a13a8438594c76bf343b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstrainfinite/KitchenCabinets/Materials/Main.mat using Guid(1e296b1cd7a13a8438594c76bf343b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '066d3214e06d04d3363909569b3898be') in 0.007556 seconds 
-  Import took 0.011918 seconds .
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2978.
+Total: 3.041459 ms (FindLiveObjects: 0.105792 ms CreateObjectMapping: 0.048292 ms MarkObjects: 2.860125 ms  DeleteObjects: 0.026500 ms)
 
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/Alstrainfinite/KitchenAppliances/Materials/Main.mat
-  artifactKey: Guid(f7bbd21b1298745458209aed31d9c489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Alstrainfinite/KitchenAppliances/Materials/Main.mat using Guid(f7bbd21b1298745458209aed31d9c489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fc983ff91d4aa26760210d0d9c7b67b') in 0.007108 seconds 
-  Import took 0.010982 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005546 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.45 ms.
+2022-03-21 14:43:15.264 Unity[6135:179106] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000efd030 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.581 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2582ms)
+		BeginReloadAssembly (298ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (37ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (98ms)
+		EndReloadAssembly (2174ms)
+			LoadAssemblies (263ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (332ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (1271ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (257ms)
+				ProcessInitializeOnLoadAttributes (962ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (43ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.26 ms.
+Unloading 2397 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 241.5 MB.
+System memory in use after: 241.7 MB.
 
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2981.
+Total: 2.333541 ms (FindLiveObjects: 0.109167 ms CreateObjectMapping: 0.050583 ms MarkObjects: 2.151083 ms  DeleteObjects: 0.021959 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/StarterAssets/ThirdPersonController/Character/Materials/Built-in_RP/M_ArmatureColor_Arms.mat
-  artifactKey: Guid(dcce18b7a5cdb7d43a2cdeb041f727a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/ThirdPersonController/Character/Materials/Built-in_RP/M_ArmatureColor_Arms.mat using Guid(dcce18b7a5cdb7d43a2cdeb041f727a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd73dd0114eee85cfe004568d6de13730') in 0.019903 seconds 
-  Import took 0.024074 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005201 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.47 ms.
+2022-03-21 14:44:51.349 Unity[6135:179106] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000efd110 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.510 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2512ms)
+		BeginReloadAssembly (286ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (35ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (94ms)
+		EndReloadAssembly (2111ms)
+			LoadAssemblies (252ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (338ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (1188ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (237ms)
+				ProcessInitializeOnLoadAttributes (902ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (32ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.26 ms.
+Unloading 2397 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 241.8 MB.
+System memory in use after: 242.0 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2984.
+Total: 2.931917 ms (FindLiveObjects: 0.128333 ms CreateObjectMapping: 0.049458 ms MarkObjects: 2.346125 ms  DeleteObjects: 0.407250 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005156 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.49 ms.
+2022-03-21 14:45:59.130 Unity[6135:179106] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000efd030 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.478 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2480ms)
+		BeginReloadAssembly (278ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (35ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (90ms)
+		EndReloadAssembly (2104ms)
+			LoadAssemblies (247ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (335ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (1212ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (240ms)
+				ProcessInitializeOnLoadAttributes (927ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (30ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.26 ms.
+Unloading 2397 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 242.0 MB.
+System memory in use after: 242.2 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2987.
+Total: 3.222750 ms (FindLiveObjects: 0.121875 ms CreateObjectMapping: 0.050708 ms MarkObjects: 2.946333 ms  DeleteObjects: 0.102708 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006633 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.58 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 1.87 ms.
+2022-03-21 14:47:15.009 Unity[6135:179106] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000ed65a0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.658 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2660ms)
+		BeginReloadAssembly (282ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (32ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (88ms)
+		EndReloadAssembly (2277ms)
+			LoadAssemblies (276ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (374ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (1329ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (6ms)
+				BeforeProcessingInitializeOnLoad (267ms)
+				ProcessInitializeOnLoadAttributes (1008ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (33ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.26 ms.
+Unloading 2397 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 242.2 MB.
+System memory in use after: 242.4 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2990.
+Total: 2.274750 ms (FindLiveObjects: 0.110125 ms CreateObjectMapping: 0.047458 ms MarkObjects: 2.086167 ms  DeleteObjects: 0.030333 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005314 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.46 ms.
+2022-03-21 14:49:23.457 Unity[6135:179106] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000ee79c0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2022-03-21 14:49:24.664 Unity[6135:179106] CAMetalLayer ignoring invalid setDrawableSize width=0.000000 height=0.000000
+2022-03-21 14:49:24.803 Unity[6135:179106] CAMetalLayer ignoring invalid setDrawableSize width=0.000000 height=0.000000
+Mono: successfully reloaded assembly
+- Completed reload, in  3.136 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3137ms)
+		BeginReloadAssembly (303ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (33ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (85ms)
+		EndReloadAssembly (2734ms)
+			LoadAssemblies (291ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (334ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (1838ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (240ms)
+				ProcessInitializeOnLoadAttributes (1550ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (32ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.26 ms.
+Unloading 2399 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 246.3 MB.
+System memory in use after: 246.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2999.
+Total: 3.165250 ms (FindLiveObjects: 0.109541 ms CreateObjectMapping: 0.047917 ms MarkObjects: 2.901750 ms  DeleteObjects: 0.105333 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Loading style catalogs (6)
+	StyleSheets/Extensions/base/common.uss
+	UIPackageResources/StyleSheets/Default/Variables/Public/common.uss
+	StyleSheets/Northstar/common.uss
+	StyleSheets/Extensions/fonts/inter.uss
+	StyleSheets/Extensions/base/dark.uss
+	UIPackageResources/StyleSheets/Default/Northstar/Palette/dark.uss
+Unable to find style '' in skin 'DarkSkin' Layout
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.GUISkin:GetStyle (string) (at /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUISkin.cs:360)
+UnityEngine.GUIStyle:op_Implicit (string) (at /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUIStyle.cs:394)
+ALIyerEdonAssets_Lighting:OnGUI () (at Assets/Assets/HD_InteriorLightingVol.2/Scripts/Editor/ALIyerEdonAssets_Lighting.cs:66)
+UnityEditor.HostView:InvokeOnGUI (UnityEngine.Rect,UnityEngine.Rect) (at /Users/bokken/buildslave/unity/build/Editor/Mono/HostView.cs:403)
+UnityEditor.DockArea:DrawView (UnityEngine.Rect,UnityEngine.Rect) (at /Users/bokken/buildslave/unity/build/Editor/Mono/GUI/DockArea.cs:381)
+UnityEditor.DockArea:OldOnGUI () (at /Users/bokken/buildslave/unity/build/Editor/Mono/GUI/DockArea.cs:372)
+UnityEngine.UIElements.IMGUIContainer:DoOnGUI (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,bool,UnityEngine.Rect,System.Action,bool) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/IMGUIContainer.cs:333)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,System.Action,bool) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/IMGUIContainer.cs:652)
+UnityEngine.UIElements.IMGUIContainer:DoIMGUIRepaint () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/IMGUIContainer.cs:530)
+UnityEngine.UIElements.UIR.RenderChainCommand:ExecuteNonDrawMesh (UnityEngine.UIElements.UIR.DrawParams,single,System.Exception&) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRenderer/UIRenderers.cs:114)
+UnityEngine.UIElements.UIR.UIRenderDevice:EvaluateChain (UnityEngine.UIElements.UIR.RenderChainCommand,UnityEngine.Material,UnityEngine.Material,UnityEngine.Texture,UnityEngine.Texture,UnityEngine.Texture,single,Unity.Collections.NativeSlice`1<UnityEngine.UIElements.UIR.Transform3x4>,Unity.Collections.NativeSlice`1<UnityEngine.Vector4>,UnityEngine.MaterialPropertyBlock,bool,System.Exception&) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRenderer/UIRenderDevice.cs:792)
+UnityEngine.UIElements.UIR.RenderChain:Render () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRChainBuilder.cs:490)
+UnityEngine.UIElements.UIRRepaintUpdater:Update () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRRepaintUpdater.cs:62)
+UnityEngine.UIElements.VisualTreeUpdater:UpdateVisualTreePhase (UnityEngine.UIElements.VisualTreeUpdatePhase) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/VisualTreeUpdater.cs:83)
+UnityEngine.UIElements.Panel:UpdateForRepaint () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Panel.cs:829)
+UnityEngine.UIElements.Panel:Repaint (UnityEngine.Event) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Panel.cs:865)
+UnityEngine.UIElements.UIElementsUtility:DoDispatch (UnityEngine.UIElements.BaseVisualElementPanel) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:441)
+UnityEngine.UIElements.UIElementsUtility:UnityEngine.UIElements.IUIElementsUtility.ProcessEvent (int,intptr,bool&) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:209)
+UnityEngine.UIElements.UIEventRegistration:ProcessEvent (int,intptr) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:74)
+UnityEngine.UIElements.UIEventRegistration/<>c:<.cctor>b__1_2 (int,intptr) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:28)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&) (at /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUIUtility.cs:189)
+
+(Filename: /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUISkin.cs Line: 360)
+
+Unable to find style '' in skin 'DarkSkin' Layout
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.GUISkin:GetStyle (string) (at /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUISkin.cs:360)
+UnityEngine.GUIStyle:op_Implicit (string) (at /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUIStyle.cs:394)
+ALIyerEdonAssets_Lighting:OnGUI () (at Assets/Assets/HD_InteriorLightingVol.2/Scripts/Editor/ALIyerEdonAssets_Lighting.cs:71)
+UnityEditor.HostView:InvokeOnGUI (UnityEngine.Rect,UnityEngine.Rect) (at /Users/bokken/buildslave/unity/build/Editor/Mono/HostView.cs:403)
+UnityEditor.DockArea:DrawView (UnityEngine.Rect,UnityEngine.Rect) (at /Users/bokken/buildslave/unity/build/Editor/Mono/GUI/DockArea.cs:381)
+UnityEditor.DockArea:OldOnGUI () (at /Users/bokken/buildslave/unity/build/Editor/Mono/GUI/DockArea.cs:372)
+UnityEngine.UIElements.IMGUIContainer:DoOnGUI (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,bool,UnityEngine.Rect,System.Action,bool) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/IMGUIContainer.cs:333)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,System.Action,bool) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/IMGUIContainer.cs:652)
+UnityEngine.UIElements.IMGUIContainer:DoIMGUIRepaint () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/IMGUIContainer.cs:530)
+UnityEngine.UIElements.UIR.RenderChainCommand:ExecuteNonDrawMesh (UnityEngine.UIElements.UIR.DrawParams,single,System.Exception&) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRenderer/UIRenderers.cs:114)
+UnityEngine.UIElements.UIR.UIRenderDevice:EvaluateChain (UnityEngine.UIElements.UIR.RenderChainCommand,UnityEngine.Material,UnityEngine.Material,UnityEngine.Texture,UnityEngine.Texture,UnityEngine.Texture,single,Unity.Collections.NativeSlice`1<UnityEngine.UIElements.UIR.Transform3x4>,Unity.Collections.NativeSlice`1<UnityEngine.Vector4>,UnityEngine.MaterialPropertyBlock,bool,System.Exception&) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRenderer/UIRenderDevice.cs:792)
+UnityEngine.UIElements.UIR.RenderChain:Render () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRChainBuilder.cs:490)
+UnityEngine.UIElements.UIRRepaintUpdater:Update () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRRepaintUpdater.cs:62)
+UnityEngine.UIElements.VisualTreeUpdater:UpdateVisualTreePhase (UnityEngine.UIElements.VisualTreeUpdatePhase) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/VisualTreeUpdater.cs:83)
+UnityEngine.UIElements.Panel:UpdateForRepaint () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Panel.cs:829)
+UnityEngine.UIElements.Panel:Repaint (UnityEngine.Event) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Panel.cs:865)
+UnityEngine.UIElements.UIElementsUtility:DoDispatch (UnityEngine.UIElements.BaseVisualElementPanel) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:441)
+UnityEngine.UIElements.UIElementsUtility:UnityEngine.UIElements.IUIElementsUtility.ProcessEvent (int,intptr,bool&) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:209)
+UnityEngine.UIElements.UIEventRegistration:ProcessEvent (int,intptr) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:74)
+UnityEngine.UIElements.UIEventRegistration/<>c:<.cctor>b__1_2 (int,intptr) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:28)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&) (at /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUIUtility.cs:189)
+
+(Filename: /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUISkin.cs Line: 360)
+
+Unable to find style '' in skin 'DarkSkin' Layout
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.GUISkin:GetStyle (string) (at /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUISkin.cs:360)
+UnityEngine.GUIStyle:op_Implicit (string) (at /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUIStyle.cs:394)
+ALIyerEdonAssets_Lighting:OnGUI () (at Assets/Assets/HD_InteriorLightingVol.2/Scripts/Editor/ALIyerEdonAssets_Lighting.cs:76)
+UnityEditor.HostView:InvokeOnGUI (UnityEngine.Rect,UnityEngine.Rect) (at /Users/bokken/buildslave/unity/build/Editor/Mono/HostView.cs:403)
+UnityEditor.DockArea:DrawView (UnityEngine.Rect,UnityEngine.Rect) (at /Users/bokken/buildslave/unity/build/Editor/Mono/GUI/DockArea.cs:381)
+UnityEditor.DockArea:OldOnGUI () (at /Users/bokken/buildslave/unity/build/Editor/Mono/GUI/DockArea.cs:372)
+UnityEngine.UIElements.IMGUIContainer:DoOnGUI (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,bool,UnityEngine.Rect,System.Action,bool) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/IMGUIContainer.cs:333)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,System.Action,bool) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/IMGUIContainer.cs:652)
+UnityEngine.UIElements.IMGUIContainer:DoIMGUIRepaint () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/IMGUIContainer.cs:530)
+UnityEngine.UIElements.UIR.RenderChainCommand:ExecuteNonDrawMesh (UnityEngine.UIElements.UIR.DrawParams,single,System.Exception&) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRenderer/UIRenderers.cs:114)
+UnityEngine.UIElements.UIR.UIRenderDevice:EvaluateChain (UnityEngine.UIElements.UIR.RenderChainCommand,UnityEngine.Material,UnityEngine.Material,UnityEngine.Texture,UnityEngine.Texture,UnityEngine.Texture,single,Unity.Collections.NativeSlice`1<UnityEngine.UIElements.UIR.Transform3x4>,Unity.Collections.NativeSlice`1<UnityEngine.Vector4>,UnityEngine.MaterialPropertyBlock,bool,System.Exception&) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRenderer/UIRenderDevice.cs:792)
+UnityEngine.UIElements.UIR.RenderChain:Render () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRChainBuilder.cs:490)
+UnityEngine.UIElements.UIRRepaintUpdater:Update () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRRepaintUpdater.cs:62)
+UnityEngine.UIElements.VisualTreeUpdater:UpdateVisualTreePhase (UnityEngine.UIElements.VisualTreeUpdatePhase) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/VisualTreeUpdater.cs:83)
+UnityEngine.UIElements.Panel:UpdateForRepaint () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Panel.cs:829)
+UnityEngine.UIElements.Panel:Repaint (UnityEngine.Event) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Panel.cs:865)
+UnityEngine.UIElements.UIElementsUtility:DoDispatch (UnityEngine.UIElements.BaseVisualElementPanel) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:441)
+UnityEngine.UIElements.UIElementsUtility:UnityEngine.UIElements.IUIElementsUtility.ProcessEvent (int,intptr,bool&) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:209)
+UnityEngine.UIElements.UIEventRegistration:ProcessEvent (int,intptr) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:74)
+UnityEngine.UIElements.UIEventRegistration/<>c:<.cctor>b__1_2 (int,intptr) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:28)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&) (at /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUIUtility.cs:189)
+
+(Filename: /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUISkin.cs Line: 360)
+
+Unable to find style '' in skin 'DarkSkin' Layout
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.GUISkin:GetStyle (string) (at /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUISkin.cs:360)
+UnityEngine.GUIStyle:op_Implicit (string) (at /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUIStyle.cs:394)
+ALIyerEdonAssets_Lighting:OnGUI () (at Assets/Assets/HD_InteriorLightingVol.2/Scripts/Editor/ALIyerEdonAssets_Lighting.cs:81)
+UnityEditor.HostView:InvokeOnGUI (UnityEngine.Rect,UnityEngine.Rect) (at /Users/bokken/buildslave/unity/build/Editor/Mono/HostView.cs:403)
+UnityEditor.DockArea:DrawView (UnityEngine.Rect,UnityEngine.Rect) (at /Users/bokken/buildslave/unity/build/Editor/Mono/GUI/DockArea.cs:381)
+UnityEditor.DockArea:OldOnGUI () (at /Users/bokken/buildslave/unity/build/Editor/Mono/GUI/DockArea.cs:372)
+UnityEngine.UIElements.IMGUIContainer:DoOnGUI (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,bool,UnityEngine.Rect,System.Action,bool) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/IMGUIContainer.cs:333)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,System.Action,bool) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/IMGUIContainer.cs:652)
+UnityEngine.UIElements.IMGUIContainer:DoIMGUIRepaint () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/IMGUIContainer.cs:530)
+UnityEngine.UIElements.UIR.RenderChainCommand:ExecuteNonDrawMesh (UnityEngine.UIElements.UIR.DrawParams,single,System.Exception&) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRenderer/UIRenderers.cs:114)
+UnityEngine.UIElements.UIR.UIRenderDevice:EvaluateChain (UnityEngine.UIElements.UIR.RenderChainCommand,UnityEngine.Material,UnityEngine.Material,UnityEngine.Texture,UnityEngine.Texture,UnityEngine.Texture,single,Unity.Collections.NativeSlice`1<UnityEngine.UIElements.UIR.Transform3x4>,Unity.Collections.NativeSlice`1<UnityEngine.Vector4>,UnityEngine.MaterialPropertyBlock,bool,System.Exception&) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRenderer/UIRenderDevice.cs:792)
+UnityEngine.UIElements.UIR.RenderChain:Render () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRChainBuilder.cs:490)
+UnityEngine.UIElements.UIRRepaintUpdater:Update () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRRepaintUpdater.cs:62)
+UnityEngine.UIElements.VisualTreeUpdater:UpdateVisualTreePhase (UnityEngine.UIElements.VisualTreeUpdatePhase) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/VisualTreeUpdater.cs:83)
+UnityEngine.UIElements.Panel:UpdateForRepaint () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Panel.cs:829)
+UnityEngine.UIElements.Panel:Repaint (UnityEngine.Event) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Panel.cs:865)
+UnityEngine.UIElements.UIElementsUtility:DoDispatch (UnityEngine.UIElements.BaseVisualElementPanel) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:441)
+UnityEngine.UIElements.UIElementsUtility:UnityEngine.UIElements.IUIElementsUtility.ProcessEvent (int,intptr,bool&) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:209)
+UnityEngine.UIElements.UIEventRegistration:ProcessEvent (int,intptr) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:74)
+UnityEngine.UIElements.UIEventRegistration/<>c:<.cctor>b__1_2 (int,intptr) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:28)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&) (at /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUIUtility.cs:189)
+
+(Filename: /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUISkin.cs Line: 360)
+
+Unable to find style '' in skin 'DarkSkin' Layout
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.GUISkin:GetStyle (string) (at /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUISkin.cs:360)
+UnityEngine.GUIStyle:op_Implicit (string) (at /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUIStyle.cs:394)
+ALIyerEdonAssets_Lighting:OnGUI () (at Assets/Assets/HD_InteriorLightingVol.2/Scripts/Editor/ALIyerEdonAssets_Lighting.cs:86)
+UnityEditor.HostView:InvokeOnGUI (UnityEngine.Rect,UnityEngine.Rect) (at /Users/bokken/buildslave/unity/build/Editor/Mono/HostView.cs:403)
+UnityEditor.DockArea:DrawView (UnityEngine.Rect,UnityEngine.Rect) (at /Users/bokken/buildslave/unity/build/Editor/Mono/GUI/DockArea.cs:381)
+UnityEditor.DockArea:OldOnGUI () (at /Users/bokken/buildslave/unity/build/Editor/Mono/GUI/DockArea.cs:372)
+UnityEngine.UIElements.IMGUIContainer:DoOnGUI (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,bool,UnityEngine.Rect,System.Action,bool) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/IMGUIContainer.cs:333)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,System.Action,bool) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/IMGUIContainer.cs:652)
+UnityEngine.UIElements.IMGUIContainer:DoIMGUIRepaint () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/IMGUIContainer.cs:530)
+UnityEngine.UIElements.UIR.RenderChainCommand:ExecuteNonDrawMesh (UnityEngine.UIElements.UIR.DrawParams,single,System.Exception&) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRenderer/UIRenderers.cs:114)
+UnityEngine.UIElements.UIR.UIRenderDevice:EvaluateChain (UnityEngine.UIElements.UIR.RenderChainCommand,UnityEngine.Material,UnityEngine.Material,UnityEngine.Texture,UnityEngine.Texture,UnityEngine.Texture,single,Unity.Collections.NativeSlice`1<UnityEngine.UIElements.UIR.Transform3x4>,Unity.Collections.NativeSlice`1<UnityEngine.Vector4>,UnityEngine.MaterialPropertyBlock,bool,System.Exception&) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRenderer/UIRenderDevice.cs:792)
+UnityEngine.UIElements.UIR.RenderChain:Render () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRChainBuilder.cs:490)
+UnityEngine.UIElements.UIRRepaintUpdater:Update () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRRepaintUpdater.cs:62)
+UnityEngine.UIElements.VisualTreeUpdater:UpdateVisualTreePhase (UnityEngine.UIElements.VisualTreeUpdatePhase) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/VisualTreeUpdater.cs:83)
+UnityEngine.UIElements.Panel:UpdateForRepaint () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Panel.cs:829)
+UnityEngine.UIElements.Panel:Repaint (UnityEngine.Event) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Panel.cs:865)
+UnityEngine.UIElements.UIElementsUtility:DoDispatch (UnityEngine.UIElements.BaseVisualElementPanel) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:441)
+UnityEngine.UIElements.UIElementsUtility:UnityEngine.UIElements.IUIElementsUtility.ProcessEvent (int,intptr,bool&) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:209)
+UnityEngine.UIElements.UIEventRegistration:ProcessEvent (int,intptr) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:74)
+UnityEngine.UIElements.UIEventRegistration/<>c:<.cctor>b__1_2 (int,intptr) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:28)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&) (at /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUIUtility.cs:189)
+
+(Filename: /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUISkin.cs Line: 360)
+
+Unable to find style '' in skin 'DarkSkin' Layout
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.GUISkin:GetStyle (string) (at /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUISkin.cs:360)
+UnityEngine.GUIStyle:op_Implicit (string) (at /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUIStyle.cs:394)
+ALIyerEdonAssets_Lighting:OnGUI () (at Assets/Assets/HD_InteriorLightingVol.2/Scripts/Editor/ALIyerEdonAssets_Lighting.cs:91)
+UnityEditor.HostView:InvokeOnGUI (UnityEngine.Rect,UnityEngine.Rect) (at /Users/bokken/buildslave/unity/build/Editor/Mono/HostView.cs:403)
+UnityEditor.DockArea:DrawView (UnityEngine.Rect,UnityEngine.Rect) (at /Users/bokken/buildslave/unity/build/Editor/Mono/GUI/DockArea.cs:381)
+UnityEditor.DockArea:OldOnGUI () (at /Users/bokken/buildslave/unity/build/Editor/Mono/GUI/DockArea.cs:372)
+UnityEngine.UIElements.IMGUIContainer:DoOnGUI (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,bool,UnityEngine.Rect,System.Action,bool) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/IMGUIContainer.cs:333)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,System.Action,bool) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/IMGUIContainer.cs:652)
+UnityEngine.UIElements.IMGUIContainer:DoIMGUIRepaint () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/IMGUIContainer.cs:530)
+UnityEngine.UIElements.UIR.RenderChainCommand:ExecuteNonDrawMesh (UnityEngine.UIElements.UIR.DrawParams,single,System.Exception&) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRenderer/UIRenderers.cs:114)
+UnityEngine.UIElements.UIR.UIRenderDevice:EvaluateChain (UnityEngine.UIElements.UIR.RenderChainCommand,UnityEngine.Material,UnityEngine.Material,UnityEngine.Texture,UnityEngine.Texture,UnityEngine.Texture,single,Unity.Collections.NativeSlice`1<UnityEngine.UIElements.UIR.Transform3x4>,Unity.Collections.NativeSlice`1<UnityEngine.Vector4>,UnityEngine.MaterialPropertyBlock,bool,System.Exception&) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRenderer/UIRenderDevice.cs:792)
+UnityEngine.UIElements.UIR.RenderChain:Render () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRChainBuilder.cs:490)
+UnityEngine.UIElements.UIRRepaintUpdater:Update () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRRepaintUpdater.cs:62)
+UnityEngine.UIElements.VisualTreeUpdater:UpdateVisualTreePhase (UnityEngine.UIElements.VisualTreeUpdatePhase) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/VisualTreeUpdater.cs:83)
+UnityEngine.UIElements.Panel:UpdateForRepaint () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Panel.cs:829)
+UnityEngine.UIElements.Panel:Repaint (UnityEngine.Event) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Panel.cs:865)
+UnityEngine.UIElements.UIElementsUtility:DoDispatch (UnityEngine.UIElements.BaseVisualElementPanel) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:441)
+UnityEngine.UIElements.UIElementsUtility:UnityEngine.UIElements.IUIElementsUtility.ProcessEvent (int,intptr,bool&) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:209)
+UnityEngine.UIElements.UIEventRegistration:ProcessEvent (int,intptr) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:74)
+UnityEngine.UIElements.UIEventRegistration/<>c:<.cctor>b__1_2 (int,intptr) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:28)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&) (at /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUIUtility.cs:189)
+
+(Filename: /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUISkin.cs Line: 360)
+
+Unable to find style '' in skin 'DarkSkin' Layout
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.GUISkin:GetStyle (string) (at /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUISkin.cs:360)
+UnityEngine.GUIStyle:op_Implicit (string) (at /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUIStyle.cs:394)
+ALIyerEdonAssets_Lighting:OnGUI () (at Assets/Assets/HD_InteriorLightingVol.2/Scripts/Editor/ALIyerEdonAssets_Lighting.cs:96)
+UnityEditor.HostView:InvokeOnGUI (UnityEngine.Rect,UnityEngine.Rect) (at /Users/bokken/buildslave/unity/build/Editor/Mono/HostView.cs:403)
+UnityEditor.DockArea:DrawView (UnityEngine.Rect,UnityEngine.Rect) (at /Users/bokken/buildslave/unity/build/Editor/Mono/GUI/DockArea.cs:381)
+UnityEditor.DockArea:OldOnGUI () (at /Users/bokken/buildslave/unity/build/Editor/Mono/GUI/DockArea.cs:372)
+UnityEngine.UIElements.IMGUIContainer:DoOnGUI (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,bool,UnityEngine.Rect,System.Action,bool) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/IMGUIContainer.cs:333)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,System.Action,bool) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/IMGUIContainer.cs:652)
+UnityEngine.UIElements.IMGUIContainer:DoIMGUIRepaint () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/IMGUIContainer.cs:530)
+UnityEngine.UIElements.UIR.RenderChainCommand:ExecuteNonDrawMesh (UnityEngine.UIElements.UIR.DrawParams,single,System.Exception&) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRenderer/UIRenderers.cs:114)
+UnityEngine.UIElements.UIR.UIRenderDevice:EvaluateChain (UnityEngine.UIElements.UIR.RenderChainCommand,UnityEngine.Material,UnityEngine.Material,UnityEngine.Texture,UnityEngine.Texture,UnityEngine.Texture,single,Unity.Collections.NativeSlice`1<UnityEngine.UIElements.UIR.Transform3x4>,Unity.Collections.NativeSlice`1<UnityEngine.Vector4>,UnityEngine.MaterialPropertyBlock,bool,System.Exception&) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRenderer/UIRenderDevice.cs:792)
+UnityEngine.UIElements.UIR.RenderChain:Render () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRChainBuilder.cs:490)
+UnityEngine.UIElements.UIRRepaintUpdater:Update () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRRepaintUpdater.cs:62)
+UnityEngine.UIElements.VisualTreeUpdater:UpdateVisualTreePhase (UnityEngine.UIElements.VisualTreeUpdatePhase) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/VisualTreeUpdater.cs:83)
+UnityEngine.UIElements.Panel:UpdateForRepaint () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Panel.cs:829)
+UnityEngine.UIElements.Panel:Repaint (UnityEngine.Event) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Panel.cs:865)
+UnityEngine.UIElements.UIElementsUtility:DoDispatch (UnityEngine.UIElements.BaseVisualElementPanel) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:441)
+UnityEngine.UIElements.UIElementsUtility:UnityEngine.UIElements.IUIElementsUtility.ProcessEvent (int,intptr,bool&) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:209)
+UnityEngine.UIElements.UIEventRegistration:ProcessEvent (int,intptr) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:74)
+UnityEngine.UIElements.UIEventRegistration/<>c:<.cctor>b__1_2 (int,intptr) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:28)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&) (at /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUIUtility.cs:189)
+
+(Filename: /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUISkin.cs Line: 360)
+
+Unable to find style '' in skin 'DarkSkin' Layout
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.GUISkin:GetStyle (string) (at /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUISkin.cs:360)
+UnityEngine.GUIStyle:op_Implicit (string) (at /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUIStyle.cs:394)
+ALIyerEdonAssets_Lighting:OnGUI () (at Assets/Assets/HD_InteriorLightingVol.2/Scripts/Editor/ALIyerEdonAssets_Lighting.cs:101)
+UnityEditor.HostView:InvokeOnGUI (UnityEngine.Rect,UnityEngine.Rect) (at /Users/bokken/buildslave/unity/build/Editor/Mono/HostView.cs:403)
+UnityEditor.DockArea:DrawView (UnityEngine.Rect,UnityEngine.Rect) (at /Users/bokken/buildslave/unity/build/Editor/Mono/GUI/DockArea.cs:381)
+UnityEditor.DockArea:OldOnGUI () (at /Users/bokken/buildslave/unity/build/Editor/Mono/GUI/DockArea.cs:372)
+UnityEngine.UIElements.IMGUIContainer:DoOnGUI (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,bool,UnityEngine.Rect,System.Action,bool) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/IMGUIContainer.cs:333)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,System.Action,bool) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/IMGUIContainer.cs:652)
+UnityEngine.UIElements.IMGUIContainer:DoIMGUIRepaint () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/IMGUIContainer.cs:530)
+UnityEngine.UIElements.UIR.RenderChainCommand:ExecuteNonDrawMesh (UnityEngine.UIElements.UIR.DrawParams,single,System.Exception&) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRenderer/UIRenderers.cs:114)
+UnityEngine.UIElements.UIR.UIRenderDevice:EvaluateChain (UnityEngine.UIElements.UIR.RenderChainCommand,UnityEngine.Material,UnityEngine.Material,UnityEngine.Texture,UnityEngine.Texture,UnityEngine.Texture,single,Unity.Collections.NativeSlice`1<UnityEngine.UIElements.UIR.Transform3x4>,Unity.Collections.NativeSlice`1<UnityEngine.Vector4>,UnityEngine.MaterialPropertyBlock,bool,System.Exception&) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRenderer/UIRenderDevice.cs:792)
+UnityEngine.UIElements.UIR.RenderChain:Render () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRChainBuilder.cs:490)
+UnityEngine.UIElements.UIRRepaintUpdater:Update () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRRepaintUpdater.cs:62)
+UnityEngine.UIElements.VisualTreeUpdater:UpdateVisualTreePhase (UnityEngine.UIElements.VisualTreeUpdatePhase) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/VisualTreeUpdater.cs:83)
+UnityEngine.UIElements.Panel:UpdateForRepaint () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Panel.cs:829)
+UnityEngine.UIElements.Panel:Repaint (UnityEngine.Event) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Panel.cs:865)
+UnityEngine.UIElements.UIElementsUtility:DoDispatch (UnityEngine.UIElements.BaseVisualElementPanel) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:441)
+UnityEngine.UIElements.UIElementsUtility:UnityEngine.UIElements.IUIElementsUtility.ProcessEvent (int,intptr,bool&) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:209)
+UnityEngine.UIElements.UIEventRegistration:ProcessEvent (int,intptr) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:74)
+UnityEngine.UIElements.UIEventRegistration/<>c:<.cctor>b__1_2 (int,intptr) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:28)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&) (at /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUIUtility.cs:189)
+
+(Filename: /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUISkin.cs Line: 360)
+
+Unable to find style '' in skin 'DarkSkin' Layout
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.GUISkin:GetStyle (string) (at /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUISkin.cs:360)
+UnityEngine.GUIStyle:op_Implicit (string) (at /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUIStyle.cs:394)
+ALIyerEdonAssets_Lighting:OnGUI () (at Assets/Assets/HD_InteriorLightingVol.2/Scripts/Editor/ALIyerEdonAssets_Lighting.cs:106)
+UnityEditor.HostView:InvokeOnGUI (UnityEngine.Rect,UnityEngine.Rect) (at /Users/bokken/buildslave/unity/build/Editor/Mono/HostView.cs:403)
+UnityEditor.DockArea:DrawView (UnityEngine.Rect,UnityEngine.Rect) (at /Users/bokken/buildslave/unity/build/Editor/Mono/GUI/DockArea.cs:381)
+UnityEditor.DockArea:OldOnGUI () (at /Users/bokken/buildslave/unity/build/Editor/Mono/GUI/DockArea.cs:372)
+UnityEngine.UIElements.IMGUIContainer:DoOnGUI (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,bool,UnityEngine.Rect,System.Action,bool) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/IMGUIContainer.cs:333)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,System.Action,bool) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/IMGUIContainer.cs:652)
+UnityEngine.UIElements.IMGUIContainer:DoIMGUIRepaint () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/IMGUIContainer.cs:530)
+UnityEngine.UIElements.UIR.RenderChainCommand:ExecuteNonDrawMesh (UnityEngine.UIElements.UIR.DrawParams,single,System.Exception&) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRenderer/UIRenderers.cs:114)
+UnityEngine.UIElements.UIR.UIRenderDevice:EvaluateChain (UnityEngine.UIElements.UIR.RenderChainCommand,UnityEngine.Material,UnityEngine.Material,UnityEngine.Texture,UnityEngine.Texture,UnityEngine.Texture,single,Unity.Collections.NativeSlice`1<UnityEngine.UIElements.UIR.Transform3x4>,Unity.Collections.NativeSlice`1<UnityEngine.Vector4>,UnityEngine.MaterialPropertyBlock,bool,System.Exception&) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRenderer/UIRenderDevice.cs:792)
+UnityEngine.UIElements.UIR.RenderChain:Render () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRChainBuilder.cs:490)
+UnityEngine.UIElements.UIRRepaintUpdater:Update () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRRepaintUpdater.cs:62)
+UnityEngine.UIElements.VisualTreeUpdater:UpdateVisualTreePhase (UnityEngine.UIElements.VisualTreeUpdatePhase) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/VisualTreeUpdater.cs:83)
+UnityEngine.UIElements.Panel:UpdateForRepaint () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Panel.cs:829)
+UnityEngine.UIElements.Panel:Repaint (UnityEngine.Event) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Panel.cs:865)
+UnityEngine.UIElements.UIElementsUtility:DoDispatch (UnityEngine.UIElements.BaseVisualElementPanel) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:441)
+UnityEngine.UIElements.UIElementsUtility:UnityEngine.UIElements.IUIElementsUtility.ProcessEvent (int,intptr,bool&) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:209)
+UnityEngine.UIElements.UIEventRegistration:ProcessEvent (int,intptr) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:74)
+UnityEngine.UIElements.UIEventRegistration/<>c:<.cctor>b__1_2 (int,intptr) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:28)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&) (at /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUIUtility.cs:189)
+
+(Filename: /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUISkin.cs Line: 360)
+
+Unable to find style '' in skin 'DarkSkin' Layout
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.GUISkin:GetStyle (string) (at /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUISkin.cs:360)
+UnityEngine.GUIStyle:op_Implicit (string) (at /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUIStyle.cs:394)
+ALIyerEdonAssets_Lighting:OnGUI () (at Assets/Assets/HD_InteriorLightingVol.2/Scripts/Editor/ALIyerEdonAssets_Lighting.cs:111)
+UnityEditor.HostView:InvokeOnGUI (UnityEngine.Rect,UnityEngine.Rect) (at /Users/bokken/buildslave/unity/build/Editor/Mono/HostView.cs:403)
+UnityEditor.DockArea:DrawView (UnityEngine.Rect,UnityEngine.Rect) (at /Users/bokken/buildslave/unity/build/Editor/Mono/GUI/DockArea.cs:381)
+UnityEditor.DockArea:OldOnGUI () (at /Users/bokken/buildslave/unity/build/Editor/Mono/GUI/DockArea.cs:372)
+UnityEngine.UIElements.IMGUIContainer:DoOnGUI (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,bool,UnityEngine.Rect,System.Action,bool) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/IMGUIContainer.cs:333)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,System.Action,bool) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/IMGUIContainer.cs:652)
+UnityEngine.UIElements.IMGUIContainer:DoIMGUIRepaint () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/IMGUIContainer.cs:530)
+UnityEngine.UIElements.UIR.RenderChainCommand:ExecuteNonDrawMesh (UnityEngine.UIElements.UIR.DrawParams,single,System.Exception&) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRenderer/UIRenderers.cs:114)
+UnityEngine.UIElements.UIR.UIRenderDevice:EvaluateChain (UnityEngine.UIElements.UIR.RenderChainCommand,UnityEngine.Material,UnityEngine.Material,UnityEngine.Texture,UnityEngine.Texture,UnityEngine.Texture,single,Unity.Collections.NativeSlice`1<UnityEngine.UIElements.UIR.Transform3x4>,Unity.Collections.NativeSlice`1<UnityEngine.Vector4>,UnityEngine.MaterialPropertyBlock,bool,System.Exception&) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRenderer/UIRenderDevice.cs:792)
+UnityEngine.UIElements.UIR.RenderChain:Render () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRChainBuilder.cs:490)
+UnityEngine.UIElements.UIRRepaintUpdater:Update () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRRepaintUpdater.cs:62)
+UnityEngine.UIElements.VisualTreeUpdater:UpdateVisualTreePhase (UnityEngine.UIElements.VisualTreeUpdatePhase) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/VisualTreeUpdater.cs:83)
+UnityEngine.UIElements.Panel:UpdateForRepaint () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Panel.cs:829)
+UnityEngine.UIElements.Panel:Repaint (UnityEngine.Event) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Panel.cs:865)
+UnityEngine.UIElements.UIElementsUtility:DoDispatch (UnityEngine.UIElements.BaseVisualElementPanel) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:441)
+UnityEngine.UIElements.UIElementsUtility:UnityEngine.UIElements.IUIElementsUtility.ProcessEvent (int,intptr,bool&) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:209)
+UnityEngine.UIElements.UIEventRegistration:ProcessEvent (int,intptr) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:74)
+UnityEngine.UIElements.UIEventRegistration/<>c:<.cctor>b__1_2 (int,intptr) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:28)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&) (at /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUIUtility.cs:189)
+
+(Filename: /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUISkin.cs Line: 360)
+
+Unable to find style '' in skin 'DarkSkin' Layout
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.GUISkin:GetStyle (string) (at /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUISkin.cs:360)
+UnityEngine.GUIStyle:op_Implicit (string) (at /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUIStyle.cs:394)
+ALIyerEdonAssets_Lighting:OnGUI () (at Assets/Assets/HD_InteriorLightingVol.2/Scripts/Editor/ALIyerEdonAssets_Lighting.cs:116)
+UnityEditor.HostView:InvokeOnGUI (UnityEngine.Rect,UnityEngine.Rect) (at /Users/bokken/buildslave/unity/build/Editor/Mono/HostView.cs:403)
+UnityEditor.DockArea:DrawView (UnityEngine.Rect,UnityEngine.Rect) (at /Users/bokken/buildslave/unity/build/Editor/Mono/GUI/DockArea.cs:381)
+UnityEditor.DockArea:OldOnGUI () (at /Users/bokken/buildslave/unity/build/Editor/Mono/GUI/DockArea.cs:372)
+UnityEngine.UIElements.IMGUIContainer:DoOnGUI (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,bool,UnityEngine.Rect,System.Action,bool) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/IMGUIContainer.cs:333)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,System.Action,bool) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/IMGUIContainer.cs:652)
+UnityEngine.UIElements.IMGUIContainer:DoIMGUIRepaint () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/IMGUIContainer.cs:530)
+UnityEngine.UIElements.UIR.RenderChainCommand:ExecuteNonDrawMesh (UnityEngine.UIElements.UIR.DrawParams,single,System.Exception&) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRenderer/UIRenderers.cs:114)
+UnityEngine.UIElements.UIR.UIRenderDevice:EvaluateChain (UnityEngine.UIElements.UIR.RenderChainCommand,UnityEngine.Material,UnityEngine.Material,UnityEngine.Texture,UnityEngine.Texture,UnityEngine.Texture,single,Unity.Collections.NativeSlice`1<UnityEngine.UIElements.UIR.Transform3x4>,Unity.Collections.NativeSlice`1<UnityEngine.Vector4>,UnityEngine.MaterialPropertyBlock,bool,System.Exception&) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRenderer/UIRenderDevice.cs:792)
+UnityEngine.UIElements.UIR.RenderChain:Render () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRChainBuilder.cs:490)
+UnityEngine.UIElements.UIRRepaintUpdater:Update () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRRepaintUpdater.cs:62)
+UnityEngine.UIElements.VisualTreeUpdater:UpdateVisualTreePhase (UnityEngine.UIElements.VisualTreeUpdatePhase) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/VisualTreeUpdater.cs:83)
+UnityEngine.UIElements.Panel:UpdateForRepaint () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Panel.cs:829)
+UnityEngine.UIElements.Panel:Repaint (UnityEngine.Event) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Panel.cs:865)
+UnityEngine.UIElements.UIElementsUtility:DoDispatch (UnityEngine.UIElements.BaseVisualElementPanel) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:441)
+UnityEngine.UIElements.UIElementsUtility:UnityEngine.UIElements.IUIElementsUtility.ProcessEvent (int,intptr,bool&) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:209)
+UnityEngine.UIElements.UIEventRegistration:ProcessEvent (int,intptr) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:74)
+UnityEngine.UIElements.UIEventRegistration/<>c:<.cctor>b__1_2 (int,intptr) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:28)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&) (at /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUIUtility.cs:189)
+
+(Filename: /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUISkin.cs Line: 360)
+
+Unable to find style '' in skin 'DarkSkin' Layout
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.GUISkin:GetStyle (string) (at /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUISkin.cs:360)
+UnityEngine.GUIStyle:op_Implicit (string) (at /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUIStyle.cs:394)
+ALIyerEdonAssets_Lighting:OnGUI () (at Assets/Assets/HD_InteriorLightingVol.2/Scripts/Editor/ALIyerEdonAssets_Lighting.cs:121)
+UnityEditor.HostView:InvokeOnGUI (UnityEngine.Rect,UnityEngine.Rect) (at /Users/bokken/buildslave/unity/build/Editor/Mono/HostView.cs:403)
+UnityEditor.DockArea:DrawView (UnityEngine.Rect,UnityEngine.Rect) (at /Users/bokken/buildslave/unity/build/Editor/Mono/GUI/DockArea.cs:381)
+UnityEditor.DockArea:OldOnGUI () (at /Users/bokken/buildslave/unity/build/Editor/Mono/GUI/DockArea.cs:372)
+UnityEngine.UIElements.IMGUIContainer:DoOnGUI (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,bool,UnityEngine.Rect,System.Action,bool) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/IMGUIContainer.cs:333)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,System.Action,bool) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/IMGUIContainer.cs:652)
+UnityEngine.UIElements.IMGUIContainer:DoIMGUIRepaint () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/IMGUIContainer.cs:530)
+UnityEngine.UIElements.UIR.RenderChainCommand:ExecuteNonDrawMesh (UnityEngine.UIElements.UIR.DrawParams,single,System.Exception&) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRenderer/UIRenderers.cs:114)
+UnityEngine.UIElements.UIR.UIRenderDevice:EvaluateChain (UnityEngine.UIElements.UIR.RenderChainCommand,UnityEngine.Material,UnityEngine.Material,UnityEngine.Texture,UnityEngine.Texture,UnityEngine.Texture,single,Unity.Collections.NativeSlice`1<UnityEngine.UIElements.UIR.Transform3x4>,Unity.Collections.NativeSlice`1<UnityEngine.Vector4>,UnityEngine.MaterialPropertyBlock,bool,System.Exception&) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRenderer/UIRenderDevice.cs:792)
+UnityEngine.UIElements.UIR.RenderChain:Render () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRChainBuilder.cs:490)
+UnityEngine.UIElements.UIRRepaintUpdater:Update () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRRepaintUpdater.cs:62)
+UnityEngine.UIElements.VisualTreeUpdater:UpdateVisualTreePhase (UnityEngine.UIElements.VisualTreeUpdatePhase) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/VisualTreeUpdater.cs:83)
+UnityEngine.UIElements.Panel:UpdateForRepaint () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Panel.cs:829)
+UnityEngine.UIElements.Panel:Repaint (UnityEngine.Event) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Panel.cs:865)
+UnityEngine.UIElements.UIElementsUtility:DoDispatch (UnityEngine.UIElements.BaseVisualElementPanel) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:441)
+UnityEngine.UIElements.UIElementsUtility:UnityEngine.UIElements.IUIElementsUtility.ProcessEvent (int,intptr,bool&) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:209)
+UnityEngine.UIElements.UIEventRegistration:ProcessEvent (int,intptr) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:74)
+UnityEngine.UIElements.UIEventRegistration/<>c:<.cctor>b__1_2 (int,intptr) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:28)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&) (at /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUIUtility.cs:189)
+
+(Filename: /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUISkin.cs Line: 360)
+
+Unable to find style '' in skin 'DarkSkin' repaint
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.GUISkin:GetStyle (string) (at /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUISkin.cs:360)
+UnityEngine.GUIStyle:op_Implicit (string) (at /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUIStyle.cs:394)
+ALIyerEdonAssets_Lighting:OnGUI () (at Assets/Assets/HD_InteriorLightingVol.2/Scripts/Editor/ALIyerEdonAssets_Lighting.cs:66)
+UnityEditor.HostView:InvokeOnGUI (UnityEngine.Rect,UnityEngine.Rect) (at /Users/bokken/buildslave/unity/build/Editor/Mono/HostView.cs:403)
+UnityEditor.DockArea:DrawView (UnityEngine.Rect,UnityEngine.Rect) (at /Users/bokken/buildslave/unity/build/Editor/Mono/GUI/DockArea.cs:381)
+UnityEditor.DockArea:OldOnGUI () (at /Users/bokken/buildslave/unity/build/Editor/Mono/GUI/DockArea.cs:372)
+UnityEngine.UIElements.IMGUIContainer:DoOnGUI (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,bool,UnityEngine.Rect,System.Action,bool) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/IMGUIContainer.cs:333)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,System.Action,bool) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/IMGUIContainer.cs:663)
+UnityEngine.UIElements.IMGUIContainer:DoIMGUIRepaint () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/IMGUIContainer.cs:530)
+UnityEngine.UIElements.UIR.RenderChainCommand:ExecuteNonDrawMesh (UnityEngine.UIElements.UIR.DrawParams,single,System.Exception&) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRenderer/UIRenderers.cs:114)
+UnityEngine.UIElements.UIR.UIRenderDevice:EvaluateChain (UnityEngine.UIElements.UIR.RenderChainCommand,UnityEngine.Material,UnityEngine.Material,UnityEngine.Texture,UnityEngine.Texture,UnityEngine.Texture,single,Unity.Collections.NativeSlice`1<UnityEngine.UIElements.UIR.Transform3x4>,Unity.Collections.NativeSlice`1<UnityEngine.Vector4>,UnityEngine.MaterialPropertyBlock,bool,System.Exception&) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRenderer/UIRenderDevice.cs:792)
+UnityEngine.UIElements.UIR.RenderChain:Render () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRChainBuilder.cs:490)
+UnityEngine.UIElements.UIRRepaintUpdater:Update () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRRepaintUpdater.cs:62)
+UnityEngine.UIElements.VisualTreeUpdater:UpdateVisualTreePhase (UnityEngine.UIElements.VisualTreeUpdatePhase) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/VisualTreeUpdater.cs:83)
+UnityEngine.UIElements.Panel:UpdateForRepaint () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Panel.cs:829)
+UnityEngine.UIElements.Panel:Repaint (UnityEngine.Event) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Panel.cs:865)
+UnityEngine.UIElements.UIElementsUtility:DoDispatch (UnityEngine.UIElements.BaseVisualElementPanel) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:441)
+UnityEngine.UIElements.UIElementsUtility:UnityEngine.UIElements.IUIElementsUtility.ProcessEvent (int,intptr,bool&) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:209)
+UnityEngine.UIElements.UIEventRegistration:ProcessEvent (int,intptr) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:74)
+UnityEngine.UIElements.UIEventRegistration/<>c:<.cctor>b__1_2 (int,intptr) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:28)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&) (at /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUIUtility.cs:189)
+
+(Filename: /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUISkin.cs Line: 360)
+
+Unable to find style '' in skin 'DarkSkin' repaint
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.GUISkin:GetStyle (string) (at /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUISkin.cs:360)
+UnityEngine.GUIStyle:op_Implicit (string) (at /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUIStyle.cs:394)
+ALIyerEdonAssets_Lighting:OnGUI () (at Assets/Assets/HD_InteriorLightingVol.2/Scripts/Editor/ALIyerEdonAssets_Lighting.cs:71)
+UnityEditor.HostView:InvokeOnGUI (UnityEngine.Rect,UnityEngine.Rect) (at /Users/bokken/buildslave/unity/build/Editor/Mono/HostView.cs:403)
+UnityEditor.DockArea:DrawView (UnityEngine.Rect,UnityEngine.Rect) (at /Users/bokken/buildslave/unity/build/Editor/Mono/GUI/DockArea.cs:381)
+UnityEditor.DockArea:OldOnGUI () (at /Users/bokken/buildslave/unity/build/Editor/Mono/GUI/DockArea.cs:372)
+UnityEngine.UIElements.IMGUIContainer:DoOnGUI (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,bool,UnityEngine.Rect,System.Action,bool) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/IMGUIContainer.cs:333)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,System.Action,bool) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/IMGUIContainer.cs:663)
+UnityEngine.UIElements.IMGUIContainer:DoIMGUIRepaint () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/IMGUIContainer.cs:530)
+UnityEngine.UIElements.UIR.RenderChainCommand:ExecuteNonDrawMesh (UnityEngine.UIElements.UIR.DrawParams,single,System.Exception&) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRenderer/UIRenderers.cs:114)
+UnityEngine.UIElements.UIR.UIRenderDevice:EvaluateChain (UnityEngine.UIElements.UIR.RenderChainCommand,UnityEngine.Material,UnityEngine.Material,UnityEngine.Texture,UnityEngine.Texture,UnityEngine.Texture,single,Unity.Collections.NativeSlice`1<UnityEngine.UIElements.UIR.Transform3x4>,Unity.Collections.NativeSlice`1<UnityEngine.Vector4>,UnityEngine.MaterialPropertyBlock,bool,System.Exception&) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRenderer/UIRenderDevice.cs:792)
+UnityEngine.UIElements.UIR.RenderChain:Render () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRChainBuilder.cs:490)
+UnityEngine.UIElements.UIRRepaintUpdater:Update () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRRepaintUpdater.cs:62)
+UnityEngine.UIElements.VisualTreeUpdater:UpdateVisualTreePhase (UnityEngine.UIElements.VisualTreeUpdatePhase) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/VisualTreeUpdater.cs:83)
+UnityEngine.UIElements.Panel:UpdateForRepaint () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Panel.cs:829)
+UnityEngine.UIElements.Panel:Repaint (UnityEngine.Event) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Panel.cs:865)
+UnityEngine.UIElements.UIElementsUtility:DoDispatch (UnityEngine.UIElements.BaseVisualElementPanel) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:441)
+UnityEngine.UIElements.UIElementsUtility:UnityEngine.UIElements.IUIElementsUtility.ProcessEvent (int,intptr,bool&) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:209)
+UnityEngine.UIElements.UIEventRegistration:ProcessEvent (int,intptr) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:74)
+UnityEngine.UIElements.UIEventRegistration/<>c:<.cctor>b__1_2 (int,intptr) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:28)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&) (at /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUIUtility.cs:189)
+
+(Filename: /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUISkin.cs Line: 360)
+
+Unable to find style '' in skin 'DarkSkin' repaint
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.GUISkin:GetStyle (string) (at /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUISkin.cs:360)
+UnityEngine.GUIStyle:op_Implicit (string) (at /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUIStyle.cs:394)
+ALIyerEdonAssets_Lighting:OnGUI () (at Assets/Assets/HD_InteriorLightingVol.2/Scripts/Editor/ALIyerEdonAssets_Lighting.cs:76)
+UnityEditor.HostView:InvokeOnGUI (UnityEngine.Rect,UnityEngine.Rect) (at /Users/bokken/buildslave/unity/build/Editor/Mono/HostView.cs:403)
+UnityEditor.DockArea:DrawView (UnityEngine.Rect,UnityEngine.Rect) (at /Users/bokken/buildslave/unity/build/Editor/Mono/GUI/DockArea.cs:381)
+UnityEditor.DockArea:OldOnGUI () (at /Users/bokken/buildslave/unity/build/Editor/Mono/GUI/DockArea.cs:372)
+UnityEngine.UIElements.IMGUIContainer:DoOnGUI (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,bool,UnityEngine.Rect,System.Action,bool) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/IMGUIContainer.cs:333)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,System.Action,bool) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/IMGUIContainer.cs:663)
+UnityEngine.UIElements.IMGUIContainer:DoIMGUIRepaint () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/IMGUIContainer.cs:530)
+UnityEngine.UIElements.UIR.RenderChainCommand:ExecuteNonDrawMesh (UnityEngine.UIElements.UIR.DrawParams,single,System.Exception&) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRenderer/UIRenderers.cs:114)
+UnityEngine.UIElements.UIR.UIRenderDevice:EvaluateChain (UnityEngine.UIElements.UIR.RenderChainCommand,UnityEngine.Material,UnityEngine.Material,UnityEngine.Texture,UnityEngine.Texture,UnityEngine.Texture,single,Unity.Collections.NativeSlice`1<UnityEngine.UIElements.UIR.Transform3x4>,Unity.Collections.NativeSlice`1<UnityEngine.Vector4>,UnityEngine.MaterialPropertyBlock,bool,System.Exception&) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRenderer/UIRenderDevice.cs:792)
+UnityEngine.UIElements.UIR.RenderChain:Render () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRChainBuilder.cs:490)
+UnityEngine.UIElements.UIRRepaintUpdater:Update () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRRepaintUpdater.cs:62)
+UnityEngine.UIElements.VisualTreeUpdater:UpdateVisualTreePhase (UnityEngine.UIElements.VisualTreeUpdatePhase) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/VisualTreeUpdater.cs:83)
+UnityEngine.UIElements.Panel:UpdateForRepaint () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Panel.cs:829)
+UnityEngine.UIElements.Panel:Repaint (UnityEngine.Event) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Panel.cs:865)
+UnityEngine.UIElements.UIElementsUtility:DoDispatch (UnityEngine.UIElements.BaseVisualElementPanel) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:441)
+UnityEngine.UIElements.UIElementsUtility:UnityEngine.UIElements.IUIElementsUtility.ProcessEvent (int,intptr,bool&) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:209)
+UnityEngine.UIElements.UIEventRegistration:ProcessEvent (int,intptr) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:74)
+UnityEngine.UIElements.UIEventRegistration/<>c:<.cctor>b__1_2 (int,intptr) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:28)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&) (at /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUIUtility.cs:189)
+
+(Filename: /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUISkin.cs Line: 360)
+
+Unable to find style '' in skin 'DarkSkin' repaint
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.GUISkin:GetStyle (string) (at /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUISkin.cs:360)
+UnityEngine.GUIStyle:op_Implicit (string) (at /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUIStyle.cs:394)
+ALIyerEdonAssets_Lighting:OnGUI () (at Assets/Assets/HD_InteriorLightingVol.2/Scripts/Editor/ALIyerEdonAssets_Lighting.cs:81)
+UnityEditor.HostView:InvokeOnGUI (UnityEngine.Rect,UnityEngine.Rect) (at /Users/bokken/buildslave/unity/build/Editor/Mono/HostView.cs:403)
+UnityEditor.DockArea:DrawView (UnityEngine.Rect,UnityEngine.Rect) (at /Users/bokken/buildslave/unity/build/Editor/Mono/GUI/DockArea.cs:381)
+UnityEditor.DockArea:OldOnGUI () (at /Users/bokken/buildslave/unity/build/Editor/Mono/GUI/DockArea.cs:372)
+UnityEngine.UIElements.IMGUIContainer:DoOnGUI (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,bool,UnityEngine.Rect,System.Action,bool) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/IMGUIContainer.cs:333)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,System.Action,bool) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/IMGUIContainer.cs:663)
+UnityEngine.UIElements.IMGUIContainer:DoIMGUIRepaint () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/IMGUIContainer.cs:530)
+UnityEngine.UIElements.UIR.RenderChainCommand:ExecuteNonDrawMesh (UnityEngine.UIElements.UIR.DrawParams,single,System.Exception&) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRenderer/UIRenderers.cs:114)
+UnityEngine.UIElements.UIR.UIRenderDevice:EvaluateChain (UnityEngine.UIElements.UIR.RenderChainCommand,UnityEngine.Material,UnityEngine.Material,UnityEngine.Texture,UnityEngine.Texture,UnityEngine.Texture,single,Unity.Collections.NativeSlice`1<UnityEngine.UIElements.UIR.Transform3x4>,Unity.Collections.NativeSlice`1<UnityEngine.Vector4>,UnityEngine.MaterialPropertyBlock,bool,System.Exception&) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRenderer/UIRenderDevice.cs:792)
+UnityEngine.UIElements.UIR.RenderChain:Render () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRChainBuilder.cs:490)
+UnityEngine.UIElements.UIRRepaintUpdater:Update () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRRepaintUpdater.cs:62)
+UnityEngine.UIElements.VisualTreeUpdater:UpdateVisualTreePhase (UnityEngine.UIElements.VisualTreeUpdatePhase) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/VisualTreeUpdater.cs:83)
+UnityEngine.UIElements.Panel:UpdateForRepaint () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Panel.cs:829)
+UnityEngine.UIElements.Panel:Repaint (UnityEngine.Event) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Panel.cs:865)
+UnityEngine.UIElements.UIElementsUtility:DoDispatch (UnityEngine.UIElements.BaseVisualElementPanel) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:441)
+UnityEngine.UIElements.UIElementsUtility:UnityEngine.UIElements.IUIElementsUtility.ProcessEvent (int,intptr,bool&) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:209)
+UnityEngine.UIElements.UIEventRegistration:ProcessEvent (int,intptr) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:74)
+UnityEngine.UIElements.UIEventRegistration/<>c:<.cctor>b__1_2 (int,intptr) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:28)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&) (at /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUIUtility.cs:189)
+
+(Filename: /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUISkin.cs Line: 360)
+
+Unable to find style '' in skin 'DarkSkin' repaint
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.GUISkin:GetStyle (string) (at /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUISkin.cs:360)
+UnityEngine.GUIStyle:op_Implicit (string) (at /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUIStyle.cs:394)
+ALIyerEdonAssets_Lighting:OnGUI () (at Assets/Assets/HD_InteriorLightingVol.2/Scripts/Editor/ALIyerEdonAssets_Lighting.cs:86)
+UnityEditor.HostView:InvokeOnGUI (UnityEngine.Rect,UnityEngine.Rect) (at /Users/bokken/buildslave/unity/build/Editor/Mono/HostView.cs:403)
+UnityEditor.DockArea:DrawView (UnityEngine.Rect,UnityEngine.Rect) (at /Users/bokken/buildslave/unity/build/Editor/Mono/GUI/DockArea.cs:381)
+UnityEditor.DockArea:OldOnGUI () (at /Users/bokken/buildslave/unity/build/Editor/Mono/GUI/DockArea.cs:372)
+UnityEngine.UIElements.IMGUIContainer:DoOnGUI (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,bool,UnityEngine.Rect,System.Action,bool) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/IMGUIContainer.cs:333)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,System.Action,bool) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/IMGUIContainer.cs:663)
+UnityEngine.UIElements.IMGUIContainer:DoIMGUIRepaint () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/IMGUIContainer.cs:530)
+UnityEngine.UIElements.UIR.RenderChainCommand:ExecuteNonDrawMesh (UnityEngine.UIElements.UIR.DrawParams,single,System.Exception&) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRenderer/UIRenderers.cs:114)
+UnityEngine.UIElements.UIR.UIRenderDevice:EvaluateChain (UnityEngine.UIElements.UIR.RenderChainCommand,UnityEngine.Material,UnityEngine.Material,UnityEngine.Texture,UnityEngine.Texture,UnityEngine.Texture,single,Unity.Collections.NativeSlice`1<UnityEngine.UIElements.UIR.Transform3x4>,Unity.Collections.NativeSlice`1<UnityEngine.Vector4>,UnityEngine.MaterialPropertyBlock,bool,System.Exception&) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRenderer/UIRenderDevice.cs:792)
+UnityEngine.UIElements.UIR.RenderChain:Render () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRChainBuilder.cs:490)
+UnityEngine.UIElements.UIRRepaintUpdater:Update () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRRepaintUpdater.cs:62)
+UnityEngine.UIElements.VisualTreeUpdater:UpdateVisualTreePhase (UnityEngine.UIElements.VisualTreeUpdatePhase) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/VisualTreeUpdater.cs:83)
+UnityEngine.UIElements.Panel:UpdateForRepaint () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Panel.cs:829)
+UnityEngine.UIElements.Panel:Repaint (UnityEngine.Event) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Panel.cs:865)
+UnityEngine.UIElements.UIElementsUtility:DoDispatch (UnityEngine.UIElements.BaseVisualElementPanel) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:441)
+UnityEngine.UIElements.UIElementsUtility:UnityEngine.UIElements.IUIElementsUtility.ProcessEvent (int,intptr,bool&) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:209)
+UnityEngine.UIElements.UIEventRegistration:ProcessEvent (int,intptr) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:74)
+UnityEngine.UIElements.UIEventRegistration/<>c:<.cctor>b__1_2 (int,intptr) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:28)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&) (at /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUIUtility.cs:189)
+
+(Filename: /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUISkin.cs Line: 360)
+
+Unable to find style '' in skin 'DarkSkin' repaint
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.GUISkin:GetStyle (string) (at /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUISkin.cs:360)
+UnityEngine.GUIStyle:op_Implicit (string) (at /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUIStyle.cs:394)
+ALIyerEdonAssets_Lighting:OnGUI () (at Assets/Assets/HD_InteriorLightingVol.2/Scripts/Editor/ALIyerEdonAssets_Lighting.cs:91)
+UnityEditor.HostView:InvokeOnGUI (UnityEngine.Rect,UnityEngine.Rect) (at /Users/bokken/buildslave/unity/build/Editor/Mono/HostView.cs:403)
+UnityEditor.DockArea:DrawView (UnityEngine.Rect,UnityEngine.Rect) (at /Users/bokken/buildslave/unity/build/Editor/Mono/GUI/DockArea.cs:381)
+UnityEditor.DockArea:OldOnGUI () (at /Users/bokken/buildslave/unity/build/Editor/Mono/GUI/DockArea.cs:372)
+UnityEngine.UIElements.IMGUIContainer:DoOnGUI (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,bool,UnityEngine.Rect,System.Action,bool) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/IMGUIContainer.cs:333)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,System.Action,bool) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/IMGUIContainer.cs:663)
+UnityEngine.UIElements.IMGUIContainer:DoIMGUIRepaint () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/IMGUIContainer.cs:530)
+UnityEngine.UIElements.UIR.RenderChainCommand:ExecuteNonDrawMesh (UnityEngine.UIElements.UIR.DrawParams,single,System.Exception&) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRenderer/UIRenderers.cs:114)
+UnityEngine.UIElements.UIR.UIRenderDevice:EvaluateChain (UnityEngine.UIElements.UIR.RenderChainCommand,UnityEngine.Material,UnityEngine.Material,UnityEngine.Texture,UnityEngine.Texture,UnityEngine.Texture,single,Unity.Collections.NativeSlice`1<UnityEngine.UIElements.UIR.Transform3x4>,Unity.Collections.NativeSlice`1<UnityEngine.Vector4>,UnityEngine.MaterialPropertyBlock,bool,System.Exception&) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRenderer/UIRenderDevice.cs:792)
+UnityEngine.UIElements.UIR.RenderChain:Render () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRChainBuilder.cs:490)
+UnityEngine.UIElements.UIRRepaintUpdater:Update () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRRepaintUpdater.cs:62)
+UnityEngine.UIElements.VisualTreeUpdater:UpdateVisualTreePhase (UnityEngine.UIElements.VisualTreeUpdatePhase) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/VisualTreeUpdater.cs:83)
+UnityEngine.UIElements.Panel:UpdateForRepaint () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Panel.cs:829)
+UnityEngine.UIElements.Panel:Repaint (UnityEngine.Event) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Panel.cs:865)
+UnityEngine.UIElements.UIElementsUtility:DoDispatch (UnityEngine.UIElements.BaseVisualElementPanel) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:441)
+UnityEngine.UIElements.UIElementsUtility:UnityEngine.UIElements.IUIElementsUtility.ProcessEvent (int,intptr,bool&) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:209)
+UnityEngine.UIElements.UIEventRegistration:ProcessEvent (int,intptr) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:74)
+UnityEngine.UIElements.UIEventRegistration/<>c:<.cctor>b__1_2 (int,intptr) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:28)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&) (at /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUIUtility.cs:189)
+
+(Filename: /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUISkin.cs Line: 360)
+
+Unable to find style '' in skin 'DarkSkin' repaint
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.GUISkin:GetStyle (string) (at /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUISkin.cs:360)
+UnityEngine.GUIStyle:op_Implicit (string) (at /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUIStyle.cs:394)
+ALIyerEdonAssets_Lighting:OnGUI () (at Assets/Assets/HD_InteriorLightingVol.2/Scripts/Editor/ALIyerEdonAssets_Lighting.cs:96)
+UnityEditor.HostView:InvokeOnGUI (UnityEngine.Rect,UnityEngine.Rect) (at /Users/bokken/buildslave/unity/build/Editor/Mono/HostView.cs:403)
+UnityEditor.DockArea:DrawView (UnityEngine.Rect,UnityEngine.Rect) (at /Users/bokken/buildslave/unity/build/Editor/Mono/GUI/DockArea.cs:381)
+UnityEditor.DockArea:OldOnGUI () (at /Users/bokken/buildslave/unity/build/Editor/Mono/GUI/DockArea.cs:372)
+UnityEngine.UIElements.IMGUIContainer:DoOnGUI (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,bool,UnityEngine.Rect,System.Action,bool) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/IMGUIContainer.cs:333)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,System.Action,bool) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/IMGUIContainer.cs:663)
+UnityEngine.UIElements.IMGUIContainer:DoIMGUIRepaint () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/IMGUIContainer.cs:530)
+UnityEngine.UIElements.UIR.RenderChainCommand:ExecuteNonDrawMesh (UnityEngine.UIElements.UIR.DrawParams,single,System.Exception&) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRenderer/UIRenderers.cs:114)
+UnityEngine.UIElements.UIR.UIRenderDevice:EvaluateChain (UnityEngine.UIElements.UIR.RenderChainCommand,UnityEngine.Material,UnityEngine.Material,UnityEngine.Texture,UnityEngine.Texture,UnityEngine.Texture,single,Unity.Collections.NativeSlice`1<UnityEngine.UIElements.UIR.Transform3x4>,Unity.Collections.NativeSlice`1<UnityEngine.Vector4>,UnityEngine.MaterialPropertyBlock,bool,System.Exception&) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRenderer/UIRenderDevice.cs:792)
+UnityEngine.UIElements.UIR.RenderChain:Render () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRChainBuilder.cs:490)
+UnityEngine.UIElements.UIRRepaintUpdater:Update () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRRepaintUpdater.cs:62)
+UnityEngine.UIElements.VisualTreeUpdater:UpdateVisualTreePhase (UnityEngine.UIElements.VisualTreeUpdatePhase) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/VisualTreeUpdater.cs:83)
+UnityEngine.UIElements.Panel:UpdateForRepaint () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Panel.cs:829)
+UnityEngine.UIElements.Panel:Repaint (UnityEngine.Event) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Panel.cs:865)
+UnityEngine.UIElements.UIElementsUtility:DoDispatch (UnityEngine.UIElements.BaseVisualElementPanel) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:441)
+UnityEngine.UIElements.UIElementsUtility:UnityEngine.UIElements.IUIElementsUtility.ProcessEvent (int,intptr,bool&) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:209)
+UnityEngine.UIElements.UIEventRegistration:ProcessEvent (int,intptr) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:74)
+UnityEngine.UIElements.UIEventRegistration/<>c:<.cctor>b__1_2 (int,intptr) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:28)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&) (at /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUIUtility.cs:189)
+
+(Filename: /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUISkin.cs Line: 360)
+
+Unable to find style '' in skin 'DarkSkin' repaint
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.GUISkin:GetStyle (string) (at /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUISkin.cs:360)
+UnityEngine.GUIStyle:op_Implicit (string) (at /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUIStyle.cs:394)
+ALIyerEdonAssets_Lighting:OnGUI () (at Assets/Assets/HD_InteriorLightingVol.2/Scripts/Editor/ALIyerEdonAssets_Lighting.cs:101)
+UnityEditor.HostView:InvokeOnGUI (UnityEngine.Rect,UnityEngine.Rect) (at /Users/bokken/buildslave/unity/build/Editor/Mono/HostView.cs:403)
+UnityEditor.DockArea:DrawView (UnityEngine.Rect,UnityEngine.Rect) (at /Users/bokken/buildslave/unity/build/Editor/Mono/GUI/DockArea.cs:381)
+UnityEditor.DockArea:OldOnGUI () (at /Users/bokken/buildslave/unity/build/Editor/Mono/GUI/DockArea.cs:372)
+UnityEngine.UIElements.IMGUIContainer:DoOnGUI (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,bool,UnityEngine.Rect,System.Action,bool) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/IMGUIContainer.cs:333)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,System.Action,bool) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/IMGUIContainer.cs:663)
+UnityEngine.UIElements.IMGUIContainer:DoIMGUIRepaint () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/IMGUIContainer.cs:530)
+UnityEngine.UIElements.UIR.RenderChainCommand:ExecuteNonDrawMesh (UnityEngine.UIElements.UIR.DrawParams,single,System.Exception&) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRenderer/UIRenderers.cs:114)
+UnityEngine.UIElements.UIR.UIRenderDevice:EvaluateChain (UnityEngine.UIElements.UIR.RenderChainCommand,UnityEngine.Material,UnityEngine.Material,UnityEngine.Texture,UnityEngine.Texture,UnityEngine.Texture,single,Unity.Collections.NativeSlice`1<UnityEngine.UIElements.UIR.Transform3x4>,Unity.Collections.NativeSlice`1<UnityEngine.Vector4>,UnityEngine.MaterialPropertyBlock,bool,System.Exception&) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRenderer/UIRenderDevice.cs:792)
+UnityEngine.UIElements.UIR.RenderChain:Render () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRChainBuilder.cs:490)
+UnityEngine.UIElements.UIRRepaintUpdater:Update () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRRepaintUpdater.cs:62)
+UnityEngine.UIElements.VisualTreeUpdater:UpdateVisualTreePhase (UnityEngine.UIElements.VisualTreeUpdatePhase) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/VisualTreeUpdater.cs:83)
+UnityEngine.UIElements.Panel:UpdateForRepaint () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Panel.cs:829)
+UnityEngine.UIElements.Panel:Repaint (UnityEngine.Event) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Panel.cs:865)
+UnityEngine.UIElements.UIElementsUtility:DoDispatch (UnityEngine.UIElements.BaseVisualElementPanel) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:441)
+UnityEngine.UIElements.UIElementsUtility:UnityEngine.UIElements.IUIElementsUtility.ProcessEvent (int,intptr,bool&) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:209)
+UnityEngine.UIElements.UIEventRegistration:ProcessEvent (int,intptr) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:74)
+UnityEngine.UIElements.UIEventRegistration/<>c:<.cctor>b__1_2 (int,intptr) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:28)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&) (at /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUIUtility.cs:189)
+
+(Filename: /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUISkin.cs Line: 360)
+
+Unable to find style '' in skin 'DarkSkin' repaint
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.GUISkin:GetStyle (string) (at /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUISkin.cs:360)
+UnityEngine.GUIStyle:op_Implicit (string) (at /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUIStyle.cs:394)
+ALIyerEdonAssets_Lighting:OnGUI () (at Assets/Assets/HD_InteriorLightingVol.2/Scripts/Editor/ALIyerEdonAssets_Lighting.cs:106)
+UnityEditor.HostView:InvokeOnGUI (UnityEngine.Rect,UnityEngine.Rect) (at /Users/bokken/buildslave/unity/build/Editor/Mono/HostView.cs:403)
+UnityEditor.DockArea:DrawView (UnityEngine.Rect,UnityEngine.Rect) (at /Users/bokken/buildslave/unity/build/Editor/Mono/GUI/DockArea.cs:381)
+UnityEditor.DockArea:OldOnGUI () (at /Users/bokken/buildslave/unity/build/Editor/Mono/GUI/DockArea.cs:372)
+UnityEngine.UIElements.IMGUIContainer:DoOnGUI (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,bool,UnityEngine.Rect,System.Action,bool) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/IMGUIContainer.cs:333)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,System.Action,bool) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/IMGUIContainer.cs:663)
+UnityEngine.UIElements.IMGUIContainer:DoIMGUIRepaint () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/IMGUIContainer.cs:530)
+UnityEngine.UIElements.UIR.RenderChainCommand:ExecuteNonDrawMesh (UnityEngine.UIElements.UIR.DrawParams,single,System.Exception&) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRenderer/UIRenderers.cs:114)
+UnityEngine.UIElements.UIR.UIRenderDevice:EvaluateChain (UnityEngine.UIElements.UIR.RenderChainCommand,UnityEngine.Material,UnityEngine.Material,UnityEngine.Texture,UnityEngine.Texture,UnityEngine.Texture,single,Unity.Collections.NativeSlice`1<UnityEngine.UIElements.UIR.Transform3x4>,Unity.Collections.NativeSlice`1<UnityEngine.Vector4>,UnityEngine.MaterialPropertyBlock,bool,System.Exception&) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRenderer/UIRenderDevice.cs:792)
+UnityEngine.UIElements.UIR.RenderChain:Render () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRChainBuilder.cs:490)
+UnityEngine.UIElements.UIRRepaintUpdater:Update () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRRepaintUpdater.cs:62)
+UnityEngine.UIElements.VisualTreeUpdater:UpdateVisualTreePhase (UnityEngine.UIElements.VisualTreeUpdatePhase) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/VisualTreeUpdater.cs:83)
+UnityEngine.UIElements.Panel:UpdateForRepaint () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Panel.cs:829)
+UnityEngine.UIElements.Panel:Repaint (UnityEngine.Event) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Panel.cs:865)
+UnityEngine.UIElements.UIElementsUtility:DoDispatch (UnityEngine.UIElements.BaseVisualElementPanel) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:441)
+UnityEngine.UIElements.UIElementsUtility:UnityEngine.UIElements.IUIElementsUtility.ProcessEvent (int,intptr,bool&) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:209)
+UnityEngine.UIElements.UIEventRegistration:ProcessEvent (int,intptr) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:74)
+UnityEngine.UIElements.UIEventRegistration/<>c:<.cctor>b__1_2 (int,intptr) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:28)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&) (at /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUIUtility.cs:189)
+
+(Filename: /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUISkin.cs Line: 360)
+
+Unable to find style '' in skin 'DarkSkin' repaint
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.GUISkin:GetStyle (string) (at /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUISkin.cs:360)
+UnityEngine.GUIStyle:op_Implicit (string) (at /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUIStyle.cs:394)
+ALIyerEdonAssets_Lighting:OnGUI () (at Assets/Assets/HD_InteriorLightingVol.2/Scripts/Editor/ALIyerEdonAssets_Lighting.cs:111)
+UnityEditor.HostView:InvokeOnGUI (UnityEngine.Rect,UnityEngine.Rect) (at /Users/bokken/buildslave/unity/build/Editor/Mono/HostView.cs:403)
+UnityEditor.DockArea:DrawView (UnityEngine.Rect,UnityEngine.Rect) (at /Users/bokken/buildslave/unity/build/Editor/Mono/GUI/DockArea.cs:381)
+UnityEditor.DockArea:OldOnGUI () (at /Users/bokken/buildslave/unity/build/Editor/Mono/GUI/DockArea.cs:372)
+UnityEngine.UIElements.IMGUIContainer:DoOnGUI (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,bool,UnityEngine.Rect,System.Action,bool) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/IMGUIContainer.cs:333)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,System.Action,bool) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/IMGUIContainer.cs:663)
+UnityEngine.UIElements.IMGUIContainer:DoIMGUIRepaint () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/IMGUIContainer.cs:530)
+UnityEngine.UIElements.UIR.RenderChainCommand:ExecuteNonDrawMesh (UnityEngine.UIElements.UIR.DrawParams,single,System.Exception&) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRenderer/UIRenderers.cs:114)
+UnityEngine.UIElements.UIR.UIRenderDevice:EvaluateChain (UnityEngine.UIElements.UIR.RenderChainCommand,UnityEngine.Material,UnityEngine.Material,UnityEngine.Texture,UnityEngine.Texture,UnityEngine.Texture,single,Unity.Collections.NativeSlice`1<UnityEngine.UIElements.UIR.Transform3x4>,Unity.Collections.NativeSlice`1<UnityEngine.Vector4>,UnityEngine.MaterialPropertyBlock,bool,System.Exception&) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRenderer/UIRenderDevice.cs:792)
+UnityEngine.UIElements.UIR.RenderChain:Render () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRChainBuilder.cs:490)
+UnityEngine.UIElements.UIRRepaintUpdater:Update () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRRepaintUpdater.cs:62)
+UnityEngine.UIElements.VisualTreeUpdater:UpdateVisualTreePhase (UnityEngine.UIElements.VisualTreeUpdatePhase) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/VisualTreeUpdater.cs:83)
+UnityEngine.UIElements.Panel:UpdateForRepaint () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Panel.cs:829)
+UnityEngine.UIElements.Panel:Repaint (UnityEngine.Event) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Panel.cs:865)
+UnityEngine.UIElements.UIElementsUtility:DoDispatch (UnityEngine.UIElements.BaseVisualElementPanel) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:441)
+UnityEngine.UIElements.UIElementsUtility:UnityEngine.UIElements.IUIElementsUtility.ProcessEvent (int,intptr,bool&) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:209)
+UnityEngine.UIElements.UIEventRegistration:ProcessEvent (int,intptr) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:74)
+UnityEngine.UIElements.UIEventRegistration/<>c:<.cctor>b__1_2 (int,intptr) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:28)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&) (at /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUIUtility.cs:189)
+
+(Filename: /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUISkin.cs Line: 360)
+
+Unable to find style '' in skin 'DarkSkin' repaint
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.GUISkin:GetStyle (string) (at /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUISkin.cs:360)
+UnityEngine.GUIStyle:op_Implicit (string) (at /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUIStyle.cs:394)
+ALIyerEdonAssets_Lighting:OnGUI () (at Assets/Assets/HD_InteriorLightingVol.2/Scripts/Editor/ALIyerEdonAssets_Lighting.cs:116)
+UnityEditor.HostView:InvokeOnGUI (UnityEngine.Rect,UnityEngine.Rect) (at /Users/bokken/buildslave/unity/build/Editor/Mono/HostView.cs:403)
+UnityEditor.DockArea:DrawView (UnityEngine.Rect,UnityEngine.Rect) (at /Users/bokken/buildslave/unity/build/Editor/Mono/GUI/DockArea.cs:381)
+UnityEditor.DockArea:OldOnGUI () (at /Users/bokken/buildslave/unity/build/Editor/Mono/GUI/DockArea.cs:372)
+UnityEngine.UIElements.IMGUIContainer:DoOnGUI (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,bool,UnityEngine.Rect,System.Action,bool) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/IMGUIContainer.cs:333)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,System.Action,bool) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/IMGUIContainer.cs:663)
+UnityEngine.UIElements.IMGUIContainer:DoIMGUIRepaint () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/IMGUIContainer.cs:530)
+UnityEngine.UIElements.UIR.RenderChainCommand:ExecuteNonDrawMesh (UnityEngine.UIElements.UIR.DrawParams,single,System.Exception&) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRenderer/UIRenderers.cs:114)
+UnityEngine.UIElements.UIR.UIRenderDevice:EvaluateChain (UnityEngine.UIElements.UIR.RenderChainCommand,UnityEngine.Material,UnityEngine.Material,UnityEngine.Texture,UnityEngine.Texture,UnityEngine.Texture,single,Unity.Collections.NativeSlice`1<UnityEngine.UIElements.UIR.Transform3x4>,Unity.Collections.NativeSlice`1<UnityEngine.Vector4>,UnityEngine.MaterialPropertyBlock,bool,System.Exception&) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRenderer/UIRenderDevice.cs:792)
+UnityEngine.UIElements.UIR.RenderChain:Render () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRChainBuilder.cs:490)
+UnityEngine.UIElements.UIRRepaintUpdater:Update () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRRepaintUpdater.cs:62)
+UnityEngine.UIElements.VisualTreeUpdater:UpdateVisualTreePhase (UnityEngine.UIElements.VisualTreeUpdatePhase) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/VisualTreeUpdater.cs:83)
+UnityEngine.UIElements.Panel:UpdateForRepaint () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Panel.cs:829)
+UnityEngine.UIElements.Panel:Repaint (UnityEngine.Event) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Panel.cs:865)
+UnityEngine.UIElements.UIElementsUtility:DoDispatch (UnityEngine.UIElements.BaseVisualElementPanel) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:441)
+UnityEngine.UIElements.UIElementsUtility:UnityEngine.UIElements.IUIElementsUtility.ProcessEvent (int,intptr,bool&) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:209)
+UnityEngine.UIElements.UIEventRegistration:ProcessEvent (int,intptr) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:74)
+UnityEngine.UIElements.UIEventRegistration/<>c:<.cctor>b__1_2 (int,intptr) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:28)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&) (at /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUIUtility.cs:189)
+
+(Filename: /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUISkin.cs Line: 360)
+
+Unable to find style '' in skin 'DarkSkin' repaint
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.GUISkin:GetStyle (string) (at /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUISkin.cs:360)
+UnityEngine.GUIStyle:op_Implicit (string) (at /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUIStyle.cs:394)
+ALIyerEdonAssets_Lighting:OnGUI () (at Assets/Assets/HD_InteriorLightingVol.2/Scripts/Editor/ALIyerEdonAssets_Lighting.cs:121)
+UnityEditor.HostView:InvokeOnGUI (UnityEngine.Rect,UnityEngine.Rect) (at /Users/bokken/buildslave/unity/build/Editor/Mono/HostView.cs:403)
+UnityEditor.DockArea:DrawView (UnityEngine.Rect,UnityEngine.Rect) (at /Users/bokken/buildslave/unity/build/Editor/Mono/GUI/DockArea.cs:381)
+UnityEditor.DockArea:OldOnGUI () (at /Users/bokken/buildslave/unity/build/Editor/Mono/GUI/DockArea.cs:372)
+UnityEngine.UIElements.IMGUIContainer:DoOnGUI (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,bool,UnityEngine.Rect,System.Action,bool) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/IMGUIContainer.cs:333)
+UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,System.Action,bool) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/IMGUIContainer.cs:663)
+UnityEngine.UIElements.IMGUIContainer:DoIMGUIRepaint () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/IMGUIContainer.cs:530)
+UnityEngine.UIElements.UIR.RenderChainCommand:ExecuteNonDrawMesh (UnityEngine.UIElements.UIR.DrawParams,single,System.Exception&) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRenderer/UIRenderers.cs:114)
+UnityEngine.UIElements.UIR.UIRenderDevice:EvaluateChain (UnityEngine.UIElements.UIR.RenderChainCommand,UnityEngine.Material,UnityEngine.Material,UnityEngine.Texture,UnityEngine.Texture,UnityEngine.Texture,single,Unity.Collections.NativeSlice`1<UnityEngine.UIElements.UIR.Transform3x4>,Unity.Collections.NativeSlice`1<UnityEngine.Vector4>,UnityEngine.MaterialPropertyBlock,bool,System.Exception&) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRenderer/UIRenderDevice.cs:792)
+UnityEngine.UIElements.UIR.RenderChain:Render () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRChainBuilder.cs:490)
+UnityEngine.UIElements.UIRRepaintUpdater:Update () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Renderer/UIRRepaintUpdater.cs:62)
+UnityEngine.UIElements.VisualTreeUpdater:UpdateVisualTreePhase (UnityEngine.UIElements.VisualTreeUpdatePhase) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/VisualTreeUpdater.cs:83)
+UnityEngine.UIElements.Panel:UpdateForRepaint () (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Panel.cs:829)
+UnityEngine.UIElements.Panel:Repaint (UnityEngine.Event) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/Panel.cs:865)
+UnityEngine.UIElements.UIElementsUtility:DoDispatch (UnityEngine.UIElements.BaseVisualElementPanel) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:441)
+UnityEngine.UIElements.UIElementsUtility:UnityEngine.UIElements.IUIElementsUtility.ProcessEvent (int,intptr,bool&) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:209)
+UnityEngine.UIElements.UIEventRegistration:ProcessEvent (int,intptr) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:74)
+UnityEngine.UIElements.UIEventRegistration/<>c:<.cctor>b__1_2 (int,intptr) (at /Users/bokken/buildslave/unity/build/External/MirroredPackageSources/com.unity.ui/Core/UIElementsUtility.cs:28)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&) (at /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUIUtility.cs:189)
+
+(Filename: /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUISkin.cs Line: 360)
 
