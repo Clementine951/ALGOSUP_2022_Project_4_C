@@ -1396,3 +1396,271 @@ UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&) (at /Users/bokken/buildsl
 (Filename: /Users/bokken/buildslave/unity/build/Modules/IMGUI/GUISkin.cs Line: 360)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004202 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.07 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 42.16 ms.
+2022-03-21 15:01:05.331 Unity[6135:179106] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000ee7250 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  3.473 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3485ms)
+		BeginReloadAssembly (480ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (96ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (159ms)
+		EndReloadAssembly (2897ms)
+			LoadAssemblies (368ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (403ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (1324ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (44ms)
+				BeforeProcessingInitializeOnLoad (273ms)
+				ProcessInitializeOnLoadAttributes (953ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (309ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.40 ms.
+Unloading 2399 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 254.5 MB.
+System memory in use after: 254.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3515.
+Total: 8.354458 ms (FindLiveObjects: 0.451750 ms CreateObjectMapping: 0.120708 ms MarkObjects: 7.649375 ms  DeleteObjects: 0.131375 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2426.736198 seconds.
+  path: Assets/Grids & Nets textures pack/Camo 01/Camo pattern 01.mat
+  artifactKey: Guid(49ec44dce6164df41bac2ba156215d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grids & Nets textures pack/Camo 01/Camo pattern 01.mat using Guid(49ec44dce6164df41bac2ba156215d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9821bc188c5baf267a7bca598899ea61') in 0.663882 seconds 
+  Import took 0.684871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/Grids & Nets textures pack/Camo 02/Camo pattern 02.mat
+  artifactKey: Guid(cb11e8ac2ced2f24387b9610ab9d99f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grids & Nets textures pack/Camo 02/Camo pattern 02.mat using Guid(cb11e8ac2ced2f24387b9610ab9d99f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a43a0386369f5daf14ba397c454de0f8') in 0.034053 seconds 
+  Import took 0.040014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Grids & Nets textures pack/Camo 03/Camo pattern 03.mat
+  artifactKey: Guid(f828ab623a2f2d54e9b61d24894a310d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grids & Nets textures pack/Camo 03/Camo pattern 03.mat using Guid(f828ab623a2f2d54e9b61d24894a310d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a940b5430ee421b8a91d25d37997813') in 0.020760 seconds 
+  Import took 0.027203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.853921 seconds.
+  path: Assets/Old_Radio
+  artifactKey: Guid(b6b869d6de102f2469da58d788c62082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old_Radio using Guid(b6b869d6de102f2469da58d788c62082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed0c11d15fd1621351d883eaab02fca6') in 0.001353 seconds 
+  Import took 0.008247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.048649 seconds.
+  path: Assets/Old_Radio/Material
+  artifactKey: Guid(681489927d97c934a9a627beed15845c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old_Radio/Material using Guid(681489927d97c934a9a627beed15845c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47e216236be65b6053c0cfa80267c2d1') in 0.001933 seconds 
+  Import took 0.007591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.872016 seconds.
+  path: Assets/Alstrainfinite
+  artifactKey: Guid(86cc81c1c910dff47a95ee6cb5fda17a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstrainfinite using Guid(86cc81c1c910dff47a95ee6cb5fda17a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bcc3e3f2e4c5c03a9a09bb212276ba8') in 0.001607 seconds 
+  Import took 0.007359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.131738 seconds.
+  path: Assets/XRI
+  artifactKey: Guid(f6bd5a48b84a1ad4ba643f754351614c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI using Guid(f6bd5a48b84a1ad4ba643f754351614c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1e5aaf0e900e8ab68864d38d984feb7') in 0.001548 seconds 
+  Import took 0.007172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.689582 seconds.
+  path: Assets/Grids & Nets textures pack
+  artifactKey: Guid(ea4aaf61f51a045a49ca64ebdfadfd3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grids & Nets textures pack using Guid(ea4aaf61f51a045a49ca64ebdfadfd3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4b1f9eb4129729f75f1730118c5ec79') in 0.001491 seconds 
+  Import took 0.007800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.690750 seconds.
+  path: Assets/Grids & Nets textures pack/Camo 01
+  artifactKey: Guid(170088f6ad9114eabb9d080dfdf0af75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grids & Nets textures pack/Camo 01 using Guid(170088f6ad9114eabb9d080dfdf0af75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f42e1a6a6013c5a8f59bdd4e973dac6') in 0.001667 seconds 
+  Import took 0.009192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.057289 seconds.
+  path: Assets/Grids & Nets textures pack/Camo 01/diffuse.tga
+  artifactKey: Guid(a7d3850f06298044fb6fc565215ad96e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grids & Nets textures pack/Camo 01/diffuse.tga using Guid(a7d3850f06298044fb6fc565215ad96e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad173eccc8bdf7a48113f48f2b46eac3') in 0.736830 seconds 
+  Import took 0.747235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000748 seconds.
+  path: Assets/Grids & Nets textures pack/Camo 01/preview.jpg
+  artifactKey: Guid(7b0e0c1a32fa34d45bd48bc3d97938fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grids & Nets textures pack/Camo 01/preview.jpg using Guid(7b0e0c1a32fa34d45bd48bc3d97938fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9a5cafdaeea7a3b481d4ae7cf0a9d6e') in 0.319945 seconds 
+  Import took 0.327762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Grids & Nets textures pack/Camo 01/normal.tga
+  artifactKey: Guid(c2d259d98932a484b8c95db7ce017323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grids & Nets textures pack/Camo 01/normal.tga using Guid(c2d259d98932a484b8c95db7ce017323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f39c6a598769a4f33b6e3638d2ca7898') in 0.023805 seconds 
+  Import took 0.029139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.700837 seconds.
+  path: Assets/Grids & Nets textures pack/Net 01/Net pattern 01.mat
+  artifactKey: Guid(3b8fb597308643a47b2d5564bb1547c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grids & Nets textures pack/Net 01/Net pattern 01.mat using Guid(3b8fb597308643a47b2d5564bb1547c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f65fa5be8c0aff24d298cf352ccd5ae') in 0.019668 seconds 
+  Import took 0.027989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Grids & Nets textures pack/Net 03/Net pattern 03.mat
+  artifactKey: Guid(6954641ab0b38e84298c26a3df7dbf27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grids & Nets textures pack/Net 03/Net pattern 03.mat using Guid(6954641ab0b38e84298c26a3df7dbf27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a35241e7e7fb9c3f669eda22bd4bd5e3') in 0.022824 seconds 
+  Import took 0.028175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Grids & Nets textures pack/Net 02/Net pattern 02.mat
+  artifactKey: Guid(8e7d867597049c642bb42e23f2937dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grids & Nets textures pack/Net 02/Net pattern 02.mat using Guid(8e7d867597049c642bb42e23f2937dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45fb3d47d73102f79147d0661ba36c90') in 0.019871 seconds 
+  Import took 0.025336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.281990 seconds.
+  path: Assets/Grids & Nets textures pack/Net 02/diffuse.tga
+  artifactKey: Guid(193fc02a440131a4ab82a42466677c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grids & Nets textures pack/Net 02/diffuse.tga using Guid(193fc02a440131a4ab82a42466677c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02937565a7816221c849f0959f8985ce') in 0.029461 seconds 
+  Import took 0.047533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Grids & Nets textures pack/Net 02/normal.tga
+  artifactKey: Guid(f859dc846fb085d41a517d5c785fe490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grids & Nets textures pack/Net 02/normal.tga using Guid(f859dc846fb085d41a517d5c785fe490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c036aeb8fd6a3c0c35c8e824fabc3ba7') in 0.010097 seconds 
+  Import took 0.016694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.365882 seconds.
+  path: Assets/Grids & Nets textures pack/Net 02/preview.jpg
+  artifactKey: Guid(2270f31020b524d459a18bce1deaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grids & Nets textures pack/Net 02/preview.jpg using Guid(2270f31020b524d459a18bce1deaf87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '916f982ef6451d765355ab2cb3da4d99') in 0.028643 seconds 
+  Import took 0.046054 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004435 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 7.07 ms.
+2022-03-21 15:10:18.977 Unity[6135:179106] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000ed5960 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.966 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2971ms)
+		BeginReloadAssembly (367ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (74ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (119ms)
+		EndReloadAssembly (2502ms)
+			LoadAssemblies (285ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (352ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (1135ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (8ms)
+				BeforeProcessingInitializeOnLoad (227ms)
+				ProcessInitializeOnLoadAttributes (856ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (275ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.25 ms.
+Unloading 2398 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 263.9 MB.
+System memory in use after: 264.1 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3535.
+Total: 5.336209 ms (FindLiveObjects: 0.150209 ms CreateObjectMapping: 0.090958 ms MarkObjects: 4.980875 ms  DeleteObjects: 0.113542 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 333.279219 seconds.
+  path: Assets/Grids & Nets textures pack/Net 02/Net pattern 02.mat
+  artifactKey: Guid(8e7d867597049c642bb42e23f2937dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grids & Nets textures pack/Net 02/Net pattern 02.mat using Guid(8e7d867597049c642bb42e23f2937dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd33cc3a0ecfd044db151a30434d02053') in 0.210644 seconds 
+  Import took 0.220921 seconds .
+
