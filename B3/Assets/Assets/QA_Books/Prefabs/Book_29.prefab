@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 33836293085195578}
   - component: {fileID: 23679889794829206}
   - component: {fileID: 65005724366232446}
+  - component: {fileID: 8665601558704872058}
   m_Layer: 0
   m_Name: Book_29
   m_TagString: Untagged
@@ -95,3 +96,17 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.17139271, y: 0.24499999, z: 0.030000068}
   m_Center: {x: -0.085696235, y: 0.122499995, z: 0.014999984}
+--- !u!64 &8665601558704872058
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1580521775455820}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 7809c0c3c92128449843f746af03c577, type: 3}
