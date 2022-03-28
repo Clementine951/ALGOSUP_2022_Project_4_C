@@ -12,9 +12,11 @@ We chose Clémentine Curel as Project Manager and Malo Archimbaud as Tech Leader
 
 ## Documents
 
-[Functionnal Specification](https://github.com/Clementine951/ALGOSUP_2022_Project_4_C/blob/main/Documents/Functionnal.md)
+[Functionnal Specification](https://github.com/Clementine951/ALGOSUP_2022_Project_4_C/blob/main/Documents/Functional.md)
 
 [Technical Specification](https://github.com/Clementine951/ALGOSUP_2022_Project_4_C/blob/main/Documents/Technical.md)
+
+[Architecture design](https://github.com/Clementine951/ALGOSUP_2022_Project_4_C/blob/main/Documents/Architecture%20Diagram.png)
 
 [Project Execution Plan (Trello)](https://trello.com/invite/b/tLiReKj5/7ede0003e266e87a0bb68a4acbba21a2/algosup2022project4c)
 
@@ -62,11 +64,28 @@ We chose Clémentine Curel as Project Manager and Malo Archimbaud as Tech Leader
 
 - [ ] Set up GitHub pull request
 - [ ] Set up GitHub action
-- [ ] Put materials on floors and walls
-- [ ] Add furnitures on the building
+- [x] Put materials on floors and walls
+- [x] Add furnitures on the building
 
 ### Week 4 - 03/18/2022
 
+- [x] Replace all doors 
+- [x] Replace the floor
+- [x] Remove useless furnitures
+- [x] Optimization of the building
+- [x] Create hands for VR
+- [x] Add new furnitures
+
 ### Week 5 - 03/25/2022
 
+- [ ] Beautify the building
+- [ ] Add hands to the main
+- [ ] Put NPC on the buiding 
+- [ ] Acces to rooms thank to a card
+- [ ] Prepare the presentation
+
 ### Week 6 - 04/01/2022
+
+- [ ] Correction of all bugs
+- [ ] preparation of the presention
+- [ ] Try VR on big screen
