@@ -27,7 +27,6 @@ public class LockDetection : MonoBehaviour
 
     private void Awake()
     {
-        //card.SetActive(false);
         cube.SetActive(false);
     }
 
