@@ -1,8 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections.Generic;
+using UnityEngine.AI;
 using UnityEditor;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
+
 
 public class PlayerBasicCode : MonoBehaviour
 {
@@ -25,8 +27,7 @@ public class PlayerBasicCode : MonoBehaviour
 	private List<GenericBehaviour> overridingBehaviours;  
 	private Rigidbody rBody;                             
 	private int groundedBool;                             
-	private Vector3 colExtents;                           
-
+	private Vector3 colExtents;
 
 	public float GetH { get { return h; } }
 	public float GetV { get { return v; } }
@@ -43,7 +44,11 @@ public class PlayerBasicCode : MonoBehaviour
 
 	public int GetDefaultBehaviour {  get { return defaultBehaviour; } }
 
-	void Awake ()
+    private void Start()
+    {
+	}
+
+    void Awake ()
 	{
 		behaviours = new List<GenericBehaviour> ();
 		overridingBehaviours = new List<GenericBehaviour>();

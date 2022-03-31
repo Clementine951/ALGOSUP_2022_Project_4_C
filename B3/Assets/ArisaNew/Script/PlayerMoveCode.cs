@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.AI;
 using UnityEditor;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
@@ -18,6 +19,8 @@ public class PlayerMoveCode : GenericBehaviour
 	private bool isColliding;                       
 	public bool isLock;
 
+
+
 	void Start()
 	{
 		jumpBool = Animator.StringToHash("Jump");
@@ -32,6 +35,7 @@ public class PlayerMoveCode : GenericBehaviour
 		Time.timeScale = 1;
 		Cursor.lockState = CursorLockMode.Locked;
 		Cursor.visible = false;
+
 	}
 
 	void Update()
