@@ -206,8 +206,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7984682470780399226}
-  m_LocalRotation: {x: -0.00000064168125, y: -0.0000023003668, z: 0.00000011967495,
-    w: 1}
+  m_LocalRotation: {x: -0.00000064168125, y: -0.0000023003668, z: 0.00000011967495, w: 1}
   m_LocalPosition: {x: 0.000000026077032, y: 0.06772954, z: -0.000000037252903}
   m_LocalScale: {x: 1, y: 1, z: 1.0000001}
   m_Children: []
@@ -2151,8 +2150,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7984682472105264643}
-  m_LocalRotation: {x: 0.00000027287754, y: -0.0000014747495, z: 0.000000014435502,
-    w: 1}
+  m_LocalRotation: {x: 0.00000027287754, y: -0.0000014747495, z: 0.000000014435502, w: 1}
   m_LocalPosition: {x: -0, y: 0.06772948, z: 0.000000007450581}
   m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
   m_Children: []
@@ -2508,8 +2506,6 @@ GameObject:
   - component: {fileID: 7984682472291595855}
   - component: {fileID: 7984682472291595854}
   - component: {fileID: 7984682472291595853}
-  - component: {fileID: 7984682472291595852}
-  - component: {fileID: 7984682472291595843}
   m_Layer: 0
   m_Name: Arisa
   m_TagString: Player
@@ -2583,40 +2579,6 @@ CapsuleCollider:
   m_Height: 1.64
   m_Direction: 1
   m_Center: {x: 0, y: 0.8, z: 0}
---- !u!114 &7984682472291595852
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7984682472291595842}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 087491c380645864db23f5f773a97a47, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerCamera: {fileID: 7984682471639096687}
-  turnSmoothing: 0.06
-  sprintFOV: 100
---- !u!114 &7984682472291595843
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7984682472291595842}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 57e79f7cb3fb8d947a2c05110b2ae5f2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  walkSpeed: 0.15
-  runSpeed: 1
-  sprintSpeed: 2
-  speedDampTime: 0.1
-  jumpHeight: 1.5
-  jumpIntertialForce: 10
-  isLock: 0
 --- !u!1 &7984682472307890139
 GameObject:
   m_ObjectHideFlags: 0
@@ -3061,6 +3023,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7984682472595387833}
   - component: {fileID: 7984682472595387834}
+  - component: {fileID: 8652015511384225175}
   m_Layer: 0
   m_Name: Body
   m_TagString: Untagged
@@ -3097,6 +3060,7 @@ SkinnedMeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -3242,6 +3206,21 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.00000014901161, y: -0.14021984, z: -0.0009063259}
     m_Extent: {x: 0.66028357, y: 0.8500922, z: 0.1891787}
   m_DirtyAABB: 0
+--- !u!114 &8652015511384225175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7984682472595387832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71dc0668b0762924cafe5339802c702d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goal: {fileID: 0}
+  Character: {fileID: 0}
+  anim: {fileID: 0}
 --- !u!1 &7984682472639052346
 GameObject:
   m_ObjectHideFlags: 0
