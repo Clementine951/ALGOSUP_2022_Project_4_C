@@ -550,7 +550,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3601967656756662227}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 21.35, y: -1.37, z: -50.48}
+  m_LocalPosition: {x: -1.7, y: -1.37, z: -27.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2065531742325214453}
@@ -740,7 +740,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7441884473753504512}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.403518, y: 2.06, z: -57}
+  m_LocalPosition: {x: 1.47, y: 0.77, z: -57}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2065531742325214453}
@@ -835,7 +835,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8776830366670978080}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.9699993, y: -1.01, z: -8.719995}
+  m_LocalPosition: {x: 20.78, y: -1.01, z: -70.35}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2065531742325214453}
@@ -1002,7 +1002,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 3.5
+  m_Speed: 2
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -1026,7 +1026,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71dc0668b0762924cafe5339802c702d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goal: {fileID: 5772019132358842542}
+  goal:
+  - {fileID: 5772019132358842542}
+  - {fileID: 4054422927958196678}
+  - {fileID: 4991811889511227984}
+  - {fileID: 7922583475377624947}
+  - {fileID: 5370829007660082173}
+  - {fileID: 3495864581611431715}
+  - {fileID: 1789101337927780416}
+  - {fileID: 5280551418368050992}
+  - {fileID: 1115382577970936963}
   Character: {fileID: 6841876622810690724}
   anim: {fileID: 241161322688132196}
 --- !u!1001 &8886560512699470745
@@ -1048,6 +1057,42 @@ PrefabInstance:
       propertyPath: Character
       value: 
       objectReference: {fileID: 1126287155534223813}
+    - target: {fileID: 4125386100880610583, guid: b88a75abdf5674d48aab93a1445187b8, type: 3}
+      propertyPath: goal.Array.data[0]
+      value: 
+      objectReference: {fileID: 1789101337927780416}
+    - target: {fileID: 4125386100880610583, guid: b88a75abdf5674d48aab93a1445187b8, type: 3}
+      propertyPath: goal.Array.data[1]
+      value: 
+      objectReference: {fileID: 5280551418368050992}
+    - target: {fileID: 4125386100880610583, guid: b88a75abdf5674d48aab93a1445187b8, type: 3}
+      propertyPath: goal.Array.data[2]
+      value: 
+      objectReference: {fileID: 1115382577970936963}
+    - target: {fileID: 4125386100880610583, guid: b88a75abdf5674d48aab93a1445187b8, type: 3}
+      propertyPath: goal.Array.data[3]
+      value: 
+      objectReference: {fileID: 5772019132358842542}
+    - target: {fileID: 4125386100880610583, guid: b88a75abdf5674d48aab93a1445187b8, type: 3}
+      propertyPath: goal.Array.data[4]
+      value: 
+      objectReference: {fileID: 4054422927958196678}
+    - target: {fileID: 4125386100880610583, guid: b88a75abdf5674d48aab93a1445187b8, type: 3}
+      propertyPath: goal.Array.data[5]
+      value: 
+      objectReference: {fileID: 4991811889511227984}
+    - target: {fileID: 4125386100880610583, guid: b88a75abdf5674d48aab93a1445187b8, type: 3}
+      propertyPath: goal.Array.data[6]
+      value: 
+      objectReference: {fileID: 7922583475377624947}
+    - target: {fileID: 4125386100880610583, guid: b88a75abdf5674d48aab93a1445187b8, type: 3}
+      propertyPath: goal.Array.data[7]
+      value: 
+      objectReference: {fileID: 5370829007660082173}
+    - target: {fileID: 4125386100880610583, guid: b88a75abdf5674d48aab93a1445187b8, type: 3}
+      propertyPath: goal.Array.data[8]
+      value: 
+      objectReference: {fileID: 3495864581611431715}
     - target: {fileID: 8426806130621336156, guid: b88a75abdf5674d48aab93a1445187b8, type: 3}
       propertyPath: m_Name
       value: HS008walk(1)
@@ -1127,7 +1172,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 3.5
+  m_Speed: 2
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -1158,6 +1203,42 @@ PrefabInstance:
       propertyPath: Character
       value: 
       objectReference: {fileID: 1126287155311156041}
+    - target: {fileID: 4125386100880610583, guid: b88a75abdf5674d48aab93a1445187b8, type: 3}
+      propertyPath: goal.Array.data[0]
+      value: 
+      objectReference: {fileID: 1115382577970936963}
+    - target: {fileID: 4125386100880610583, guid: b88a75abdf5674d48aab93a1445187b8, type: 3}
+      propertyPath: goal.Array.data[1]
+      value: 
+      objectReference: {fileID: 5280551418368050992}
+    - target: {fileID: 4125386100880610583, guid: b88a75abdf5674d48aab93a1445187b8, type: 3}
+      propertyPath: goal.Array.data[2]
+      value: 
+      objectReference: {fileID: 4991811889511227984}
+    - target: {fileID: 4125386100880610583, guid: b88a75abdf5674d48aab93a1445187b8, type: 3}
+      propertyPath: goal.Array.data[3]
+      value: 
+      objectReference: {fileID: 4054422927958196678}
+    - target: {fileID: 4125386100880610583, guid: b88a75abdf5674d48aab93a1445187b8, type: 3}
+      propertyPath: goal.Array.data[4]
+      value: 
+      objectReference: {fileID: 7922583475377624947}
+    - target: {fileID: 4125386100880610583, guid: b88a75abdf5674d48aab93a1445187b8, type: 3}
+      propertyPath: goal.Array.data[5]
+      value: 
+      objectReference: {fileID: 3495864581611431715}
+    - target: {fileID: 4125386100880610583, guid: b88a75abdf5674d48aab93a1445187b8, type: 3}
+      propertyPath: goal.Array.data[6]
+      value: 
+      objectReference: {fileID: 5370829007660082173}
+    - target: {fileID: 4125386100880610583, guid: b88a75abdf5674d48aab93a1445187b8, type: 3}
+      propertyPath: goal.Array.data[7]
+      value: 
+      objectReference: {fileID: 5772019132358842542}
+    - target: {fileID: 4125386100880610583, guid: b88a75abdf5674d48aab93a1445187b8, type: 3}
+      propertyPath: goal.Array.data[8]
+      value: 
+      objectReference: {fileID: 1789101337927780416}
     - target: {fileID: 8426806130621336156, guid: b88a75abdf5674d48aab93a1445187b8, type: 3}
       propertyPath: m_Name
       value: HS008walk
@@ -1237,7 +1318,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 3.5
+  m_Speed: 2
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -1268,6 +1349,42 @@ PrefabInstance:
       propertyPath: Character
       value: 
       objectReference: {fileID: 1608011544324244773}
+    - target: {fileID: 6910695754289357778, guid: f7950e9fea790fd44b067e9d404a33b0, type: 3}
+      propertyPath: goal.Array.data[0]
+      value: 
+      objectReference: {fileID: 3495864581611431715}
+    - target: {fileID: 6910695754289357778, guid: f7950e9fea790fd44b067e9d404a33b0, type: 3}
+      propertyPath: goal.Array.data[1]
+      value: 
+      objectReference: {fileID: 5370829007660082173}
+    - target: {fileID: 6910695754289357778, guid: f7950e9fea790fd44b067e9d404a33b0, type: 3}
+      propertyPath: goal.Array.data[2]
+      value: 
+      objectReference: {fileID: 1115382577970936963}
+    - target: {fileID: 6910695754289357778, guid: f7950e9fea790fd44b067e9d404a33b0, type: 3}
+      propertyPath: goal.Array.data[3]
+      value: 
+      objectReference: {fileID: 1789101337927780416}
+    - target: {fileID: 6910695754289357778, guid: f7950e9fea790fd44b067e9d404a33b0, type: 3}
+      propertyPath: goal.Array.data[4]
+      value: 
+      objectReference: {fileID: 5280551418368050992}
+    - target: {fileID: 6910695754289357778, guid: f7950e9fea790fd44b067e9d404a33b0, type: 3}
+      propertyPath: goal.Array.data[5]
+      value: 
+      objectReference: {fileID: 5772019132358842542}
+    - target: {fileID: 6910695754289357778, guid: f7950e9fea790fd44b067e9d404a33b0, type: 3}
+      propertyPath: goal.Array.data[6]
+      value: 
+      objectReference: {fileID: 4054422927958196678}
+    - target: {fileID: 6910695754289357778, guid: f7950e9fea790fd44b067e9d404a33b0, type: 3}
+      propertyPath: goal.Array.data[7]
+      value: 
+      objectReference: {fileID: 4991811889511227984}
+    - target: {fileID: 6910695754289357778, guid: f7950e9fea790fd44b067e9d404a33b0, type: 3}
+      propertyPath: goal.Array.data[8]
+      value: 
+      objectReference: {fileID: 7922583475377624947}
     - target: {fileID: 7044407856940082235, guid: f7950e9fea790fd44b067e9d404a33b0, type: 3}
       propertyPath: m_IsKinematic
       value: 1
@@ -1347,7 +1464,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 3.5
+  m_Speed: 2
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -1458,7 +1575,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 3.5
+  m_Speed: 2
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -1482,7 +1599,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71dc0668b0762924cafe5339802c702d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goal: {fileID: 4991811889511227984}
+  goal:
+  - {fileID: 4991811889511227984}
+  - {fileID: 7922583475377624947}
+  - {fileID: 3495864581611431715}
+  - {fileID: 5370829007660082173}
+  - {fileID: 1115382577970936963}
+  - {fileID: 1789101337927780416}
+  - {fileID: 5280551418368050992}
+  - {fileID: 5772019132358842542}
+  - {fileID: 4054422927958196678}
   Character: {fileID: 1557169956696744270}
   anim: {fileID: 1557169956696744259}
 --- !u!1001 &8886560513637770721
@@ -1504,6 +1630,42 @@ PrefabInstance:
       propertyPath: Character
       value: 
       objectReference: {fileID: 1608011543781335988}
+    - target: {fileID: 6910695754289357778, guid: f7950e9fea790fd44b067e9d404a33b0, type: 3}
+      propertyPath: goal.Array.data[0]
+      value: 
+      objectReference: {fileID: 5370829007660082173}
+    - target: {fileID: 6910695754289357778, guid: f7950e9fea790fd44b067e9d404a33b0, type: 3}
+      propertyPath: goal.Array.data[1]
+      value: 
+      objectReference: {fileID: 7922583475377624947}
+    - target: {fileID: 6910695754289357778, guid: f7950e9fea790fd44b067e9d404a33b0, type: 3}
+      propertyPath: goal.Array.data[2]
+      value: 
+      objectReference: {fileID: 4991811889511227984}
+    - target: {fileID: 6910695754289357778, guid: f7950e9fea790fd44b067e9d404a33b0, type: 3}
+      propertyPath: goal.Array.data[3]
+      value: 
+      objectReference: {fileID: 1115382577970936963}
+    - target: {fileID: 6910695754289357778, guid: f7950e9fea790fd44b067e9d404a33b0, type: 3}
+      propertyPath: goal.Array.data[4]
+      value: 
+      objectReference: {fileID: 5280551418368050992}
+    - target: {fileID: 6910695754289357778, guid: f7950e9fea790fd44b067e9d404a33b0, type: 3}
+      propertyPath: goal.Array.data[5]
+      value: 
+      objectReference: {fileID: 3495864581611431715}
+    - target: {fileID: 6910695754289357778, guid: f7950e9fea790fd44b067e9d404a33b0, type: 3}
+      propertyPath: goal.Array.data[6]
+      value: 
+      objectReference: {fileID: 1789101337927780416}
+    - target: {fileID: 6910695754289357778, guid: f7950e9fea790fd44b067e9d404a33b0, type: 3}
+      propertyPath: goal.Array.data[7]
+      value: 
+      objectReference: {fileID: 5772019132358842542}
+    - target: {fileID: 6910695754289357778, guid: f7950e9fea790fd44b067e9d404a33b0, type: 3}
+      propertyPath: goal.Array.data[8]
+      value: 
+      objectReference: {fileID: 4054422927958196678}
     - target: {fileID: 7044407856940082235, guid: f7950e9fea790fd44b067e9d404a33b0, type: 3}
       propertyPath: m_IsKinematic
       value: 1
@@ -1583,7 +1745,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 3.5
+  m_Speed: 2
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -1658,6 +1820,46 @@ PrefabInstance:
       propertyPath: Character
       value: 
       objectReference: {fileID: 5549884660028198367}
+    - target: {fileID: 647984358959265076, guid: d5b43b0c2e2e732478cc26da130dab2a, type: 3}
+      propertyPath: goal.Array.size
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 647984358959265076, guid: d5b43b0c2e2e732478cc26da130dab2a, type: 3}
+      propertyPath: goal.Array.data[0]
+      value: 
+      objectReference: {fileID: 4054422927958196678}
+    - target: {fileID: 647984358959265076, guid: d5b43b0c2e2e732478cc26da130dab2a, type: 3}
+      propertyPath: goal.Array.data[1]
+      value: 
+      objectReference: {fileID: 4991811889511227984}
+    - target: {fileID: 647984358959265076, guid: d5b43b0c2e2e732478cc26da130dab2a, type: 3}
+      propertyPath: goal.Array.data[2]
+      value: 
+      objectReference: {fileID: 7922583475377624947}
+    - target: {fileID: 647984358959265076, guid: d5b43b0c2e2e732478cc26da130dab2a, type: 3}
+      propertyPath: goal.Array.data[3]
+      value: 
+      objectReference: {fileID: 5370829007660082173}
+    - target: {fileID: 647984358959265076, guid: d5b43b0c2e2e732478cc26da130dab2a, type: 3}
+      propertyPath: goal.Array.data[4]
+      value: 
+      objectReference: {fileID: 3495864581611431715}
+    - target: {fileID: 647984358959265076, guid: d5b43b0c2e2e732478cc26da130dab2a, type: 3}
+      propertyPath: goal.Array.data[5]
+      value: 
+      objectReference: {fileID: 1789101337927780416}
+    - target: {fileID: 647984358959265076, guid: d5b43b0c2e2e732478cc26da130dab2a, type: 3}
+      propertyPath: goal.Array.data[6]
+      value: 
+      objectReference: {fileID: 5280551418368050992}
+    - target: {fileID: 647984358959265076, guid: d5b43b0c2e2e732478cc26da130dab2a, type: 3}
+      propertyPath: goal.Array.data[7]
+      value: 
+      objectReference: {fileID: 1115382577970936963}
+    - target: {fileID: 647984358959265076, guid: d5b43b0c2e2e732478cc26da130dab2a, type: 3}
+      propertyPath: goal.Array.data[8]
+      value: 
+      objectReference: {fileID: 5772019132358842542}
     - target: {fileID: 3915388419153531145, guid: d5b43b0c2e2e732478cc26da130dab2a, type: 3}
       propertyPath: m_Name
       value: F020
@@ -1693,7 +1895,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 3.5
+  m_Speed: 2
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -1793,7 +1995,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 3.5
+  m_Speed: 2
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -1817,7 +2019,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71dc0668b0762924cafe5339802c702d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goal: {fileID: 7922583475377624947}
+  goal:
+  - {fileID: 7922583475377624947}
+  - {fileID: 4054422927958196678}
+  - {fileID: 5772019132358842542}
+  - {fileID: 1115382577970936963}
+  - {fileID: 5280551418368050992}
+  - {fileID: 1789101337927780416}
+  - {fileID: 3495864581611431715}
+  - {fileID: 5370829007660082173}
+  - {fileID: 4991811889511227984}
   Character: {fileID: 9114064887697425318}
   anim: {fileID: 9114064887697425313}
 --- !u!1001 &8886560513959327202
@@ -1839,6 +2050,42 @@ PrefabInstance:
       propertyPath: Character
       value: 
       objectReference: {fileID: 3982835833936432892}
+    - target: {fileID: 4087193058894651584, guid: 57d9ea8980f33324db7e86e19dccbb30, type: 3}
+      propertyPath: goal.Array.data[0]
+      value: 
+      objectReference: {fileID: 5280551418368050992}
+    - target: {fileID: 4087193058894651584, guid: 57d9ea8980f33324db7e86e19dccbb30, type: 3}
+      propertyPath: goal.Array.data[1]
+      value: 
+      objectReference: {fileID: 1115382577970936963}
+    - target: {fileID: 4087193058894651584, guid: 57d9ea8980f33324db7e86e19dccbb30, type: 3}
+      propertyPath: goal.Array.data[2]
+      value: 
+      objectReference: {fileID: 5772019132358842542}
+    - target: {fileID: 4087193058894651584, guid: 57d9ea8980f33324db7e86e19dccbb30, type: 3}
+      propertyPath: goal.Array.data[3]
+      value: 
+      objectReference: {fileID: 4054422927958196678}
+    - target: {fileID: 4087193058894651584, guid: 57d9ea8980f33324db7e86e19dccbb30, type: 3}
+      propertyPath: goal.Array.data[4]
+      value: 
+      objectReference: {fileID: 7922583475377624947}
+    - target: {fileID: 4087193058894651584, guid: 57d9ea8980f33324db7e86e19dccbb30, type: 3}
+      propertyPath: goal.Array.data[5]
+      value: 
+      objectReference: {fileID: 4991811889511227984}
+    - target: {fileID: 4087193058894651584, guid: 57d9ea8980f33324db7e86e19dccbb30, type: 3}
+      propertyPath: goal.Array.data[6]
+      value: 
+      objectReference: {fileID: 5370829007660082173}
+    - target: {fileID: 4087193058894651584, guid: 57d9ea8980f33324db7e86e19dccbb30, type: 3}
+      propertyPath: goal.Array.data[7]
+      value: 
+      objectReference: {fileID: 3495864581611431715}
+    - target: {fileID: 4087193058894651584, guid: 57d9ea8980f33324db7e86e19dccbb30, type: 3}
+      propertyPath: goal.Array.data[8]
+      value: 
+      objectReference: {fileID: 1789101337927780416}
     - target: {fileID: 4555226871921124605, guid: 57d9ea8980f33324db7e86e19dccbb30, type: 3}
       propertyPath: m_IsKinematic
       value: 1
@@ -1918,7 +2165,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 3.5
+  m_Speed: 2
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
