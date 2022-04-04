@@ -22,7 +22,7 @@ public class Pathfinding : MonoBehaviour
     // Update is called once per frame
     private void FixedUpdate()
     {
-        if (!agent.pathPending && agent.remainingDistance < 0.5f)
+        if (!agent.pathPending && agent.remainingDistance < 0.1f)
         {
             GoToNextPoint();
         }
@@ -35,7 +35,7 @@ public class Pathfinding : MonoBehaviour
             return;
         }
         agent.destination = goal[destPoint].position;
-        destPoint = (destPoint + 1) % goal.Length;
+        destPoint = Random.Range(0, 8);
 
     }
 }
