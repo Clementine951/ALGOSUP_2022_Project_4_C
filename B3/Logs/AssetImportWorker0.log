@@ -22,104 +22,104 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59825
+60114
 Successfully changed project path to: /Users/clementine/Documents/B3/B3
 /Users/clementine/Documents/B3/B3
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 740.55 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 9.77 ms.
+Refreshing native plugins compatible for Editor in 148.78 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 11.64 ms.
 Initialize engine version: 2020.3.29f1 (2ff179115da0)
 [Subsystems] Discovering subsystems at path /Applications/2020.3.29f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/clementine/Documents/B3/B3/Assets
 GfxDevice: creating device client; threaded=0
-2022-04-04 13:20:46.640 Unity[44140:1497170] (null) preferred device: Apple M1 (high power)
-2022-04-04 13:20:46.640 Unity[44140:1497170] Metal devices available: 1
-2022-04-04 13:20:46.640 Unity[44140:1497170] 0: Apple M1 (high power)
-2022-04-04 13:20:46.641 Unity[44140:1497170] Using device Apple M1 (high power)
+2022-04-04 14:20:08.660 Unity[45193:1528536] (null) preferred device: Apple M1 (high power)
+2022-04-04 14:20:08.660 Unity[45193:1528536] Metal devices available: 1
+2022-04-04 14:20:08.660 Unity[45193:1528536] 0: Apple M1 (high power)
+2022-04-04 14:20:08.660 Unity[45193:1528536] Using device Apple M1 (high power)
 Initializing Metal device caps: Apple M1
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Initialize mono
 Mono path[0] = '/Applications/2020.3.29f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/2020.3.29f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/2020.3.29f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56140
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56193
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/2020.3.29f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/2020.3.29f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001240 seconds.
+Registered in 0.001438 seconds.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 126.43 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.39 ms.
+Refreshing native plugins compatible for Editor in 120.77 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.28 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.749 seconds
+- Completed reload, in  1.732 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1750ms)
-		BeginReloadAssembly (131ms)
+	ReloadAssembly (1732ms)
+		BeginReloadAssembly (139ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (3ms)
-		EndReloadAssembly (1484ms)
-			LoadAssemblies (128ms)
-			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (186ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1455ms)
+			LoadAssemblies (137ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (187ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (845ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (831ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
+				InitializePlatformSupportModulesInManaged (18ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (127ms)
-				BeforeProcessingInitializeOnLoad (126ms)
-				ProcessInitializeOnLoadAttributes (437ms)
-				ProcessInitializeOnLoadMethodAttributes (134ms)
+				RefreshPlugins (121ms)
+				BeforeProcessingInitializeOnLoad (118ms)
+				ProcessInitializeOnLoadAttributes (435ms)
+				ProcessInitializeOnLoadMethodAttributes (136ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (1ms)
+				EditorAssembliesLoaded (2ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005019 seconds.
+Registered in 0.004086 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 121.98 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.34 ms.
+Refreshing native plugins compatible for Editor in 119.41 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.36 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.327 seconds
+- Completed reload, in  3.342 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3330ms)
-		BeginReloadAssembly (333ms)
+	ReloadAssembly (3344ms)
+		BeginReloadAssembly (327ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (36ms)
+			DisableScriptedObjects (37ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (49ms)
-		EndReloadAssembly (2885ms)
-			LoadAssemblies (284ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (2910ms)
+			LoadAssemblies (291ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (419ms)
+			SetupTypeCache (415ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (97ms)
-			SetupLoadedEditorAssemblies (1684ms)
+			RebuildScriptCaches (91ms)
+			SetupLoadedEditorAssemblies (1741ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (15ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (122ms)
-				BeforeProcessingInitializeOnLoad (248ms)
-				ProcessInitializeOnLoadAttributes (1254ms)
-				ProcessInitializeOnLoadMethodAttributes (42ms)
+				RefreshPlugins (120ms)
+				BeforeProcessingInitializeOnLoad (265ms)
+				ProcessInitializeOnLoadAttributes (1297ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (42ms)
+			AwakeInstancesAfterBackupRestoration (35ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.078713 seconds.
+Validating Project structure ... 0.074842 seconds.
 Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.142282 seconds.
+Upgrading shader files ...0.092604 seconds.
 Application.AssetDatabase Initial Script Refresh Start
 RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
 RefreshProfiler: Total: 0.000ms
@@ -130,21 +130,21 @@ RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter:
 RefreshProfiler: Total: 0.000ms
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Launching external process: /Applications/2020.3.29f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.92 seconds
+Launched and connected shader compiler UnityShaderCompiler after 0.30 seconds
 Initializing Unity extensions:
-2022-04-04 13:20:56.670 Unity[44140:1497170] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000002e23e0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-2022-04-04 13:20:56.678 Unity[44140:1497170] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000002075d0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2022-04-04 14:20:17.467 Unity[45193:1528536] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000039397a0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2022-04-04 14:20:17.475 Unity[45193:1528536] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000039d57a0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 1.17 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.57 ms.
+Refreshing native plugins compatible for Editor in 1.19 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.31 ms.
 Unloading 3415 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 373.6 MB.
 System memory in use after: 373.1 MB.
 
 Unloading 607 unused Assets to reduce memory usage. Loaded Objects now: 3910.
-Total: 11.308250 ms (FindLiveObjects: 0.238125 ms CreateObjectMapping: 0.101542 ms MarkObjects: 10.275167 ms  DeleteObjects: 0.692500 ms)
+Total: 5.353416 ms (FindLiveObjects: 0.316209 ms CreateObjectMapping: 0.110500 ms MarkObjects: 4.303125 ms  DeleteObjects: 0.620709 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -158,136 +158,400 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/B3.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/B3.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c3de46a420d2945c808f001211b3028') in 0.030982 seconds 
-  Import took 0.038310 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 463.369109 seconds.
   path: Assets/OVRPlayerController.prefab
   artifactKey: Guid(73264b92a30f5b146b6ef200453b0a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OVRPlayerController.prefab using Guid(73264b92a30f5b146b6ef200453b0a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f0b9dd58edfb5135bd9a0157a43fcff') in 0.601409 seconds 
-  Import took 0.660178 seconds .
+Start importing Assets/OVRPlayerController.prefab using Guid(73264b92a30f5b146b6ef200453b0a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f0b9dd58edfb5135bd9a0157a43fcff') in 0.560393 seconds 
+  Import took 0.570747 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.142256 seconds.
-  path: Assets/Assets/UnityJapanOffice/Textures/Office/CabinetA_AO.tif
-  artifactKey: Guid(069538b071ee86042a3ceff1ac7808bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/UnityJapanOffice/Textures/Office/CabinetA_AO.tif using Guid(069538b071ee86042a3ceff1ac7808bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34d2aa9c9d856cf9cb2b05330f8a0d74') in 0.521899 seconds 
-  Import took 0.536441 seconds .
+  Time since last request: 1.051055 seconds.
+  path: Assets/Oculus/Interaction/Runtime/Materials/UIDefaultOverlay.mat
+  artifactKey: Guid(bc9f80a2ae0e0a24d870176e48ab1b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Runtime/Materials/UIDefaultOverlay.mat using Guid(bc9f80a2ae0e0a24d870176e48ab1b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af45c3f088b130ff4622ae183a4f70ce') in 0.216717 seconds 
+  Import took 0.228144 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/Assets/UnityJapanOffice/Textures/Office/CabinetD_Mask.tif
-  artifactKey: Guid(6ca4520daef59d8419e9eb256a5e044d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/UnityJapanOffice/Textures/Office/CabinetD_Mask.tif using Guid(6ca4520daef59d8419e9eb256a5e044d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8f8aa92f8277075a6eacb56592e9779') in 0.011323 seconds 
-  Import took 0.017546 seconds .
+  Time since last request: 0.000263 seconds.
+  path: Assets/Free/Wooden Floor Pack/Materials/Wooden Floor 3.mat
+  artifactKey: Guid(bf276f53291eddb4d9053d2ae81ca063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free/Wooden Floor Pack/Materials/Wooden Floor 3.mat using Guid(bf276f53291eddb4d9053d2ae81ca063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25c7f1f8fa5d89d824329851326531e7') in 0.108198 seconds 
+  Import took 0.114278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Oculus/Interaction/Runtime/Materials/UIUnderlayImposter.mat
+  artifactKey: Guid(5c093e4058df12042a75bcb967ca1554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Runtime/Materials/UIUnderlayImposter.mat using Guid(5c093e4058df12042a75bcb967ca1554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee82c25ca3cf0d76d316afe91dd7ff80') in 0.020494 seconds 
+  Import took 0.025941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Assets/Original Wood Textures/Wood Texture 07/Materials/Wood Texture 07 diffuse.mat
+  artifactKey: Guid(d1f7136b88e49794f95e20f8f3f21715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Original Wood Textures/Wood Texture 07/Materials/Wood Texture 07 diffuse.mat using Guid(d1f7136b88e49794f95e20f8f3f21715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caf125d3b6def10d06fda6adb020c445') in 0.012417 seconds 
+  Import took 0.018067 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000388 seconds.
+  path: Assets/Oculus/Interaction/Runtime/Materials/UIDepthOverwrite.mat
+  artifactKey: Guid(c7cda63c3ebb50847950fc3a925d784f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Runtime/Materials/UIDepthOverwrite.mat using Guid(c7cda63c3ebb50847950fc3a925d784f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '124a553bd5192237abd6c08077bd6cff') in 0.012771 seconds 
+  Import took 0.018509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Assets/Original Wood Textures/Wood Texture 09/Wood Texture 09.mat
+  artifactKey: Guid(6cfcab824d7b63a40bf197a49d6c1301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Original Wood Textures/Wood Texture 09/Wood Texture 09.mat using Guid(6cfcab824d7b63a40bf197a49d6c1301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ed6959f9e53bc5f2ea05924139d3b90') in 0.013782 seconds 
+  Import took 0.018652 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000281 seconds.
-  path: Assets/Assets/UnityJapanOffice/Textures/Office/CabinetA_BentNormal.tif
-  artifactKey: Guid(cf24099c2a27c414aad231c8a574bc75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/UnityJapanOffice/Textures/Office/CabinetA_BentNormal.tif using Guid(cf24099c2a27c414aad231c8a574bc75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12c67657597d9465abd8f1e42b274d70') in 0.009852 seconds 
-  Import took 0.015458 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/Assets/UnityJapanOffice/Textures/Office/CabinetC_BentNormal.tif
-  artifactKey: Guid(3b60d5fd56236964db0bcd40c163677e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/UnityJapanOffice/Textures/Office/CabinetC_BentNormal.tif using Guid(3b60d5fd56236964db0bcd40c163677e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc86cd0fc6a8eda2abece2c18bfbf003') in 0.010371 seconds 
-  Import took 0.016013 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/Assets/UnityJapanOffice/Textures/Office/CabinetD_BentNormal.tif
-  artifactKey: Guid(729b94d9cc7a14341a3573e24ede9908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/UnityJapanOffice/Textures/Office/CabinetD_BentNormal.tif using Guid(729b94d9cc7a14341a3573e24ede9908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '473ef0a9098d4bb83394a93e8dc32252') in 0.006251 seconds 
-  Import took 0.012356 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/Assets/UnityJapanOffice/Textures/Office/CabinetC_AO.tif
-  artifactKey: Guid(e673015c17195fc43872ba3a8b283812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/UnityJapanOffice/Textures/Office/CabinetC_AO.tif using Guid(e673015c17195fc43872ba3a8b283812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '193c5de4b93ed38688d905ddb568e518') in 0.012898 seconds 
-  Import took 0.018716 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/Assets/UnityJapanOffice/Textures/Office/CabinetB_BentNormal.tif
-  artifactKey: Guid(00885741bb64c3d4fada9d58de02d8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/UnityJapanOffice/Textures/Office/CabinetB_BentNormal.tif using Guid(00885741bb64c3d4fada9d58de02d8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0769042a1350362002afd631cb6c29e') in 0.010350 seconds 
-  Import took 0.016426 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000341 seconds.
-  path: Assets/Assets/UnityJapanOffice/Textures/Office/CabinetB_AO.tif
-  artifactKey: Guid(4714daed3f00c7c4180de9bbe56642e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/UnityJapanOffice/Textures/Office/CabinetB_AO.tif using Guid(4714daed3f00c7c4180de9bbe56642e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '723dd9d81b35203b07e9edf6f280eca4') in 0.014541 seconds 
-  Import took 0.028566 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.123175 seconds.
-  path: Assets/Oculus/Interaction/Samples/Textures/OCUIIconSet/OCUI_24_Filled_2x.png
-  artifactKey: Guid(64f884351318b694f942625580e64a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/Interaction/Samples/Textures/OCUIIconSet/OCUI_24_Filled_2x.png using Guid(64f884351318b694f942625580e64a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aa507eb4925d4cb5a0c38e89c15b4b1') in 1.503978 seconds 
-  Import took 1.515430 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/Oculus/SampleFramework/Usage/SpatialAnchor/Textures/OCUI_24_Filled_2x.png
-  artifactKey: Guid(7f186a9ac091755489927d745be0185a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Usage/SpatialAnchor/Textures/OCUI_24_Filled_2x.png using Guid(7f186a9ac091755489927d745be0185a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '974f4bc2a2cc784e7e0599e66b3ade03') in 1.378908 seconds 
-  Import took 1.387909 seconds .
+  path: Assets/Assets/Original Wood Textures/Wood Texture 03/Wood Texture 03.mat
+  artifactKey: Guid(5d6806ab6c681494e81a3e2d7de093a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Original Wood Textures/Wood Texture 03/Wood Texture 03.mat using Guid(5d6806ab6c681494e81a3e2d7de093a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1714a96cdcff635576280b7046e15a7') in 0.010569 seconds 
+  Import took 0.015726 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000278 seconds.
-  path: Assets/Oculus/Interaction/Samples/Textures/OCUIIconSet/OCUI_24_Outline_2x.png
-  artifactKey: Guid(4f3b4a4ae58ad484e9fc92ab68a8ffef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/Interaction/Samples/Textures/OCUIIconSet/OCUI_24_Outline_2x.png using Guid(4f3b4a4ae58ad484e9fc92ab68a8ffef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bd1e5d508c49467a72211b0b777d897') in 1.379437 seconds 
-  Import took 1.388453 seconds .
+  path: Assets/Assets/UnityJapanOffice/Materials/Office/Wood02_CabinetB.mat
+  artifactKey: Guid(ecde6f3f461ada74fa88b0e7a93b9f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Materials/Office/Wood02_CabinetB.mat using Guid(ecde6f3f461ada74fa88b0e7a93b9f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58180de0e78ad374c477ed2e3a7c6184') in 0.022756 seconds 
+  Import took 0.027842 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000323 seconds.
-  path: Assets/Grids & Nets textures pack/Net 03/Net pattern 03.mat
-  artifactKey: Guid(6954641ab0b38e84298c26a3df7dbf27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Grids & Nets textures pack/Net 03/Net pattern 03.mat using Guid(6954641ab0b38e84298c26a3df7dbf27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '648d4ff24a53e2b4120619f435bd03a4') in 0.167246 seconds 
-  Import took 0.176691 seconds .
+  Time since last request: 105.279110 seconds.
+  path: Assets/Textures/Screenshot 2022-04-04 at 13.48.57 1.png
+  artifactKey: Guid(d32ba39ba7255492a9e9241364f19492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Screenshot 2022-04-04 at 13.48.57 1.png using Guid(d32ba39ba7255492a9e9241364f19492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27e2fb5c95f3239cf7d0dd1a659bc778') in 0.238685 seconds 
+  Import took 0.294439 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000306 seconds.
-  path: Assets/Grids & Nets textures pack/Net 02/Net pattern 02.mat
-  artifactKey: Guid(8e7d867597049c642bb42e23f2937dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Grids & Nets textures pack/Net 02/Net pattern 02.mat using Guid(8e7d867597049c642bb42e23f2937dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec04a93cfa16aace88840578d127a65d') in 0.473577 seconds 
-  Import took 0.480553 seconds .
+  Time since last request: 4.779464 seconds.
+  path: Assets/Textures/Screenshot 2022-04-04 at 13.45.52.png
+  artifactKey: Guid(bfd0f1442a0c04f2a8cf0edf82eed918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Screenshot 2022-04-04 at 13.45.52.png using Guid(bfd0f1442a0c04f2a8cf0edf82eed918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81ea3a4b9cbaec63d71da8f91829cef7') in 0.011177 seconds 
+  Import took 0.017428 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.360247 seconds.
-  path: Assets/Animations/Net.anim
-  artifactKey: Guid(df8f815a647fd4500b43218a59cd782d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Net.anim using Guid(df8f815a647fd4500b43218a59cd782d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbed94551672b270a22f6d4b507aee1b') in 0.058694 seconds 
-  Import took 0.068726 seconds .
+  Time since last request: 199.559817 seconds.
+  path: Assets/Oculus/Interaction/Samples/Objects/Props/MapWithPins/Materials/MapFrameMat.mat
+  artifactKey: Guid(40fece458fc28b244be0f13bec5a2975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Samples/Objects/Props/MapWithPins/Materials/MapFrameMat.mat using Guid(40fece458fc28b244be0f13bec5a2975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03714482a9826f9a165135ce2fecd058') in 0.292999 seconds 
+  Import took 0.321322 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 51.736211 seconds.
-  path: Assets/Animations/Pipers01.controller
-  artifactKey: Guid(9364c2821e0d34f29beca9a40df10053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Pipers01.controller using Guid(9364c2821e0d34f29beca9a40df10053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1910c76ca607a2a04490c81bab343000') in 0.070104 seconds 
-  Import took 0.079966 seconds .
+  Time since last request: 0.056288 seconds.
+  path: Assets/Materials/Screenshot 2022-04-04 at 13.45.52.mat
+  artifactKey: Guid(2c95cdf67d5f14eea929fa9e7549250e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Screenshot 2022-04-04 at 13.45.52.mat using Guid(2c95cdf67d5f14eea929fa9e7549250e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38f98698fcc905b8580836d4e6e3282c') in 0.018288 seconds 
+  Import took 0.026724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 194.439411 seconds.
+  path: Assets/Assets/UnityJapanOffice/Textures/Office/Parquet02_Albedo_B.tif
+  artifactKey: Guid(06e810aa8689b854d8c78a0ab5a01d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Textures/Office/Parquet02_Albedo_B.tif using Guid(06e810aa8689b854d8c78a0ab5a01d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '379169f24b9ff5f1109a67c2f450e7a8') in 0.275372 seconds 
+  Import took 0.344601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000772 seconds.
+  path: Assets/Assets/UnityJapanOffice/Textures/Office/RuberSeals_BentNormal.tif
+  artifactKey: Guid(9a472aea9ead0ae43a6664d294c70ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Textures/Office/RuberSeals_BentNormal.tif using Guid(9a472aea9ead0ae43a6664d294c70ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5498be623f9254536c4a8dda9aae2cc4') in 0.035070 seconds 
+  Import took 0.043057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Assets/UnityJapanOffice/Textures/Office/Rubber_Mask.tif
+  artifactKey: Guid(8e37a17545f07784d9815f3ddc880f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Textures/Office/Rubber_Mask.tif using Guid(8e37a17545f07784d9815f3ddc880f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c393aa72923d71eab26810cffc638530') in 0.013612 seconds 
+  Import took 0.020688 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000621 seconds.
+  path: Assets/Assets/UnityJapanOffice/Textures/Office/WhiteBoard_GI.tif
+  artifactKey: Guid(6f5e61043f93d344aa3796b694c26e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Textures/Office/WhiteBoard_GI.tif using Guid(6f5e61043f93d344aa3796b694c26e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b5c6d57d16cbf0837e4a8384cf7f28f') in 0.008947 seconds 
+  Import took 0.016280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Assets/UnityJapanOffice/Textures/Office/SnackCounter_Albedo.tif
+  artifactKey: Guid(0979a62b3e87633468a9dce47f815deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Textures/Office/SnackCounter_Albedo.tif using Guid(0979a62b3e87633468a9dce47f815deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7569bc37aad6955a3663ceb43150d9c0') in 0.010419 seconds 
+  Import took 0.017090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000481 seconds.
+  path: Assets/Assets/UnityJapanOffice/Textures/Office/SteelPanel_BentNormal.tif
+  artifactKey: Guid(c3f78434227ef9c4c8416800f2114bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Textures/Office/SteelPanel_BentNormal.tif using Guid(c3f78434227ef9c4c8416800f2114bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b1b1e69f70f7d8cdff02a06f0d056c1') in 0.012082 seconds 
+  Import took 0.019348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Assets/UnityJapanOffice/Textures/Office/SystemCeiling_LayerMask.tif
+  artifactKey: Guid(625036c53d6a76c498c201170916536d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Textures/Office/SystemCeiling_LayerMask.tif using Guid(625036c53d6a76c498c201170916536d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57a22b0680d52c2bd3ba799d0cef350e') in 0.008135 seconds 
+  Import took 0.015770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Assets/UnityJapanOffice/Textures/Office/Wood01_Albedo.tif
+  artifactKey: Guid(0602d2b2f8892574db435973ae8627fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Textures/Office/Wood01_Albedo.tif using Guid(0602d2b2f8892574db435973ae8627fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '017dfef2a106148eb5374dcf33def29c') in 0.017769 seconds 
+  Import took 0.024713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Assets/UnityJapanOffice/Textures/Office/SystemCeiling_Pattern_Mask.tif
+  artifactKey: Guid(fb26764f2b2426e4f92685f034aef3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Textures/Office/SystemCeiling_Pattern_Mask.tif using Guid(fb26764f2b2426e4f92685f034aef3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98a6a99c06d5b5fe1c0613f527c1bcfc') in 0.013107 seconds 
+  Import took 0.018562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Assets/UnityJapanOffice/Textures/Office/WallTiles_Normal.tif
+  artifactKey: Guid(d63a9b10410c8be498cec5aa4dd4576e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Textures/Office/WallTiles_Normal.tif using Guid(d63a9b10410c8be498cec5aa4dd4576e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45f36cc824f1378578b8d3ddfc31540a') in 0.011090 seconds 
+  Import took 0.017527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/Assets/UnityJapanOffice/Textures/Office/Parquet02_Normal.tif
+  artifactKey: Guid(9873f39bb63f10644b13ed53a6fb9cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Textures/Office/Parquet02_Normal.tif using Guid(9873f39bb63f10644b13ed53a6fb9cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fb476888fb8bc7f8014923c20785815') in 0.031987 seconds 
+  Import took 0.038744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Assets/UnityJapanOffice/Textures/Office/TrashSigns_Albedo.tif
+  artifactKey: Guid(cf5fb716a2f0e9148a1f37f4713ad34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Textures/Office/TrashSigns_Albedo.tif using Guid(cf5fb716a2f0e9148a1f37f4713ad34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66c9f56fff91d3150505a80541ce0b9c') in 0.007891 seconds 
+  Import took 0.015741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Assets/UnityJapanOffice/Textures/Office/SprinclerPipes_Albedo.tif
+  artifactKey: Guid(0805cf44c4971b04e97e96f6e9296418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Textures/Office/SprinclerPipes_Albedo.tif using Guid(0805cf44c4971b04e97e96f6e9296418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96001d0a6b746f0a2b34e87d8f0777e9') in 0.008645 seconds 
+  Import took 0.014106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Assets/UnityJapanOffice/Textures/Office/Parquet02_Mask.tif
+  artifactKey: Guid(58c03b262ce0b4341881a2ccd3836b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Textures/Office/Parquet02_Mask.tif using Guid(58c03b262ce0b4341881a2ccd3836b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '607fb03583cd497e64671dbca3cc8a97') in 0.022735 seconds 
+  Import took 0.029598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Assets/UnityJapanOffice/Textures/Office/Wood01_Mask.tif
+  artifactKey: Guid(bcc3b9698eeabc3459e6ecfb7a5df9de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Textures/Office/Wood01_Mask.tif using Guid(bcc3b9698eeabc3459e6ecfb7a5df9de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65858d0888e3967eb50b0a4daee56d09') in 0.019604 seconds 
+  Import took 0.033502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Assets/UnityJapanOffice/Textures/Office/WallTiles_Mask.tif
+  artifactKey: Guid(3e3681e821f594b45846c9f85ea4300d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Textures/Office/WallTiles_Mask.tif using Guid(3e3681e821f594b45846c9f85ea4300d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52b2ae0c2375cb5c7369ae2f26121f22') in 0.013329 seconds 
+  Import took 0.021220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Assets/UnityJapanOffice/Textures/Office/Wood02_Mask.tif
+  artifactKey: Guid(759a6c23109637846b9efcc09a4f39eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Textures/Office/Wood02_Mask.tif using Guid(759a6c23109637846b9efcc09a4f39eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '103ddb56f8fb7d6777b2d6fe3b8e254d') in 0.014551 seconds 
+  Import took 0.020709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Assets/UnityJapanOffice/Textures/Office/SystemCeiling_Pattern_Normal.tif
+  artifactKey: Guid(92072325a7617ed4395013ad255941bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Textures/Office/SystemCeiling_Pattern_Normal.tif using Guid(92072325a7617ed4395013ad255941bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80a69a35a17ef9864fdba1ed0ac3759e') in 0.011492 seconds 
+  Import took 0.017136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Assets/UnityJapanOffice/Textures/Office/SprinclerPipes_Normal.tif
+  artifactKey: Guid(9ef13c1f09b08fe4ebcb7a0be2198961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Textures/Office/SprinclerPipes_Normal.tif using Guid(9ef13c1f09b08fe4ebcb7a0be2198961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7212483f9e7869a12294a11b3fac40c6') in 0.010227 seconds 
+  Import took 0.015377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Assets/UnityJapanOffice/Textures/Office/Steel_Albedo.tif
+  artifactKey: Guid(65d3e7cda14256947973895492463fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Textures/Office/Steel_Albedo.tif using Guid(65d3e7cda14256947973895492463fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd699713de137983d4b13abf7ae2cd795') in 0.008146 seconds 
+  Import took 0.013713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Assets/UnityJapanOffice/Textures/Office/Wood02_Albedo.tif
+  artifactKey: Guid(57af4f373190aa947819e561af883965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Textures/Office/Wood02_Albedo.tif using Guid(57af4f373190aa947819e561af883965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '910d706fdf67f474f838da76a9d87557') in 0.014028 seconds 
+  Import took 0.019779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Assets/UnityJapanOffice/Textures/Office/SprinclerPipes_Detail.tif
+  artifactKey: Guid(6793408b4ce659c49aa8a15a9ec376af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Textures/Office/SprinclerPipes_Detail.tif using Guid(6793408b4ce659c49aa8a15a9ec376af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1648b9315a7911dc0fff50a307543759') in 0.008287 seconds 
+  Import took 0.013242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Assets/UnityJapanOffice/Textures/Office/Parquet02_GI.tif
+  artifactKey: Guid(1bcda33959ecf064ead144fcf77ae984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Textures/Office/Parquet02_GI.tif using Guid(1bcda33959ecf064ead144fcf77ae984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82b77d1b24473539a3e44e91e6663ed0') in 0.027010 seconds 
+  Import took 0.033640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Assets/UnityJapanOffice/Textures/Office/SystemCeiling_Base_Albedo.tif
+  artifactKey: Guid(c3993e39af7bb754db7aec8426600f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Textures/Office/SystemCeiling_Base_Albedo.tif using Guid(c3993e39af7bb754db7aec8426600f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaeab20286067c7c9a23929b2f34df55') in 0.007403 seconds 
+  Import took 0.013548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Assets/UnityJapanOffice/Textures/Office/SteelPanel_Mask.tif
+  artifactKey: Guid(7bcbd10ea649b8742a9a94314a901f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Textures/Office/SteelPanel_Mask.tif using Guid(7bcbd10ea649b8742a9a94314a901f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd67e9a7694e78b718d36059dd7631ca2') in 0.008835 seconds 
+  Import took 0.014125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Assets/UnityJapanOffice/Textures/Office/SuspensionRods_AO.tif
+  artifactKey: Guid(a8ef75d6cb799c84185e70844d031828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Textures/Office/SuspensionRods_AO.tif using Guid(a8ef75d6cb799c84185e70844d031828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90e8717e1d1863386efda19d081ff6c3') in 0.015230 seconds 
+  Import took 0.021879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Assets/UnityJapanOffice/Textures/Office/SystemCeiling_Base_Mask.tif
+  artifactKey: Guid(65a3f869809fa9844974506f32538e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Textures/Office/SystemCeiling_Base_Mask.tif using Guid(65a3f869809fa9844974506f32538e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fbc34094a4801e5d2104f8ff9c6ac37') in 0.008238 seconds 
+  Import took 0.014106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Assets/UnityJapanOffice/Textures/Office/SprinclerPipes_LayerMask.tif
+  artifactKey: Guid(1556fbfe916626442b63a9f762566ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Textures/Office/SprinclerPipes_LayerMask.tif using Guid(1556fbfe916626442b63a9f762566ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '680c63e4ff6e9e0d764581dfe2b143ff') in 0.010696 seconds 
+  Import took 0.016286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Assets/UnityJapanOffice/Textures/Office/Steel_Mask.tif
+  artifactKey: Guid(cdee799d11c57fb4793ad173c4bd7108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Textures/Office/Steel_Mask.tif using Guid(cdee799d11c57fb4793ad173c4bd7108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a6f1dc4c9e7bd4bee2927026da3bca9') in 0.008524 seconds 
+  Import took 0.016351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Assets/UnityJapanOffice/Textures/Office/SprinclerPipes_Mask.tif
+  artifactKey: Guid(6ae12b1fae1ab99479b49d4b266f35f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Textures/Office/SprinclerPipes_Mask.tif using Guid(6ae12b1fae1ab99479b49d4b266f35f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '745c3824bd69ead0f255b046f5e588aa') in 0.009030 seconds 
+  Import took 0.015748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Assets/UnityJapanOffice/Textures/Office/SystemCeiling_Pattern_Albedo.tif
+  artifactKey: Guid(ea00003ce5b4a294d87f6dee272418da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Textures/Office/SystemCeiling_Pattern_Albedo.tif using Guid(ea00003ce5b4a294d87f6dee272418da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5298e5fad309214d80b21953930cb68c') in 0.013557 seconds 
+  Import took 0.019705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Assets/UnityJapanOffice/Textures/Office/SystemCeiling_Base_Normal.tif
+  artifactKey: Guid(be435b183b3e4f04598f39d1789cdfd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Textures/Office/SystemCeiling_Base_Normal.tif using Guid(be435b183b3e4f04598f39d1789cdfd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '053c030150924becd2aa412b6b8456c0') in 0.007480 seconds 
+  Import took 0.013768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Assets/UnityJapanOffice/Textures/Office/Steel_Normal.tif
+  artifactKey: Guid(250a40637f650254a9d0df41bd318abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Textures/Office/Steel_Normal.tif using Guid(250a40637f650254a9d0df41bd318abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eba3d2c77d6ad204b25f904e8ccdcdfd') in 0.008163 seconds 
+  Import took 0.013839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Assets/UnityJapanOffice/Textures/Office/Rubber_Albedo.tif
+  artifactKey: Guid(8e5a99c000a185742bac6f2023ea3767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Textures/Office/Rubber_Albedo.tif using Guid(8e5a99c000a185742bac6f2023ea3767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b108988c3c3a120b794ccbad1e60d5f9') in 0.010908 seconds 
+  Import took 0.017173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Assets/UnityJapanOffice/Textures/Office/RuberSeals_AO.tif
+  artifactKey: Guid(cdc3ab1b73be6194aa212935fb5995a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Textures/Office/RuberSeals_AO.tif using Guid(cdc3ab1b73be6194aa212935fb5995a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b425690f502f6a6d18993a31e53b041') in 0.007594 seconds 
+  Import took 0.013498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001062 seconds.
+  path: Assets/Assets/UnityJapanOffice/Textures/Office/WallTiles_GI.tif
+  artifactKey: Guid(507f019544c799c46a0a653a69f0cf7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Textures/Office/WallTiles_GI.tif using Guid(507f019544c799c46a0a653a69f0cf7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67f527b3eebcc41813de1734fb3ef507') in 0.009123 seconds 
+  Import took 0.015729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Assets/UnityJapanOffice/Textures/Office/Parquet02_Albedo_C.tif
+  artifactKey: Guid(0af73e6a19a91dd44a2275c5d2adff33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Textures/Office/Parquet02_Albedo_C.tif using Guid(0af73e6a19a91dd44a2275c5d2adff33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7ba892a9828e5ca719a7dad3328b2ff') in 0.035946 seconds 
+  Import took 0.053181 seconds .
 
