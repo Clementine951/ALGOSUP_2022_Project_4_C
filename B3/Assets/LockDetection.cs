@@ -6,7 +6,8 @@ public class LockDetection : MonoBehaviour
 {
     public GameObject card;
     public GameObject cube;
-    public GameObject lockDoor;
+    //public GameObject lockDoor;
+    public GameObject block;
 
     public string tagToCompare = "AccessCard";
 
@@ -18,6 +19,7 @@ public class LockDetection : MonoBehaviour
         if (col.transform.tag == tagToCompare)
         {
             cube.SetActive(true);
+            block.SetActive(false);
         }
     }
 
@@ -29,6 +31,7 @@ public class LockDetection : MonoBehaviour
     private void Awake()
     {
         cube.SetActive(false);
+        block.SetActive(true);
     }
 
     // Start is called before the first frame update
