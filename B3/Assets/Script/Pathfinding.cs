@@ -5,22 +5,37 @@ using UnityEngine.AI;
 
 public class Pathfinding : MonoBehaviour
 {
-    public Transform goal;
+    public Transform[] goal;
+    private NavMeshAgent agent;
+    private int destPoint;
     public GameObject Character;
     public Animator anim;
 
     // Start is called before the first frame update
     void Start()
     {
-        NavMeshAgent agent = GetComponent<NavMeshAgent>();
-        agent.destination = goal.position;
+        agent = GetComponent<NavMeshAgent>();
+        agent.destination = goal[0].position;
         anim.SetBool("Path", true);
-        
+
     }
     // Update is called once per frame
-    private void Update()
+    private void FixedUpdate()
     {
-        if (Character.transform.position.y == goal.position.x || Character.transform.position.z == goal.position.z)
-            anim.SetBool("Path", false);
+        if (!agent.pathPending && agent.remainingDistance < 0.5f)
+        {
+            GoToNextPoint();
+        }
+    }
+
+    void GoToNextPoint()
+    {
+        if (goal.Length == 0)
+        {
+            return;
+        }
+        agent.destination = goal[destPoint].position;
+        destPoint = (destPoint + 1) % goal.Length;
+
     }
 }
