@@ -6,6 +6,7 @@ public class LockDetection : MonoBehaviour
 {
     public GameObject card;
     public GameObject cube;
+    public GameObject lockDoor;
 
     public string tagToCompare = "AccessCard";
 
