@@ -22,7 +22,7 @@ public class Pathfinding : MonoBehaviour
     // Update is called once per frame
     private void FixedUpdate()
     {
-        if (!agent.pathPending && agent.remainingDistance < 0.1f)
+        if (!agent.pathPending && agent.remainingDistance < 1f)
         {
             GoToNextPoint();
         }
