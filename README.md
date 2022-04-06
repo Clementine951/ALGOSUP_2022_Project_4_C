@@ -78,11 +78,11 @@ We chose Clémentine Curel as Project Manager and Malo Archimbaud as Tech Leader
 
 ### Week 5 - 03/25/2022
 
-- [ ] Beautify the building
-- [ ] Add hands to the main
-- [ ] Put NPC on the buiding 
-- [ ] Acces to rooms thank to a card
-- [ ] Prepare the presentation
+- [x] Beautify the building
+- [x] Add hands to the main
+- [x] Put NPC on the buiding 
+- [x] Acces to rooms thank to a card
+- [x] Prepare plan for the presentation
 
 ### Week 6 - 04/01/2022
 
