@@ -61,10 +61,7 @@ public class SecuritySystem : MonoBehaviour
                 Grabable2.isStatic = true;
             }
         }
-        else
-        {
-            
-        }
+        
     }
 
 }
