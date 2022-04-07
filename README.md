@@ -87,5 +87,5 @@ We chose Clémentine Curel as Project Manager and Malo Archimbaud as Tech Leader
 ### Week 6 - 04/01/2022
 
 - [ ] Correction of all bugs
-- [ ] preparation of the presention
-- [ ] Try VR on big screen
+- [x] preparation of the presention
+- [x] Try VR on big screen
