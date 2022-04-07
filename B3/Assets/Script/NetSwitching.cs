@@ -26,19 +26,12 @@ public class NetSwitching : MonoBehaviour
         }
         PreviousPlayer = Player;
     }
-    private void OnTriggerEnter(Collider PlayerBody)
+    private void OnTriggerStay(Collider PlayerBody)
     {
-        if (PlayerBody.gameObject.name == "PlayerArmature")
-        {
-            Player = true;
-        }
-    }
-    private void OnTriggerExit(Collider PlayerBody)
-    {
-        if (PlayerBody.gameObject.name == "PlayerArmature")
-        {
-            Player = false;
-        }
+        
+        
+            Player = !Player;
+    
     }
 
 }
