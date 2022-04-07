@@ -246,7 +246,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.04, y: 0.8030787, z: 1.9387606}
+  m_Size: {x: 0.03, y: 0.3, z: 1}
   m_Center: {x: 0.01797909, y: -0.39169106, z: 0.9756203}
 --- !u!59 &2091784140250596174
 HingeJoint:
@@ -273,7 +273,7 @@ HingeJoint:
     freeSpin: 0
   m_UseLimits: 1
   m_Limits:
-    min: -120
+    min: -90
     max: 0
     bounciness: 0
     bounceMinVelocity: 0.2
@@ -505,7 +505,7 @@ BoxCollider:
   m_GameObject: {fileID: 3857141669475215310}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -653,7 +653,7 @@ BoxCollider:
   m_GameObject: {fileID: 5800062041940821101}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
