@@ -1,0 +1,1210 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.29f1 (2ff179115da0) revision 3142009'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'en' Physical Memory: 16086 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.29f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Victorleroy/ALGOSUP_2022_Project_4_C/B3
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62200
+Successfully changed project path to: C:/Users/Victorleroy/ALGOSUP_2022_Project_4_C/B3
+C:/Users/Victorleroy/ALGOSUP_2022_Project_4_C/B3
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 239.26 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 3.23 ms.
+Initialize engine version: 2020.3.29f1 (2ff179115da0)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Victorleroy/ALGOSUP_2022_Project_4_C/B3/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Plus Graphics (ID=0x8a52)
+    Vendor:   
+    VRAM:     8043 MB
+    Driver:   27.20.100.8853
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56524
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005542 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 158.09 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.122 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1122ms)
+		BeginReloadAssembly (164ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (859ms)
+			LoadAssemblies (164ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (178ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (416ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (158ms)
+				BeforeProcessingInitializeOnLoad (11ms)
+				ProcessInitializeOnLoadAttributes (166ms)
+				ProcessInitializeOnLoadMethodAttributes (74ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.013796 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 141.93 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+[XR] OVRP version 1.69.0
+Mono: successfully reloaded assembly
+- Completed reload, in  2.078 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2080ms)
+		BeginReloadAssembly (201ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (1811ms)
+			LoadAssemblies (272ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (354ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (146ms)
+			SetupLoadedEditorAssemblies (840ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (142ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (503ms)
+				ProcessInitializeOnLoadMethodAttributes (81ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
+Refreshing native plugins compatible for Editor in 2.43 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.18 ms.
+Unloading 3527 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 231.9 MB.
+System memory in use after: 232.1 MB.
+
+Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 3953.
+Total: 6.024600 ms (FindLiveObjects: 0.556100 ms CreateObjectMapping: 0.267400 ms MarkObjects: 5.029000 ms  DeleteObjects: 0.170000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/StarterAssets/Environment/Prefabs/Environment_Prefab.prefab
+  artifactKey: Guid(09aade0ecefd01e4b8f7661acf64f5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Prefabs/Environment_Prefab.prefab using Guid(09aade0ecefd01e4b8f7661acf64f5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4abf90fcf0b6e3a9d345ed9338eafd1') in 0.627468 seconds 
+  Import took 0.639102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Meshes/Decorative plants/Triangle pot shrub plant prefab.prefab
+  artifactKey: Guid(bce569b12951f4841ba3a7dfef62ec63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Decorative plants/Triangle pot shrub plant prefab.prefab using Guid(bce569b12951f4841ba3a7dfef62ec63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '015864932b19f38b6dabbe21eb551436') in 0.230210 seconds 
+  Import took 0.240603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000647 seconds.
+  path: Assets/Meshes/Decorative plants/Cylinder pot pine plant prefab.prefab
+  artifactKey: Guid(a8c9045798e9abb48a3a17bd027abcd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Decorative plants/Cylinder pot pine plant prefab.prefab using Guid(a8c9045798e9abb48a3a17bd027abcd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d49f9889b6df4a53b6ad72345feff70') in 0.143853 seconds 
+  Import took 0.158911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000494 seconds.
+  path: Assets/Meshes/Decorative plants/Square pot palm plant prefab.prefab
+  artifactKey: Guid(64c1854a58317e84dabd0a9fb158b4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Decorative plants/Square pot palm plant prefab.prefab using Guid(64c1854a58317e84dabd0a9fb158b4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ffa351bce57f62a8042f8360ea00dab') in 0.186894 seconds 
+  Import took 0.201480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000451 seconds.
+  path: Assets/Meshes/Decorative plants/Cross pot spikes plant prefab.prefab
+  artifactKey: Guid(e9339893aba8fb94d99782dd4086c407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Decorative plants/Cross pot spikes plant prefab.prefab using Guid(e9339893aba8fb94d99782dd4086c407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2896c7acaba4cc9578949a491133898') in 0.178223 seconds 
+  Import took 0.191872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000516 seconds.
+  path: Assets/Meshes/Decorative plants/Triangle pot bamboo plant prefab.prefab
+  artifactKey: Guid(db526b954290b2148a341be6966d99e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Decorative plants/Triangle pot bamboo plant prefab.prefab using Guid(db526b954290b2148a341be6966d99e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed3c1f750fe6beae0c5c9dfd9849ab4c') in 0.129623 seconds 
+  Import took 0.144627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000575 seconds.
+  path: Assets/Meshes/Decorative plants/Triangle pot pine plant prefab.prefab
+  artifactKey: Guid(06ab54588ffd13946b5a335e726b7f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Decorative plants/Triangle pot pine plant prefab.prefab using Guid(06ab54588ffd13946b5a335e726b7f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a918cbcf0be94a85929058c5afbecfcc') in 0.138720 seconds 
+  Import took 0.177816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000553 seconds.
+  path: Assets/Meshes/Decorative plants/Sphere pot pine plant prefab.prefab
+  artifactKey: Guid(6f418055a7a671248914cc59682de6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Decorative plants/Sphere pot pine plant prefab.prefab using Guid(6f418055a7a671248914cc59682de6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '173fa4344e4846087961a451c4c98c69') in 0.173070 seconds 
+  Import took 0.186639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000486 seconds.
+  path: Assets/StarterAssets/Environment/Prefabs/Structure_Prefab.prefab
+  artifactKey: Guid(79e624e6a8770a946afb866fd94b394b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Prefabs/Structure_Prefab.prefab using Guid(79e624e6a8770a946afb866fd94b394b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea9c57dbb8bdc5e625f6ce1bf9fc8f48') in 0.089769 seconds 
+  Import took 0.105438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000555 seconds.
+  path: Assets/Meshes/Decorative plants/Cross pot palm plant prefab.prefab
+  artifactKey: Guid(a5a77cb7eb6ae1f4eb6ba84f33a38270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Decorative plants/Cross pot palm plant prefab.prefab using Guid(a5a77cb7eb6ae1f4eb6ba84f33a38270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bec0e0cbb0ee85720ca1268c1d92f36') in 0.132008 seconds 
+  Import took 0.146537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000504 seconds.
+  path: Assets/Meshes/Decorative plants/Cylinder pot shrub plant prefab.prefab
+  artifactKey: Guid(c4df05c17088d9841890400ce9a08276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Decorative plants/Cylinder pot shrub plant prefab.prefab using Guid(c4df05c17088d9841890400ce9a08276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdf808270edaf52be530c3dc8f700aa8') in 0.149768 seconds 
+  Import took 0.165603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000609 seconds.
+  path: Assets/Meshes/Decorative plants/Cross pot bamboo plant prefab.prefab
+  artifactKey: Guid(55bc548e378cf67408e08c3072250017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Decorative plants/Cross pot bamboo plant prefab.prefab using Guid(55bc548e378cf67408e08c3072250017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a331ad4421da8a2f272d91bbe6d053e0') in 0.167299 seconds 
+  Import took 0.182374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000535 seconds.
+  path: Assets/Meshes/Decorative plants/Cross pot shrub plant prefab.prefab
+  artifactKey: Guid(dab2771aba2520141b970eea05beff60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Decorative plants/Cross pot shrub plant prefab.prefab using Guid(dab2771aba2520141b970eea05beff60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eea0f39d3ecd43877a59e8e1a87bb016') in 0.171638 seconds 
+  Import took 0.186108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000678 seconds.
+  path: Assets/StarterAssets/Environment/Prefabs/Stairs_200x100x200_Prefab.prefab
+  artifactKey: Guid(466621a4836aa504c87c15d88722d465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Prefabs/Stairs_200x100x200_Prefab.prefab using Guid(466621a4836aa504c87c15d88722d465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c3e37c001b0a4c0ad9bfb5ad422dd73') in 0.087207 seconds 
+  Import took 0.102560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000607 seconds.
+  path: Assets/StarterAssets/Environment/Prefabs/Wall_Prefab.prefab
+  artifactKey: Guid(9eb847ab97b24024588682c8601254cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Prefabs/Wall_Prefab.prefab using Guid(9eb847ab97b24024588682c8601254cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4724ed1afb8f371f104b5d62dc231210') in 0.084035 seconds 
+  Import took 0.096965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000446 seconds.
+  path: Assets/Meshes/Decorative plants/Square pot shrub plant prefab.prefab
+  artifactKey: Guid(5c2d005ed687988429365cfeae7acfed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Decorative plants/Square pot shrub plant prefab.prefab using Guid(5c2d005ed687988429365cfeae7acfed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39aa1b2c3adf1c70d6c49f386bee1c02') in 0.095406 seconds 
+  Import took 0.108234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/Assets/devotid/Cutlery/Prefabs/Cutlery Prefab.prefab
+  artifactKey: Guid(97040231d13449049ae427c70f780724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/devotid/Cutlery/Prefabs/Cutlery Prefab.prefab using Guid(97040231d13449049ae427c70f780724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0ebcc1d881e30fd852317e43ab3c61a') in 0.327271 seconds 
+  Import took 0.340712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000593 seconds.
+  path: Assets/StarterAssets/Environment/Prefabs/Stairs_650_400_300_Prefab.prefab
+  artifactKey: Guid(50a0925b0c22af146a2d15615f815a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Prefabs/Stairs_650_400_300_Prefab.prefab using Guid(50a0925b0c22af146a2d15615f815a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3914191f82a1120c5aaa6816ace3a1a') in 0.081809 seconds 
+  Import took 0.093322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Meshes/Decorative plants/Cylinder pot palm plant prefab.prefab
+  artifactKey: Guid(60f38ecd7f8c80e42b2a3e548a48a1a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Decorative plants/Cylinder pot palm plant prefab.prefab using Guid(60f38ecd7f8c80e42b2a3e548a48a1a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e1e60435476ae03f20237ca28c4e987') in 0.113877 seconds 
+  Import took 0.163401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000419 seconds.
+  path: Assets/StarterAssets/Environment/Prefabs/Box_350x250x200_Prefab.prefab
+  artifactKey: Guid(7b846d8f536f007498c941069487ce81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Prefabs/Box_350x250x200_Prefab.prefab using Guid(7b846d8f536f007498c941069487ce81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaf806e7cd774fb366a2854bde845f2b') in 0.087692 seconds 
+  Import took 0.101872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/Meshes/Decorative plants/Sphere pot spikes plant prefab.prefab
+  artifactKey: Guid(5eaff67a0a5636d4c85091e5ba989106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Decorative plants/Sphere pot spikes plant prefab.prefab using Guid(5eaff67a0a5636d4c85091e5ba989106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '612edb6d258b9769f839138902fd271d') in 0.089018 seconds 
+  Import took 0.134482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000562 seconds.
+  path: Assets/StarterAssets/Environment/Prefabs/Box_350x250x300_Prefab.prefab
+  artifactKey: Guid(687dbafc2b84b2846b9a4a7a7dae2a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Prefabs/Box_350x250x300_Prefab.prefab using Guid(687dbafc2b84b2846b9a4a7a7dae2a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b555afd157dc3441500a79ef6c0aadb') in 0.089247 seconds 
+  Import took 0.148775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000569 seconds.
+  path: Assets/Meshes/Decorative plants/Triangle pot palm plant prefab.prefab
+  artifactKey: Guid(04b29823c958e0b47a66152b64218248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Decorative plants/Triangle pot palm plant prefab.prefab using Guid(04b29823c958e0b47a66152b64218248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5967ed67905fe22d307e1c7fec25686e') in 0.136796 seconds 
+  Import took 0.183043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000634 seconds.
+  path: Assets/Meshes/Decorative plants/Square pot spikes plant prefab.prefab
+  artifactKey: Guid(5ccb6dbe807501c498e905276f812569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Decorative plants/Square pot spikes plant prefab.prefab using Guid(5ccb6dbe807501c498e905276f812569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf8bb73ac40264e90572a6f102d1b666') in 0.149171 seconds 
+  Import took 0.192113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000480 seconds.
+  path: Assets/Meshes/Decorative plants/Sphere pot palm plant prefab.prefab
+  artifactKey: Guid(1c771214f2a55fc40842b4d128887860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Decorative plants/Sphere pot palm plant prefab.prefab using Guid(1c771214f2a55fc40842b4d128887860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd70ffdc6b5eba68d4d31a2b938a346d3') in 0.141206 seconds 
+  Import took 0.207214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000568 seconds.
+  path: Assets/StarterAssets/Environment/Prefabs/Tunnel_Prefab.prefab
+  artifactKey: Guid(e5d7b87d422ee0f478ee09eb32e24f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Prefabs/Tunnel_Prefab.prefab using Guid(e5d7b87d422ee0f478ee09eb32e24f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3114f16985a681ff5066da4b0f4666af') in 0.091081 seconds 
+  Import took 0.121116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000619 seconds.
+  path: Assets/Assets/Standard Assets/Printer/Printer_Prefab.prefab
+  artifactKey: Guid(528b296222006d44ba3a021afb2b9e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Standard Assets/Printer/Printer_Prefab.prefab using Guid(528b296222006d44ba3a021afb2b9e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebcc0ebb716b86c8475418d980b7930a') in 0.131839 seconds 
+  Import took 0.147360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000530 seconds.
+  path: Assets/StarterAssets/Environment/Prefabs/Ramp_Prefab.prefab
+  artifactKey: Guid(8a7437817844dce4894b049de73b75f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Prefabs/Ramp_Prefab.prefab using Guid(8a7437817844dce4894b049de73b75f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74ea3af325ce10e8400e1446e17c3c6b') in 0.083476 seconds 
+  Import took 0.098736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000561 seconds.
+  path: Assets/Meshes/Decorative plants/Sphere pot shrub plant prefab.prefab
+  artifactKey: Guid(644d2ca1049972c438156abace92092b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Decorative plants/Sphere pot shrub plant prefab.prefab using Guid(644d2ca1049972c438156abace92092b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00ce550c75d1f79b2c2fbd17c9bf9876') in 0.113831 seconds 
+  Import took 0.148728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000475 seconds.
+  path: Assets/StarterAssets/Environment/Prefabs/Box_100x100x100_Prefab.prefab
+  artifactKey: Guid(e5f4daf24146ee040b5a2d7a73b30aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Prefabs/Box_100x100x100_Prefab.prefab using Guid(e5f4daf24146ee040b5a2d7a73b30aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e906fa1764a968f7dbf4534f24a2da60') in 0.090817 seconds 
+  Import took 0.155857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000539 seconds.
+  path: Assets/Meshes/Decorative plants/Cylinder pot bamboo plant prefab.prefab
+  artifactKey: Guid(01e90580502427a4896001de24e694f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Decorative plants/Cylinder pot bamboo plant prefab.prefab using Guid(01e90580502427a4896001de24e694f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ba53e526c2791183ebe5a98a39aee2e') in 0.188967 seconds 
+  Import took 0.202987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000429 seconds.
+  path: Assets/Meshes/Decorative plants/Cross pot pine plant prefab.prefab
+  artifactKey: Guid(332026c5f18a75e419e365dc721676de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Decorative plants/Cross pot pine plant prefab.prefab using Guid(332026c5f18a75e419e365dc721676de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60a46095ddfd2f6ecfaaa335844e57c7') in 0.142272 seconds 
+  Import took 0.162732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000549 seconds.
+  path: Assets/Oculus/VR/Prefabs/OVRControllerPrefab.prefab
+  artifactKey: Guid(d9809c5e8418bb047bf2c8ba1d1a2cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Prefabs/OVRControllerPrefab.prefab using Guid(d9809c5e8418bb047bf2c8ba1d1a2cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '562289e9a4c4d48dcde990a4a7b5cae7') in 0.468067 seconds 
+  Import took 0.479975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000445 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/SpatialAnchor/Prefabs/DemoAnchorPrefab.prefab
+  artifactKey: Guid(cbd6efbdc5102a044bf11631bfccb0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/SpatialAnchor/Prefabs/DemoAnchorPrefab.prefab using Guid(cbd6efbdc5102a044bf11631bfccb0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5891d052c45ed804186d5f006130522d') in 0.103914 seconds 
+  Import took 0.113821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/Meshes/Decorative plants/Square pot bamboo plant prefab.prefab
+  artifactKey: Guid(e859b62020d71e14881eda00dc41a1eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Decorative plants/Square pot bamboo plant prefab.prefab using Guid(e859b62020d71e14881eda00dc41a1eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c762446f245f96a96a84f3c53ff230e') in 0.085321 seconds 
+  Import took 0.093990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/Meshes/Decorative plants/Triangle pot spikes plant prefab.prefab
+  artifactKey: Guid(d849bf0c2f7391c4b865970fde81d96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Decorative plants/Triangle pot spikes plant prefab.prefab using Guid(d849bf0c2f7391c4b865970fde81d96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdb5338b1cad4cbc3690242db445437b') in 0.127439 seconds 
+  Import took 0.164863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/Meshes/Decorative plants/Square pot pine plant prefab.prefab
+  artifactKey: Guid(1520c044ce2d91149a85b0e433b3ed2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Decorative plants/Square pot pine plant prefab.prefab using Guid(1520c044ce2d91149a85b0e433b3ed2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dcd34056a56bfc15a72b351e237ebae') in 0.133770 seconds 
+  Import took 0.196916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Meshes/Decorative plants/Cylinder pot spikes plant prefab.prefab
+  artifactKey: Guid(d1f0d1a7add2711488cf49debe3262c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Decorative plants/Cylinder pot spikes plant prefab.prefab using Guid(d1f0d1a7add2711488cf49debe3262c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '838684371c6f6dae385a027b38c94a52') in 0.135718 seconds 
+  Import took 0.201262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000633 seconds.
+  path: Assets/Meshes/Decorative plants/Sphere pot bamboo plant prefab.prefab
+  artifactKey: Guid(0efc7e5a6c0cd834d8103a10e19c512c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Decorative plants/Sphere pot bamboo plant prefab.prefab using Guid(0efc7e5a6c0cd834d8103a10e19c512c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3118692d8ed7a1d6e50277dab78666d2') in 0.138909 seconds 
+  Import took 0.152151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.166456 seconds.
+  path: Assets/Prefab/MeetingRooms.prefab
+  artifactKey: Guid(c9f0d7fde818aae4d87896ae13dd52ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/MeetingRooms.prefab using Guid(c9f0d7fde818aae4d87896ae13dd52ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eecc96768d198375e5e3ce21827d9e72') in 0.580910 seconds 
+  Import took 0.601396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000492 seconds.
+  path: Assets/Prefab/ManToilets.prefab
+  artifactKey: Guid(68eb4c1b60ad9654aa543fe63a89f9a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/ManToilets.prefab using Guid(68eb4c1b60ad9654aa543fe63a89f9a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc763aaad36932858df30984cc5c5b5b') in 0.768601 seconds 
+  Import took 0.786315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.455416 seconds.
+  path: Assets/FurnishedCabin/Meshes/BedsideTable.fbx
+  artifactKey: Guid(045a04ff344c14574b5a7bfd7a6e86cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Meshes/BedsideTable.fbx using Guid(045a04ff344c14574b5a7bfd7a6e86cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24b0e017549fc6a54c13d2d954e70d18') in 0.456850 seconds 
+  Import took 0.468458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/Assets/kitchen_creation_kit/kitchen_creation_kit.FBX
+  artifactKey: Guid(ec40b66161fcdf5458ccee83032f58c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/kitchen_creation_kit/kitchen_creation_kit.FBX using Guid(ec40b66161fcdf5458ccee83032f58c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2910ec9df56557ba03fbc232e8ff0c92') in 1.077623 seconds 
+  Import took 1.090843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000490 seconds.
+  path: Assets/Assets/BarProps/Textures/Tables/RoundTable/RoundTable_RoundTable-material_AlbedoTransparency.png
+  artifactKey: Guid(3a4cb20a8579d7b4ebdbf155c2492c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BarProps/Textures/Tables/RoundTable/RoundTable_RoundTable-material_AlbedoTransparency.png using Guid(3a4cb20a8579d7b4ebdbf155c2492c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d5c5408fe9e3dffb250c56bad1d051e') in 0.209750 seconds 
+  Import took 0.220408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Assets/Office Room Furniture/Office/Textures/Nesting_Table_3.png
+  artifactKey: Guid(c43f30dd8e51b9e41909d971b0997368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Office Room Furniture/Office/Textures/Nesting_Table_3.png using Guid(c43f30dd8e51b9e41909d971b0997368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b8d6e15f8c2ceda1f18310b197beabd') in 0.047066 seconds 
+  Import took 0.056949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Assets/UnityJapanOffice/Textures/Furnitures/Table01_AO.tif
+  artifactKey: Guid(94fbdf63ebfe6754b98bcafc56aebc4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Textures/Furnitures/Table01_AO.tif using Guid(94fbdf63ebfe6754b98bcafc56aebc4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c16dbcecaee019cbc85ee4a49108cbe') in 0.050436 seconds 
+  Import took 0.058345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/SpatialAnchor/Textures/OCUI_24_Filled_2x.png
+  artifactKey: Guid(7f186a9ac091755489927d745be0185a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/SpatialAnchor/Textures/OCUI_24_Filled_2x.png using Guid(7f186a9ac091755489927d745be0185a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b6128470afe712bad1a59def9220231') in 2.341246 seconds 
+  Import took 2.355156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000541 seconds.
+  path: Assets/Assets/UnityJapanOffice/Textures/Furnitures/Table02_Albedo.tif
+  artifactKey: Guid(ade9a57f0c2176648b940e4c74679b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Textures/Furnitures/Table02_Albedo.tif using Guid(ade9a57f0c2176648b940e4c74679b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdd324c1cf7600aea6b3bb9ffa7e25d6') in 0.029561 seconds 
+  Import took 0.043223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002322 seconds.
+  path: Assets/FurnishedCabin/Meshes/DiningTable.fbx
+  artifactKey: Guid(461c3d4bbf4534691892261103fd5525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Meshes/DiningTable.fbx using Guid(461c3d4bbf4534691892261103fd5525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa4c8c59132601e173d0b968bb4166ee') in 0.263771 seconds 
+  Import took 0.276375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Assets/BarProps/Materials/RoundTable.mat
+  artifactKey: Guid(5334ef093f90ed144893c4368f805d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BarProps/Materials/RoundTable.mat using Guid(5334ef093f90ed144893c4368f805d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25e5392486ed7b16335552320af62b9f') in 0.347195 seconds 
+  Import took 0.396197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000418 seconds.
+  path: Assets/Assets/Office Room Furniture/Office/Textures/Nesting_Table_1_Normal.png
+  artifactKey: Guid(03e68c1b1e56e814a9e62452f7a6c2d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Office Room Furniture/Office/Textures/Nesting_Table_1_Normal.png using Guid(03e68c1b1e56e814a9e62452f7a6c2d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b947484b575a48725017dbbc607c6aa') in 0.047155 seconds 
+  Import took 0.060901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001565 seconds.
+  path: Assets/Assets/Office Room Furniture/Office/Models/Nesting_Table_1.fbx
+  artifactKey: Guid(eaed029abc8498f4ebda474746689f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Office Room Furniture/Office/Models/Nesting_Table_1.fbx using Guid(eaed029abc8498f4ebda474746689f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34ff2713123b4eb5d39b692d37a0f616') in 0.238962 seconds 
+  Import took 0.249089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Assets/UnityJapanOffice/Models/Furnitures/Table_01A.fbx
+  artifactKey: Guid(b0c7f0624b327cf4ba13da85345041eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Models/Furnitures/Table_01A.fbx using Guid(b0c7f0624b327cf4ba13da85345041eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '746dd8f10ba4ee0a3539547b67572cf1') in 0.115382 seconds 
+  Import took 0.123746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Assets/UnityJapanOffice/Textures/Furnitures/Table03_BentNormal.tif
+  artifactKey: Guid(a9eb8adce087bac4d8fd44c8a31c92e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Textures/Furnitures/Table03_BentNormal.tif using Guid(a9eb8adce087bac4d8fd44c8a31c92e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd66ae0ed0e9068de65364a9fcd2df338') in 0.049928 seconds 
+  Import took 0.058021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Assets/UnityJapanOffice/Textures/Furnitures/Table04_AO.tif
+  artifactKey: Guid(65e3aaf2db438c24d8037d6338fe0350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Textures/Furnitures/Table04_AO.tif using Guid(65e3aaf2db438c24d8037d6338fe0350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2a8acdf3fbfb06ed72ad89e300ca107') in 0.026997 seconds 
+  Import took 0.039092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000541 seconds.
+  path: Assets/Assets/UnityJapanOffice/Models/Furnitures/Table_02B.fbx
+  artifactKey: Guid(40070696d9603bd43a3152712a09a92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Models/Furnitures/Table_02B.fbx using Guid(40070696d9603bd43a3152712a09a92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae2bb371cf81fe3b4e6f02fa91f4b2cb') in 0.053834 seconds 
+  Import took 0.068333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/FurnishedCabin/Meshes/CoffeeTable.fbx
+  artifactKey: Guid(87dbd671cf01c4a2092308da3db7c073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Meshes/CoffeeTable.fbx using Guid(87dbd671cf01c4a2092308da3db7c073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fc10dc1fdc244f8a40a693a8891ba5b') in 0.242346 seconds 
+  Import took 0.286299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Oculus/Interaction/Runtime/Prefabs/Ray/RayInteractable.prefab
+  artifactKey: Guid(7948691e53a735b4f868799331ccf8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Runtime/Prefabs/Ray/RayInteractable.prefab using Guid(7948691e53a735b4f868799331ccf8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4e3ceb34840da63c02625c5e27f429f') in 0.055924 seconds 
+  Import took 0.066071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000450 seconds.
+  path: Assets/Assets/BarProps/Prefabs/SquareTable.dae
+  artifactKey: Guid(60e892bc26a066649ab14df704128623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BarProps/Prefabs/SquareTable.dae using Guid(60e892bc26a066649ab14df704128623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42a9627f5fbb04c0b54eb043b025f34a') in 0.258127 seconds 
+  Import took 0.269374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Assets/UnityJapanOffice/Textures/Furnitures/Table04_Frames_Albedo.tif
+  artifactKey: Guid(02224ade31421fe4985d43d6a5b793d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Textures/Furnitures/Table04_Frames_Albedo.tif using Guid(02224ade31421fe4985d43d6a5b793d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3906389fcf8c094ddaca31aa33d05954') in 0.075872 seconds 
+  Import took 0.089713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000415 seconds.
+  path: Assets/Oculus/Interaction/Runtime/Prefabs/Poke/PokeInteractable.prefab
+  artifactKey: Guid(5fca3702cdf1a214a94e69dcfa704e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Runtime/Prefabs/Poke/PokeInteractable.prefab using Guid(5fca3702cdf1a214a94e69dcfa704e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e74e0e26313a4ed533d6d190ee95d3c') in 0.181794 seconds 
+  Import took 0.197398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000519 seconds.
+  path: Assets/Assets/BarProps/Textures/Tables/SquareTable/SquareTable_SquareTable-material_MetallicSmoothness.png
+  artifactKey: Guid(33ae5215c1d2df34b8568ed72de8fef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BarProps/Textures/Tables/SquareTable/SquareTable_SquareTable-material_MetallicSmoothness.png using Guid(33ae5215c1d2df34b8568ed72de8fef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db296b2edc9de87d09bc6b5e6030ef9b') in 0.094930 seconds 
+  Import took 0.106630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/FurnishedCabin/Meshes/Collision/DiningTable_COL.fbx
+  artifactKey: Guid(d0c5e2ba5fba04868b0cd879c3c5dc9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Meshes/Collision/DiningTable_COL.fbx using Guid(d0c5e2ba5fba04868b0cd879c3c5dc9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4592324810ed33be7e5bd1317a916454') in 0.040193 seconds 
+  Import took 0.051617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Oculus/SampleFramework/Core/HandsInteraction/Prefabs/InteractableToolsSDKDriver.prefab
+  artifactKey: Guid(2ced187cdc1b6b94da2fd30a37e8bc41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Core/HandsInteraction/Prefabs/InteractableToolsSDKDriver.prefab using Guid(2ced187cdc1b6b94da2fd30a37e8bc41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93e55476233abb17c60ee5721f5e6be4') in 0.085801 seconds 
+  Import took 0.098917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000461 seconds.
+  path: Assets/Assets/UnityJapanOffice/Textures/Furnitures/Table02_Mask.tif
+  artifactKey: Guid(34d6cc8cf6713f448b1e08aed0458c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Textures/Furnitures/Table02_Mask.tif using Guid(34d6cc8cf6713f448b1e08aed0458c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ece3589882570733dff73939bb797c63') in 0.231406 seconds 
+  Import took 0.247322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Assets/UnityJapanOffice/Textures/Furnitures/Table01_Frames_Albedo.tif
+  artifactKey: Guid(d18e9f23ff286e24a93b32264b38f83d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Textures/Furnitures/Table01_Frames_Albedo.tif using Guid(d18e9f23ff286e24a93b32264b38f83d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9479c0abfab1e20f4bf9c7fdfdbe0546') in 0.086857 seconds 
+  Import took 0.096882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/Assets/BarProps/Textures/Tables/SquareTable/SquareTable_SquareTable-material_AlbedoTransparency.png
+  artifactKey: Guid(b353db419ef678f4aa87da08af63ee7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BarProps/Textures/Tables/SquareTable/SquareTable_SquareTable-material_AlbedoTransparency.png using Guid(b353db419ef678f4aa87da08af63ee7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cc1f1948d19429133e6157ec7bb4756') in 0.079740 seconds 
+  Import took 0.087963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/FurnishedCabin/Prefabs/PFB_DiningTable.prefab
+  artifactKey: Guid(ff9b1176aafb57843ac4773e5a331cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Prefabs/PFB_DiningTable.prefab using Guid(ff9b1176aafb57843ac4773e5a331cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d5a44d812fcbbb70c1f6fde41e5ea2e') in 0.275290 seconds 
+  Import took 0.289696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000500 seconds.
+  path: Assets/Assets/BarProps/Textures/Tables/RoundTable/RoundTable_RoundTable-material_MetallicSmoothness.png
+  artifactKey: Guid(efaf06cf0755ba34e92ea7b98f6cd9b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BarProps/Textures/Tables/RoundTable/RoundTable_RoundTable-material_MetallicSmoothness.png using Guid(efaf06cf0755ba34e92ea7b98f6cd9b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6fff7eeefce48a7dcc427ae73c7f9cb') in 0.207885 seconds 
+  Import took 0.221053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/Assets/school/props/table3.fbx
+  artifactKey: Guid(0699d22803476344d956abf42dc88970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/school/props/table3.fbx using Guid(0699d22803476344d956abf42dc88970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4828c9160bae101f706f1ebda3a5beca') in 0.204351 seconds 
+  Import took 0.213661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Assets/school/Prefabs/props/table2.prefab
+  artifactKey: Guid(91dc1ab115d03f04b930f9e619fb953f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/school/Prefabs/props/table2.prefab using Guid(91dc1ab115d03f04b930f9e619fb953f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68cb57066b76d41d6cfe589c7fafd0a7') in 0.157816 seconds 
+  Import took 0.171676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000589 seconds.
+  path: Assets/Assets/UnityJapanOffice/Textures/Furnitures/Table05_Normal.tif
+  artifactKey: Guid(bb6d58a5b1c837a449773bd0d5446afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Textures/Furnitures/Table05_Normal.tif using Guid(bb6d58a5b1c837a449773bd0d5446afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ab1c898623e6568df61cb5ef3574c03') in 0.084921 seconds 
+  Import took 0.098015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000536 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/SharedAssets/Models/table_01.fbx
+  artifactKey: Guid(1ee2328736527460b965c63e3bf6c1d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/SharedAssets/Models/table_01.fbx using Guid(1ee2328736527460b965c63e3bf6c1d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d3f1024d673f8822c29f41713ed8149') in 0.164730 seconds 
+  Import took 0.182388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000730 seconds.
+  path: Assets/Oculus/Interaction/Samples/Textures/OCUIIconSet/OCUI_24_Outline_2x.png
+  artifactKey: Guid(4f3b4a4ae58ad484e9fc92ab68a8ffef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Samples/Textures/OCUIIconSet/OCUI_24_Outline_2x.png using Guid(4f3b4a4ae58ad484e9fc92ab68a8ffef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '757ca44d09050e44c32854d3d741b3c1') in 1.643699 seconds 
+  Import took 1.655433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Oculus/Interaction/Runtime/Prefabs/Debug/InteractableDebugVisual.prefab
+  artifactKey: Guid(d8e7f9244f8318d4da7ca7c2f6a483db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Runtime/Prefabs/Debug/InteractableDebugVisual.prefab using Guid(d8e7f9244f8318d4da7ca7c2f6a483db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '719658ae8b811152e0f831a8b6d8c184') in 0.140578 seconds 
+  Import took 0.149604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Assets/UnityJapanOffice/Textures/Furnitures/Table01_Wood_Albedo.tif
+  artifactKey: Guid(e046229bb9b50b14e93a8ae8f1d560ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Textures/Furnitures/Table01_Wood_Albedo.tif using Guid(e046229bb9b50b14e93a8ae8f1d560ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37dc4bc689b117e26434a6ffc298103b') in 0.079402 seconds 
+  Import took 0.092754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/Assets/devotid/Cutlery/Models/Cutlery FBX.FBX
+  artifactKey: Guid(63047feaf49140741bec2aba00c8f0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/devotid/Cutlery/Models/Cutlery FBX.FBX using Guid(63047feaf49140741bec2aba00c8f0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e806dda70a3a4cb05df3e75e0ac97145') in 0.329091 seconds 
+  Import took 0.368573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000441 seconds.
+  path: Assets/FurnishedCabin/Prefabs/PFB_BedsideTable.prefab
+  artifactKey: Guid(8573759d3a770094eb2998662fadeb64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Prefabs/PFB_BedsideTable.prefab using Guid(8573759d3a770094eb2998662fadeb64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c9b5522efb5ea5378ad686fa8718b9e') in 0.343965 seconds 
+  Import took 0.361075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000488 seconds.
+  path: Assets/Assets/Office Room Furniture/Office/Prefabs/Nesting_Table_1.prefab
+  artifactKey: Guid(a92ffd6910045724cb6b05b8a862ae97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Office Room Furniture/Office/Prefabs/Nesting_Table_1.prefab using Guid(a92ffd6910045724cb6b05b8a862ae97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21a8ec95e80dcafe1bf9d24cf404b977') in 0.147585 seconds 
+  Import took 0.161665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001012 seconds.
+  path: Assets/Assets/UnityJapanOffice/Textures/Furnitures/Table01_Frames_Mask.tif
+  artifactKey: Guid(10539e457af26ad429ebc002c38c7dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Textures/Furnitures/Table01_Frames_Mask.tif using Guid(10539e457af26ad429ebc002c38c7dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb1cc1f901ded2389f617385aee58ee7') in 0.131756 seconds 
+  Import took 0.167117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/Assets/UnityJapanOffice/Textures/Furnitures/Table03_Mask.tif
+  artifactKey: Guid(7199e09ac5c311244a272e14c8083e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Textures/Furnitures/Table03_Mask.tif using Guid(7199e09ac5c311244a272e14c8083e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f596d381342e906149959664ddf899f') in 0.149839 seconds 
+  Import took 0.201016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000628 seconds.
+  path: Assets/Assets/UnityJapanOffice/Textures/Furnitures/Table01_Frames_Normal.tif
+  artifactKey: Guid(1e467895d9bb7594db1461fb2e7d637c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Textures/Furnitures/Table01_Frames_Normal.tif using Guid(1e467895d9bb7594db1461fb2e7d637c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba09f76c7a6798e5f1fcfb7f83afed20') in 0.126254 seconds 
+  Import took 0.162002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/Assets/school/props/table1.fbx
+  artifactKey: Guid(e7eb5a1adad305d49967b1f111709dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/school/props/table1.fbx using Guid(e7eb5a1adad305d49967b1f111709dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc7eeabad67d18bb5553fdaed3cdc62a') in 0.082636 seconds 
+  Import took 0.095421 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000670 seconds.
+  path: Assets/Oculus/Interaction/Samples/Objects/Environment/Room/Models/SmallRoom.fbx
+  artifactKey: Guid(78906942dba6db24ca155679a45f60ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Samples/Objects/Environment/Room/Models/SmallRoom.fbx using Guid(78906942dba6db24ca155679a45f60ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '828024f3dce3073bfff32ba76a91fbf7') in 0.776576 seconds 
+  Import took 0.788523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Assets/school/props/table2.fbx
+  artifactKey: Guid(428d9da19f0db6d42a12afe656585894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/school/props/table2.fbx using Guid(428d9da19f0db6d42a12afe656585894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f806e8cf1ac5e4b588e3f4702eb6aa5') in 0.064101 seconds 
+  Import took 0.072358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Assets/BarProps/Materials/SquareTable.mat
+  artifactKey: Guid(f06e6421f23d268478656e72db1acfc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BarProps/Materials/SquareTable.mat using Guid(f06e6421f23d268478656e72db1acfc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c4da3cace437a94fe9fb187ff816e39') in 0.237798 seconds 
+  Import took 0.248138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000786 seconds.
+  path: Assets/Assets/UnityJapanOffice/Prefabs/Furnitures/Table_01A.prefab
+  artifactKey: Guid(969021c0626097547880baf629b12900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Prefabs/Furnitures/Table_01A.prefab using Guid(969021c0626097547880baf629b12900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5e089ea501e27a7dd6793f25ea87380') in 0.144915 seconds 
+  Import took 0.156025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Assets/Office Room Furniture/Office/Materials/NestingTable_1.mat
+  artifactKey: Guid(aaa556c29b063764c9904e9a20a3e43e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Office Room Furniture/Office/Materials/NestingTable_1.mat using Guid(aaa556c29b063764c9904e9a20a3e43e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f66e21014d3eb06e0aa63df4ded02d83') in 0.076411 seconds 
+  Import took 0.089282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/Assets/UnityJapanOffice/Models/Furnitures/Table_01B.fbx
+  artifactKey: Guid(4fb50b30abc06e443976d62116687841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Models/Furnitures/Table_01B.fbx using Guid(4fb50b30abc06e443976d62116687841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c02defe6f41b035a6a828fc0f6b84837') in 0.072800 seconds 
+  Import took 0.086549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000465 seconds.
+  path: Assets/Assets/UnityJapanOffice/Textures/Furnitures/Table02_BentNormal.tif
+  artifactKey: Guid(4f12c225be33df3469151e6fae4c9461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Textures/Furnitures/Table02_BentNormal.tif using Guid(4f12c225be33df3469151e6fae4c9461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d9adb426fc782df5ffb776cd10ff36a') in 0.141196 seconds 
+  Import took 0.160302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Assets/UnityJapanOffice/Textures/Furnitures/Table03_AO.tif
+  artifactKey: Guid(94d4a242bc19743469a4b8cbcc24e09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Textures/Furnitures/Table03_AO.tif using Guid(94d4a242bc19743469a4b8cbcc24e09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86852deef25fbfc905ee6503d392405b') in 0.040439 seconds 
+  Import took 0.050524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Assets/UnityJapanOffice/Textures/Furnitures/Table04_Frames_Mask.tif
+  artifactKey: Guid(12265c737f0bfe448aa59ae34fc1b07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Textures/Furnitures/Table04_Frames_Mask.tif using Guid(12265c737f0bfe448aa59ae34fc1b07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e362814b66aac4db07456986cc47606') in 0.072303 seconds 
+  Import took 0.085853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Assets/UnityJapanOffice/Prefabs/Furnitures/Table_02B.prefab
+  artifactKey: Guid(ab28d675602500045b4f676f20818bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Prefabs/Furnitures/Table_02B.prefab using Guid(ab28d675602500045b4f676f20818bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fcb1060187d3f549a799ffd97000264') in 0.023482 seconds 
+  Import took 0.033412 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000479 seconds.
+  path: Assets/Assets/UnityJapanOffice/Textures/Furnitures/Table02_Normal.tif
+  artifactKey: Guid(42789576a7a2fe64f8e7a04ebbc0705f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Textures/Furnitures/Table02_Normal.tif using Guid(42789576a7a2fe64f8e7a04ebbc0705f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a399ccd0122cf7952a711f930296da3c') in 0.124282 seconds 
+  Import took 0.135586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000660 seconds.
+  path: Assets/Assets/UnityJapanOffice/Textures/Furnitures/Table01_BentNormal.tif
+  artifactKey: Guid(c28505a3432d96d45a4dee1cf7ff89dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Textures/Furnitures/Table01_BentNormal.tif using Guid(c28505a3432d96d45a4dee1cf7ff89dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b55ce05b57b410b995850398ccb67ecf') in 0.045937 seconds 
+  Import took 0.056415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/Assets/UnityJapanOffice/Textures/Furnitures/Table03_Albedo.tif
+  artifactKey: Guid(9801d0deef96481458e2e5016135bde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Textures/Furnitures/Table03_Albedo.tif using Guid(9801d0deef96481458e2e5016135bde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f34f79fb1da55d79774c568d097f06f') in 0.086680 seconds 
+  Import took 0.098302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000418 seconds.
+  path: Assets/Assets/UnityJapanOffice/Textures/Furnitures/Table05_BentNormal.tif
+  artifactKey: Guid(0c74e0501402e994796ea877c85eac2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Textures/Furnitures/Table05_BentNormal.tif using Guid(0c74e0501402e994796ea877c85eac2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7899f5a3e451223038ca9b48c0ad9cf') in 0.052185 seconds 
+  Import took 0.063589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/Assets/UnityJapanOffice/Prefabs/Furnitures/Table_02A.prefab
+  artifactKey: Guid(075490ae1b74c7d469c919f7fd03cd4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Prefabs/Furnitures/Table_02A.prefab using Guid(075490ae1b74c7d469c919f7fd03cd4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81fd9aa76a398cbcb65d961a225ef2dd') in 0.035335 seconds 
+  Import took 0.046873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Assets/UnityJapanOffice/Textures/Furnitures/Table01_Wood_Normal.tif
+  artifactKey: Guid(c73f9d7b0b3026e4ea13a1b848caa8e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Textures/Furnitures/Table01_Wood_Normal.tif using Guid(c73f9d7b0b3026e4ea13a1b848caa8e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63110c46df92a72b9e91c70c08b4f54e') in 0.086025 seconds 
+  Import took 0.095777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/Oculus/Interaction/Runtime/Prefabs/Grab/GrabInteractable.prefab
+  artifactKey: Guid(4a3c8f82a01756d43afc639499c0ce51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Runtime/Prefabs/Grab/GrabInteractable.prefab using Guid(4a3c8f82a01756d43afc639499c0ce51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf130cdeee89520eecb7ea7a857d667c') in 0.032137 seconds 
+  Import took 0.043725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000462 seconds.
+  path: Assets/Assets/UnityJapanOffice/Textures/Furnitures/Table04_Top_Mask.tif
+  artifactKey: Guid(8009c01d84ee47344ba650547b18bbc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Textures/Furnitures/Table04_Top_Mask.tif using Guid(8009c01d84ee47344ba650547b18bbc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42bcc173b407cf3e9d3fb919e950835e') in 0.151465 seconds 
+  Import took 0.161919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000388 seconds.
+  path: Assets/Assets/UnityJapanOffice/Textures/Furnitures/Table05_Mask.tif
+  artifactKey: Guid(e69639739ae377841b65398f35262505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Textures/Furnitures/Table05_Mask.tif using Guid(e69639739ae377841b65398f35262505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8937e2e311a225fb3ef165641906379') in 0.119377 seconds 
+  Import took 0.131273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000494 seconds.
+  path: Assets/Assets/UnityJapanOffice/Textures/Furnitures/Table05_AO.tif
+  artifactKey: Guid(a6cc1034122e09949af30f2b91c61177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Textures/Furnitures/Table05_AO.tif using Guid(a6cc1034122e09949af30f2b91c61177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eb9117570bf5f9404db9ffc8b34f824') in 0.029107 seconds 
+  Import took 0.042741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000421 seconds.
+  path: Assets/Oculus/Interaction/Runtime/Prefabs/Debug/PointableDebugVisual.prefab
+  artifactKey: Guid(edb63bed74183984992e5146f6e58bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Runtime/Prefabs/Debug/PointableDebugVisual.prefab using Guid(edb63bed74183984992e5146f6e58bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44077e21e4a8e64215f426c6257d9eb1') in 0.020236 seconds 
+  Import took 0.031986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000471 seconds.
+  path: Assets/Assets/school/Prefabs/props/table1.prefab
+  artifactKey: Guid(006691b87ee6ce7429992a2a172ecf29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/school/Prefabs/props/table1.prefab using Guid(006691b87ee6ce7429992a2a172ecf29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38959a24180caffb2f0c251f24f5436a') in 0.032379 seconds 
+  Import took 0.044559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/Assets/UnityJapanOffice/Textures/Furnitures/Table01_Wood_Mask.tif
+  artifactKey: Guid(d4cd4f15f436a8c4a8399d76f2e89866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Textures/Furnitures/Table01_Wood_Mask.tif using Guid(d4cd4f15f436a8c4a8399d76f2e89866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a61815e3e8dda5d8207badf8f9293267') in 0.088150 seconds 
+  Import took 0.100954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000631 seconds.
+  path: Assets/Assets/UnityJapanOffice/Materials/Furnitures/Table_02.mat
+  artifactKey: Guid(caa4d8d5f01d00b4e914d552f28448a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Materials/Furnitures/Table_02.mat using Guid(caa4d8d5f01d00b4e914d552f28448a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beddd9c82519dfd18ae2f7a32dab8d02') in 0.039173 seconds 
+  Import took 0.050466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000437 seconds.
+  path: Assets/Assets/school/Prefabs/props/table3.prefab
+  artifactKey: Guid(6d513e3e97508a3429bc5eac2b8b7145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/school/Prefabs/props/table3.prefab using Guid(6d513e3e97508a3429bc5eac2b8b7145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60bb7ab2b987f1493be02f45869daec6') in 0.156925 seconds 
+  Import took 0.169216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Assets/AssetsStore/Garage_props/Assets/Prefabs/table.prefab
+  artifactKey: Guid(373095bd3f7ddb948bce9f5ece6ef02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/AssetsStore/Garage_props/Assets/Prefabs/table.prefab using Guid(373095bd3f7ddb948bce9f5ece6ef02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c2f5cf44e4352152e6a9caad01ed63d') in 0.663272 seconds 
+  Import took 0.677006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000517 seconds.
+  path: Assets/FurnishedCabin/Prefabs/PFB_CoffeeTable.prefab
+  artifactKey: Guid(568e39ea4381d3c4ab1c3da2fce94a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Prefabs/PFB_CoffeeTable.prefab using Guid(568e39ea4381d3c4ab1c3da2fce94a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd17c17a2c7047d5ac64a934131c0a43e') in 0.365205 seconds 
+  Import took 0.380612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000543 seconds.
+  path: Assets/Assets/BarProps/Prefabs/RoundTable.dae
+  artifactKey: Guid(2a4091fd6acfbeb468005c5cf0e37038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BarProps/Prefabs/RoundTable.dae using Guid(2a4091fd6acfbeb468005c5cf0e37038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37c69c41e82db6aec65c494c764a071f') in 0.315962 seconds 
+  Import took 0.330176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000508 seconds.
+  path: Assets/Assets/Office Room Furniture/Office/Textures/Nesting_Table_Specular.png
+  artifactKey: Guid(da6f00f11a60ae34cbc2d591b4060fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Office Room Furniture/Office/Textures/Nesting_Table_Specular.png using Guid(da6f00f11a60ae34cbc2d591b4060fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '816d44ea7cc8c6268a08aaa9c5f08199') in 0.155068 seconds 
+  Import took 0.166105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Assets/BarProps/Textures/Tables/RoundTable/RoundTable_RoundTable-material_Normal.png
+  artifactKey: Guid(040ee2a7a7f893a4b814c962fdddd8b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BarProps/Textures/Tables/RoundTable/RoundTable_RoundTable-material_Normal.png using Guid(040ee2a7a7f893a4b814c962fdddd8b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9587fd002822178c6b03e6135861174c') in 0.097420 seconds 
+  Import took 0.106617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000446 seconds.
+  path: Assets/Assets/Office Room Furniture/Office/Textures/Nesting_Table_2.png
+  artifactKey: Guid(79f24c1550212d648824a1e9a490b20c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Office Room Furniture/Office/Textures/Nesting_Table_2.png using Guid(79f24c1550212d648824a1e9a490b20c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8882f98c6246e5fff24b74fa7b7b1ce') in 0.154562 seconds 
+  Import took 0.205159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000657 seconds.
+  path: Assets/Assets/UnityJapanOffice/Textures/Furnitures/Table05_Albedo.tif
+  artifactKey: Guid(a7b9e8162e7f9664685acd3d182bdb7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Textures/Furnitures/Table05_Albedo.tif using Guid(a7b9e8162e7f9664685acd3d182bdb7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11b2ec92826ad11d3b6026ddce50fe1a') in 0.174425 seconds 
+  Import took 0.191605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000550 seconds.
+  path: Assets/Assets/UnityJapanOffice/Materials/Furnitures/Table_01_Frames.mat
+  artifactKey: Guid(a0ddbc2e10c95b940921436e0d9a7c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Materials/Furnitures/Table_01_Frames.mat using Guid(a0ddbc2e10c95b940921436e0d9a7c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba7602ba6f113a110576729a80e05b6f') in 0.098651 seconds 
+  Import took 0.112747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000785 seconds.
+  path: Assets/Assets/UnityJapanOffice/Materials/Furnitures/Table_01_Wood.mat
+  artifactKey: Guid(4e5622e0919e8a04e8c62d9e946d0ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Materials/Furnitures/Table_01_Wood.mat using Guid(4e5622e0919e8a04e8c62d9e946d0ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '825104482cc41e2b64990c0b248666f3') in 0.153626 seconds 
+  Import took 0.169865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000669 seconds.
+  path: Assets/Oculus/Interaction/Samples/Textures/OCUIIconSet/OCUI_24_Filled_2x.png
+  artifactKey: Guid(64f884351318b694f942625580e64a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Samples/Textures/OCUIIconSet/OCUI_24_Filled_2x.png using Guid(64f884351318b694f942625580e64a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf808988a9f112a632090ebc2d507306') in 2.044135 seconds 
+  Import took 2.062290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000477 seconds.
+  path: Assets/Assets/Office Room Furniture/Office/Textures/Nesting_Table_1.png
+  artifactKey: Guid(01163516efa8821408693b5c8693d321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Office Room Furniture/Office/Textures/Nesting_Table_1.png using Guid(01163516efa8821408693b5c8693d321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16a9eec3bb1dd9b8317e0e034bc73779') in 0.043901 seconds 
+  Import took 0.054984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Assets/UnityJapanOffice/Prefabs/Furnitures/Table_01B.prefab
+  artifactKey: Guid(899256493a2f17f46975f6bd2b08d6c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Prefabs/Furnitures/Table_01B.prefab using Guid(899256493a2f17f46975f6bd2b08d6c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a0f5c00f07ddde3331833965ae95937') in 0.077770 seconds 
+  Import took 0.088553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Assets/UnityJapanOffice/Textures/Furnitures/Table04_Top_Albedo.tif
+  artifactKey: Guid(e3034f8201757a546bde5345359a5a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Textures/Furnitures/Table04_Top_Albedo.tif using Guid(e3034f8201757a546bde5345359a5a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6bcaa68a00aefe5a7ca321b3daebe47') in 0.397640 seconds 
+  Import took 0.409418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Assets/BarProps/Textures/Tables/SquareTable/SquareTable_SquareTable-material_Normal.png
+  artifactKey: Guid(6e103286c63bfb54e9f696a318a6b843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BarProps/Textures/Tables/SquareTable/SquareTable_SquareTable-material_Normal.png using Guid(6e103286c63bfb54e9f696a318a6b843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9b46a5744ff39c1372ef9490df831d1') in 0.088340 seconds 
+  Import took 0.097834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000482 seconds.
+  path: Assets/Assets/AssetsStore/Garage_props/Assets/Meshes/table.FBX
+  artifactKey: Guid(8f1dd86dd43118040908a785a7ba6a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/AssetsStore/Garage_props/Assets/Meshes/table.FBX using Guid(8f1dd86dd43118040908a785a7ba6a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76059a839d48ef2f503eab8a65a1347a') in 0.497369 seconds 
+  Import took 0.509631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000402 seconds.
+  path: Assets/Assets/UnityJapanOffice/Models/Furnitures/Table_02A.fbx
+  artifactKey: Guid(9c4e8376d67a66643af261df27bed560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Models/Furnitures/Table_02A.fbx using Guid(9c4e8376d67a66643af261df27bed560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b4dad2aeb53773a6354076b8d02655d') in 0.047045 seconds 
+  Import took 0.056356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Assets/UnityJapanOffice/Textures/Furnitures/Table04_BentNormal.tif
+  artifactKey: Guid(d4ad3a578d44230408d7eaa9b60e683e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UnityJapanOffice/Textures/Furnitures/Table04_BentNormal.tif using Guid(d4ad3a578d44230408d7eaa9b60e683e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87024e66a5787c1e7132c472bd5e24d1') in 0.040775 seconds 
+  Import took 0.053611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 87.858771 seconds.
+  path: Assets/Prefab/Phone Student.prefab
+  artifactKey: Guid(036f21ac91cb9459dbefa71aa5f9cc2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Phone Student.prefab using Guid(036f21ac91cb9459dbefa71aa5f9cc2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdce4b21fe7eb410560ec694d7425306') in 0.034317 seconds 
+  Import took 0.044903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.729994 seconds.
+  path: Assets/Prefab/Phone Admin.prefab
+  artifactKey: Guid(a19e846616603448c9f9346bf57e277c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Phone Admin.prefab using Guid(a19e846616603448c9f9346bf57e277c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7e9fe865b025ca7e8ef4d86ca298aa2') in 0.056518 seconds 
+  Import took 0.082510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.991248 seconds.
+  path: Assets/Prefab/Phone Teacher.prefab
+  artifactKey: Guid(c8fdf39b491e7418c93e27af08839276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Phone Teacher.prefab using Guid(c8fdf39b491e7418c93e27af08839276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53499249bfad5102de66dda073205fff') in 0.077589 seconds 
+  Import took 0.088779 seconds .
+
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Received signal SIGSEGV
+Stack trace:
+0x00007ffcbfa85fe9 (igd10iumd64) OpenAdapter10_2
+0x00007ffcbfa840bc (igd10iumd64) OpenAdapter10_2
+0x00007ffcbfa83f7d (igd10iumd64) OpenAdapter10_2
+0x00007ffcbf9f81d6 (igd10iumd64) 
+0x00007ffcc312ad0e (d3d11) D3D11CoreCreateLayeredDevice
+0x00007ffcc310f521 (d3d11) 
+0x00007ffcc310f13d (d3d11) 
+0x00007ffcc3141512 (d3d11) D3D11CoreCreateDevice
+0x00007ffcc3128c4a (d3d11) D3D11CoreCreateLayeredDevice
+0x00007ffcc31292c2 (d3d11) D3D11CoreCreateLayeredDevice
+0x00007ffcc3104eaa (d3d11) 
+0x00007ffcc3104e05 (d3d11) 
+0x00007ffcc3104bd8 (d3d11) 
+0x00007ff7410df6c6 (Unity) D3D11VertexShader::Create
+0x00007ff7410da0f8 (Unity) D3D11VertexShader::D3D11VertexShader
+0x00007ff74185eb0f (Unity) CreateGpuProgram
+0x00007ff741177de6 (Unity) GfxDeviceClient::CreateGpuProgram
+0x00007ff74170913b (Unity) ShaderLab::SubProgram::Compile
+0x00007ff74218ba6c (Unity) FinalizeVariant
+0x00007ff74218db9b (Unity) GetSubProgramForShaderSnippet
+0x00007ff741709a68 (Unity) ShaderLab::Program::CompileShaderSubProgram
+0x00007ff74170a9b2 (Unity) ShaderLab::Program::GetMatchingSubProgram
+0x00007ff74171054a (Unity) ShaderLab::ShaderState::FindSubProgramsToUse
+0x00007ff741705770 (Unity) ShaderLab::Pass::PrepareVariant
+0x00007ff7416ff8a8 (Unity) ShaderVariantCollection::WarmupOneShaderImpl
+0x00007ff7417002a9 (Unity) ShaderVariantCollection::WarmupShadersImpl
+0x00007ff7416f79eb (Unity) ShaderVariantCollection::CompileShaders
+0x00007ff742196ec3 (Unity) WarmupEditorShaders
+0x00007ff7431c2a9e (Unity) Shader::ReloadAllShaders
+0x00007ff7427f182c (Unity) <lambda_b7fd2194c9d98d5c5f8d87939b09ad6c>::operator()
+0x00007ff7428789b2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff74287ab10 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff74287e28e (Unity) asio::io_service::run
+0x00007ff742819f9b (Unity) RunAssetImportWorkerClientV2
+0x00007ff742819ff0 (Unity) RunAssetImporterV2
+0x00007ff7422b58b9 (Unity) Application::InitializeProject
+0x00007ff742715bb2 (Unity) WinMain
+0x00007ff743da4c9e (Unity) __scrt_common_main_seh
+0x00007ffccbc954e0 (KERNEL32) BaseThreadInitThunk
+0x00007ffccd8e485b (ntdll) RtlUserThreadStart
+

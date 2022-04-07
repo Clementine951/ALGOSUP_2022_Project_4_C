@@ -16,7 +16,13 @@ public class LightSwitching : MonoBehaviour
     void Start()
     {
         Player = false;
-        State = true;
+        State = false;
+        Light.SetActive(State);
+        Light1.SetActive(State);
+        Light2.SetActive(State);
+        Light3.SetActive(State);
+        Light4.SetActive(State);
+        Light5.SetActive(State);
     }
     // Update is called once per frame
     void Update()
@@ -26,21 +32,23 @@ public class LightSwitching : MonoBehaviour
             State = !State;
             Light.SetActive(State);
             Light1.SetActive(State);
+            Light2.SetActive(State);
+            Light3.SetActive(State);
+            Light4.SetActive(State);
+            Light5.SetActive(State);
         }
         PreviousPlayer = Player;
     }
-    private void OnTriggerEnter(Collider PlayerBody)
+    private void OnTriggerEnter(Collider other)
     {
-        if (PlayerBody.gameObject.name == "PlayerArmature")
-        {
+        
             Player = true;
-        }
+        
     }
-    private void OnTriggerExit(Collider PlayerBody)
+    private void OnTriggerExit(Collider other)
     {
-        if (PlayerBody.gameObject.name == "PlayerArmature")
-        {
+        
             Player = false;
-        }
+        
     }
 }

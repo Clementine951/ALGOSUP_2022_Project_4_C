@@ -9,29 +9,34 @@ public class NetSwitching : MonoBehaviour
     private bool Player;
     private bool State;
     private bool PreviousPlayer;
+    private float time;
+
     // Start is called before the first frame update
     void Start()
     {
         Player = false;
         State = true;
+        
     }
     // Update is called once per frame
     void Update()
     {
-        if (Player && Player != PreviousPlayer)
+        if (Player && Player != PreviousPlayer && time + 10 < Time.time)
         {
             State = !State;
             Net.SetBool("net", State);
-            //Light1.SetActive(State);
+            time = Time.time;
         }
         PreviousPlayer = Player;
     }
-    private void OnTriggerStay(Collider PlayerBody)
+    private void OnTriggerEnter(Collider other)
     {
         
-        
-            Player = !Player;
-    
+        Player = true;
     }
 
+    private void OnTriggerExit(Collider other)
+    {
+        Player = false;
+    }
 }
